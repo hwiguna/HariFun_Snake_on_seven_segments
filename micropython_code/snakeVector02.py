@@ -2,6 +2,9 @@
 
 from machine import ADC, Pin, Timer
 import time
+import Button
+import gc
+
 
 # === Supporting classes ===
 class point:
@@ -71,7 +74,7 @@ def to_segment_letter(segment_index):
 def to_seg(v):
     vn = normalize_vector(v)
     seg = vector_to_seg.get(vn.p.x * 100 + vn.p.y * 10 + v.d, -1)
-    print("Segment", to_segment_letter(seg), " (", seg, ")")
+    # print("Segment", to_segment_letter(seg), " (", seg, ")")
     return seg
 
 
@@ -80,17 +83,26 @@ def to_row_col(p):
 
 
 def to_rowcolseg(v):
-    print_vector("to_rowcolseg: ", v)
+    # print_vector("to_rowcolseg: ", v)
     row, col = to_row_col(v.p)
     seg = to_seg(v)
-    print("row, col, seg: ", row, col, seg)
+    # print("row, col, seg: ", row, col, seg)
     return row, col, seg
+
+
+def forward(v):
+    mapping = {
+        0: point(v.p.x+1, v.p.y),
+        1: point(v.p.x, v.p.y+1),
+        2: point(v.p.x-1, v.p.y),
+        3: point(v.p.x, v.p.y-1),
+    }
+    new_point = mapping.get(v.d)
+    return vector(new_point, v.d)
 
 
 # === SNAKE ===
 class snakeVector02:
-    bitmap = bytearray(6)  # Six bytes represents six bytes in shift registers
-
     def __init__(self):
         # === Shift Register ===
         self.clock = Pin(5, Pin.OUT)
@@ -106,6 +118,11 @@ class snakeVector02:
                         Pin(12, Pin.OUT),
                         Pin(14, Pin.OUT),
                         Pin(16, Pin.OUT)]
+
+        self.button = Button.Button()
+        self.direction = 0
+        self.bitmap = bytearray(6)  # Six bytes represents six bytes in shift registers
+        self.snake = [vector(point(0, 1), 0)]
 
     @micropython.native
     def shift_out(self, bits):
@@ -129,7 +146,7 @@ class snakeVector02:
         self.last_column = new_col  # This will be the new column, next time round.
 
     def plot_vector(self, v):
-        print_vector("plot_vector: ", v)
+        #print_vector("plot_vector: ", v)
         row, col, seg = to_rowcolseg(v)
         if seg != -1:
             self.bitmap[col] = self.bitmap[col] | (1 << (7-seg))
@@ -141,20 +158,27 @@ class snakeVector02:
         # self.bitmap[3] = ~ 0b00010000
         # self.bitmap[4] = ~ 0b00001000
         # self.bitmap[5] = ~ 0b00000100
-        self.plot_vector(vector(point(2, 0), 0))
-        self.plot_vector(vector(point(3, 1), 2))
-        self.plot_vector(vector(point(1, 0), 0))
+        self.bitmap[5] = 0b11110000
+        # self.plot_vector(vector(point(2, 0), 0))
+        # self.plot_vector(vector(point(3, 1), 2))
+        # self.plot_vector(vector(point(1, 0), 0))
 
     def main(self):
         self.setupBitmap()
 
         flash = Timer(0)
         flash.init(freq=72*6*5, mode=Timer.PERIODIC, callback=self.refresh)
-        k = 0
+
+        self.plot_vector(self.snake[0])
+
         while True:
-            print("Twiddling thumbs", k)
-            k = k + 1
-            time.sleep(1)
+            button_press = self.button.read_button()
+            if button_press == 3:
+                # print("mem free=", gc.mem_free())
+                self.snake[0] = forward(self.snake[0])
+                self.plot_vector(self.snake[0])
+                time.sleep_ms(20)  # poorman's debouncer
+            time.sleep_ms(5)  # Don't call adc read too often
 
 
 instance = snakeVector02()

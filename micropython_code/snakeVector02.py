@@ -146,10 +146,14 @@ class snakeVector02:
         self.last_column = new_col  # This will be the new column, next time round.
 
     def plot_vector(self, v):
-        #print_vector("plot_vector: ", v)
         row, col, seg = to_rowcolseg(v)
         if seg != -1:
             self.bitmap[col] = self.bitmap[col] | (1 << (7-seg))
+
+    def erase_vector(self, v):
+        row, col, seg = to_rowcolseg(v)
+        if seg != -1:
+            self.bitmap[col] = self.bitmap[col] & ~(1 << (7-seg))
 
     def setupBitmap(self):
         # self.bitmap[0] = ~ 0b10000000
@@ -175,9 +179,15 @@ class snakeVector02:
             button_press = self.button.read_button()
             if button_press == 3:
                 # print("mem free=", gc.mem_free())
-                self.snake[0] = forward(self.snake[0])
-                self.plot_vector(self.snake[0])
-                time.sleep_ms(20)  # poorman's debouncer
+                new_head = forward(self.snake[0])
+                self.plot_vector(new_head)
+                self.snake.insert(0, new_head)
+                last_index = len(self.snake)-1
+                if last_index > 2:
+                    tail = self.snake[last_index]
+                    self.erase_vector(tail)
+                    self.snake.pop(last_index)
+                time.sleep_ms(50)  # poorman's debouncer
             time.sleep_ms(5)  # Don't call adc read too often
 
 

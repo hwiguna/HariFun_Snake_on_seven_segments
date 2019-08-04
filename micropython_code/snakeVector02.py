@@ -36,6 +36,7 @@ def print_vector(label, v):
 def normalize_vector(v):
     return vector(point(v.p.x % 2, v.p.y % 3), v.d)
 
+
 #    XY      Direction   Segment
 # 0,0--1,0       3        --a--
 #  |    |        ^       f     b
@@ -93,10 +94,10 @@ def to_rowcolseg(v):
 
 def forward(v):
     mapping = {
-        0: point(v.p.x+1, v.p.y),
-        1: point(v.p.x, v.p.y+1),
-        2: point(v.p.x-1, v.p.y),
-        3: point(v.p.x, v.p.y-1),
+        0: point(v.p.x + 1, v.p.y),
+        1: point(v.p.x, v.p.y + 1),
+        2: point(v.p.x - 1, v.p.y),
+        3: point(v.p.x, v.p.y - 1),
     }
     new_point = mapping.get(v.d)
     return vector(new_point, v.d)
@@ -104,20 +105,20 @@ def forward(v):
 
 def turn_left(v):
     mapping = {
-        0: vector(point(v.p.x, v.p.y-1), 3),
-        1: vector(point(v.p.x+1, v.p.y), 0),
-        2: vector(point(v.p.x, v.p.y+1), 1),
-        3: vector(point(v.p.x-1, v.p.y), 2)
+        0: vector(point(v.p.x, v.p.y - 1), 3),
+        1: vector(point(v.p.x + 1, v.p.y), 0),
+        2: vector(point(v.p.x, v.p.y + 1), 1),
+        3: vector(point(v.p.x - 1, v.p.y), 2)
     }
     return mapping.get(v.d)
 
 
 def turn_right(v):
     mapping = {
-        0: vector(point(v.p.x, v.p.y+1), 1),
-        1: vector(point(v.p.x-1, v.p.y), 2),
-        2: vector(point(v.p.x, v.p.y-1), 3),
-        3: vector(point(v.p.x+1, v.p.y), 0)
+        0: vector(point(v.p.x, v.p.y + 1), 1),
+        1: vector(point(v.p.x - 1, v.p.y), 2),
+        2: vector(point(v.p.x, v.p.y - 1), 3),
+        3: vector(point(v.p.x + 1, v.p.y), 0)
     }
     return mapping.get(v.d)
 
@@ -129,6 +130,7 @@ class snakeVector02:
         self.clock = Pin(5, Pin.OUT)
         self.data = Pin(4, Pin.OUT)
         self.latch = Pin(2, Pin.OUT)
+        self.row_max = 1
 
         # === Column Transistors ===
         self.last_column = 0
@@ -169,30 +171,55 @@ class snakeVector02:
     def plot_vector(self, v):
         row, col, seg = to_rowcolseg(v)
         if seg != -1:
-            self.bitmap[col] = self.bitmap[col] | (1 << (7-seg))
+            self.bitmap[col] = self.bitmap[col] | (1 << (7 - seg))
 
     def erase_vector(self, v):
         row, col, seg = to_rowcolseg(v)
         if seg != -1:
-            self.bitmap[col] = self.bitmap[col] & ~(1 << (7-seg))
+            self.bitmap[col] = self.bitmap[col] & ~(1 << (7 - seg))
 
-    def setupBitmap(self):
+    def setup_bitmap(self):
         self.bitmap[0] = ~ 0b10000000
         self.bitmap[1] = ~ 0b01000000
         self.bitmap[2] = ~ 0b00100000
         self.bitmap[3] = ~ 0b00010000
         self.bitmap[4] = ~ 0b00001000
         self.bitmap[5] = ~ 0b00000100
-        self.bitmap[5] = 0b11110000
         # self.plot_vector(vector(point(2, 0), 0))
         # self.plot_vector(vector(point(3, 1), 2))
         # self.plot_vector(vector(point(1, 0), 0))
+
+    def erase_all(self):
+        for i in range(self.column_max):
+            self.bitmap[i] = 0
+
+    def say_dead(self):
+        self.bitmap[0] = 0b01111010  # d
+        self.bitmap[1] = 0b11011110  # e
+        self.bitmap[2] = 0b11111010  # a
+        self.bitmap[3] = 0b01111010  # d
+        self.bitmap[4] = 0b00000000
+        self.bitmap[5] = 0b00000000
+
+    def check_bounds(self):
+        is_within_bounds = True
+        head = self.snake[0]
+        if (head.p.x < 0 or head.p.x >= self.column_max * 2 or
+                head.p.y < 0 or head.p.y >= self.row_max * 3):
+            self.say_dead()
+            time.sleep(1)
+            self.erase_all()
+            self.snake.clear()
+            self.snake.append(vector(point(1, 1), 0))
+            self.plot_vector(self.snake[0])
+            is_within_bounds = False
+        return is_within_bounds
 
     def main(self):
         # self.setupBitmap()
 
         flash = Timer(0)
-        flash.init(freq=72*6*5, mode=Timer.PERIODIC, callback=self.refresh)
+        flash.init(freq=72 * 6 * 5, mode=Timer.PERIODIC, callback=self.refresh)
 
         self.plot_vector(self.snake[0])
 
@@ -207,18 +234,19 @@ class snakeVector02:
                 elif button_press == 2:
                     new_head = turn_left(head)
 
-                # Draw & save new head
-                self.plot_vector(new_head)
-                self.snake.insert(0, new_head)
+                if self.check_bounds():
+                    # Draw & save new head
+                    self.plot_vector(new_head)
+                    self.snake.insert(0, new_head)
 
-                # Erase old tail
-                last_index = len(self.snake)-1
-                if last_index > 2:
-                    tail = self.snake[last_index]
-                    self.erase_vector(tail)
-                    self.snake.pop(last_index)
+                    # Erase old tail
+                    last_index = len(self.snake) - 1
+                    if last_index > 2:
+                        tail = self.snake[last_index]
+                        self.erase_vector(tail)
+                        self.snake.pop(last_index)
 
-                #time.sleep_ms(50)  # poorman's debouncer
+                # time.sleep_ms(50)  # poorman's debouncer
                 time.sleep(0.5)  # poorman's debouncer
             time.sleep_ms(5)  # Don't call adc read too often
 

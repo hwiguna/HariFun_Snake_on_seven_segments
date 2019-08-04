@@ -43,27 +43,28 @@ def normalize_vector(v):
 #  |    |        v       e     c
 # 0,2--1,2       1        --d--
 # Each vertex is represented as decimal xyd
+# xy is the TIP of the snake head, d is movement direction
 vector_to_seg = {
-    0: 0,  # segment a, rightward --> *
-    102: 0,  # segment a, leftward <-- *
+    100: 0,  # segment a, rightward -->
+    2: 0,  # segment a, leftward <--
 
-    101: 1,  # segment b, downward vvv *
-    113: 1,  # segment b, upward  ^^^ *
+    111: 1,  # segment b, downward vvv
+    103: 1,  # segment b, upward  ^^^
 
-    111: 2,  # segment c, downward vvv *
-    121: 2,  # segment c, upward ^^^ *
+    121: 2,  # segment c, downward vvv
+    113: 2,  # segment c, upward ^^^
 
-    20: 3,  # segment d, rightward --> *
-    122: 3,  # segment d, leftward <-- *
+    120: 3,  # segment d, rightward -->
+    22: 3,  # segment d, leftward <--
 
-    11: 4,  # segment e, downward vvv *
-    23: 4,  # segment e, upward ^^^ *
+    21: 4,  # segment e, downward vvv
+    13: 4,  # segment e, upward ^^^
 
-    1: 5,  # segment f, downward vvv *
-    13: 5,  # segment f, upward ^^^ *
+    11: 5,  # segment f, downward vvv
+    3: 5,  # segment f, upward ^^^
 
-    10: 6,  # segment g, rightward --> *
-    112: 6,  # segment g, leftward <-- *
+    110: 6,  # segment g, rightward -->
+    12: 6,  # segment g, leftward <--
 }
 
 
@@ -101,6 +102,26 @@ def forward(v):
     return vector(new_point, v.d)
 
 
+def turn_left(v):
+    mapping = {
+        0: vector(point(v.p.x, v.p.y-1), 3),
+        1: vector(point(v.p.x+1, v.p.y), 0),
+        2: vector(point(v.p.x, v.p.y+1), 1),
+        3: vector(point(v.p.x-1, v.p.y), 2)
+    }
+    return mapping.get(v.d)
+
+
+def turn_right(v):
+    mapping = {
+        0: vector(point(v.p.x, v.p.y+1), 1),
+        1: vector(point(v.p.x-1, v.p.y), 2),
+        2: vector(point(v.p.x, v.p.y-1), 3),
+        3: vector(point(v.p.x+1, v.p.y), 0)
+    }
+    return mapping.get(v.d)
+
+
 # === SNAKE ===
 class snakeVector02:
     def __init__(self):
@@ -122,7 +143,7 @@ class snakeVector02:
         self.button = Button.Button()
         self.direction = 0
         self.bitmap = bytearray(6)  # Six bytes represents six bytes in shift registers
-        self.snake = [vector(point(0, 1), 0)]
+        self.snake = [vector(point(1, 1), 0)]
 
     @micropython.native
     def shift_out(self, bits):
@@ -156,19 +177,19 @@ class snakeVector02:
             self.bitmap[col] = self.bitmap[col] & ~(1 << (7-seg))
 
     def setupBitmap(self):
-        # self.bitmap[0] = ~ 0b10000000
-        # self.bitmap[1] = ~ 0b01000000
-        # self.bitmap[2] = ~ 0b00100000
-        # self.bitmap[3] = ~ 0b00010000
-        # self.bitmap[4] = ~ 0b00001000
-        # self.bitmap[5] = ~ 0b00000100
+        self.bitmap[0] = ~ 0b10000000
+        self.bitmap[1] = ~ 0b01000000
+        self.bitmap[2] = ~ 0b00100000
+        self.bitmap[3] = ~ 0b00010000
+        self.bitmap[4] = ~ 0b00001000
+        self.bitmap[5] = ~ 0b00000100
         self.bitmap[5] = 0b11110000
         # self.plot_vector(vector(point(2, 0), 0))
         # self.plot_vector(vector(point(3, 1), 2))
         # self.plot_vector(vector(point(1, 0), 0))
 
     def main(self):
-        self.setupBitmap()
+        # self.setupBitmap()
 
         flash = Timer(0)
         flash.init(freq=72*6*5, mode=Timer.PERIODIC, callback=self.refresh)
@@ -177,17 +198,28 @@ class snakeVector02:
 
         while True:
             button_press = self.button.read_button()
-            if button_press == 3:
-                # print("mem free=", gc.mem_free())
-                new_head = forward(self.snake[0])
+            if button_press != -1:
+                head = self.snake[0]
+                if button_press == 3:
+                    new_head = forward(head)
+                elif button_press == 0:
+                    new_head = turn_right(head)
+                elif button_press == 2:
+                    new_head = turn_left(head)
+
+                # Draw & save new head
                 self.plot_vector(new_head)
                 self.snake.insert(0, new_head)
+
+                # Erase old tail
                 last_index = len(self.snake)-1
                 if last_index > 2:
                     tail = self.snake[last_index]
                     self.erase_vector(tail)
                     self.snake.pop(last_index)
-                time.sleep_ms(50)  # poorman's debouncer
+
+                #time.sleep_ms(50)  # poorman's debouncer
+                time.sleep(0.5)  # poorman's debouncer
             time.sleep_ms(5)  # Don't call adc read too often
 
 

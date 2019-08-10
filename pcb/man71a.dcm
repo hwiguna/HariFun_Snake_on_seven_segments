@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAN71A
+D Single digit 7 segment red LED common anode right hand decimal
+K display LED 7-segment
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+#End Doc Library

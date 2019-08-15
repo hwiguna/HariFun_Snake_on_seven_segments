@@ -1423,39 +1423,13 @@ F 1 "+3V3" H 1475 1475 50  0000 C CNN
 F 2 "" H 1475 1325 50  0001 C CNN
 F 3 "" H 1475 1325 50  0001 C CNN
 	1    1475 1325
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 1325 1475 1325
-Wire Wire Line
-	1475 1325 1475 1350
 Connection ~ 1475 1325
-$Comp
-L power:+3V3 #PWR019
-U 1 1 5DC164B3
-P 1475 2775
-F 0 "#PWR019" H 1475 2625 50  0001 C CNN
-F 1 "+3V3" H 1475 2925 50  0000 C CNN
-F 2 "" H 1475 2775 50  0001 C CNN
-F 3 "" H 1475 2775 50  0001 C CNN
-	1    1475 2775
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1475 2775 1875 2775
-$Comp
-L power:+3V3 #PWR017
-U 1 1 5DC3BDEA
-P 1425 4275
-F 0 "#PWR017" H 1425 4125 50  0001 C CNN
-F 1 "+3V3" H 1425 4425 50  0000 C CNN
-F 2 "" H 1425 4275 50  0001 C CNN
-F 3 "" H 1425 4275 50  0001 C CNN
-	1    1425 4275
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1425 4275 1875 4275
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:B3B-PH-K-S_LF__SN_ J1
 U 1 1 5DC61DA6
@@ -1577,4 +1551,11 @@ Wire Wire Line
 Connection ~ 5800 4675
 Wire Wire Line
 	5800 4675 6400 4675
+Wire Wire Line
+	1475 2775 1475 4275
+Wire Wire Line
+	1475 1325 1475 2775
+Connection ~ 1475 2775
+Wire Wire Line
+	1475 4275 1875 4275
 $EndSCHEMATC

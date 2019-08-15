@@ -1,0 +1,2913 @@
+EESchema Schematic File Version 4
+LIBS:Seven_segment_Eight_ShiftRegisters-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HariLib:74HC595 U48
+U 1 1 5D4F596C
+P 10500 4600
+F 0 "U48" V 10546 5088 50  0000 L CNN
+F 1 "74HC595" V 10455 5088 50  0000 L CNN
+F 2 "" H 10500 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10500 4600 50  0001 C CNN
+	1    10500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U47
+U 1 1 5D4F5ADF
+P 10500 3600
+F 0 "U47" V 10851 3595 50  0000 C CNN
+F 1 "5161AS" V 10768 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 10000 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3940 50  0001 L CNN
+	1    10500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U46
+U 1 1 5D4F5CE4
+P 10500 3025
+F 0 "U46" V 10851 3020 50  0000 C CNN
+F 1 "5161AS" V 10768 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 10000 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3365 50  0001 L CNN
+	1    10500 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U45
+U 1 1 5D4F5D2F
+P 10500 2450
+F 0 "U45" V 10851 2445 50  0000 C CNN
+F 1 "5161AS" V 10768 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 10000 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2790 50  0001 L CNN
+	1    10500 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U44
+U 1 1 5D4F5D53
+P 10500 1875
+F 0 "U44" V 10851 1870 50  0000 C CNN
+F 1 "5161AS" V 10768 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 10000 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2215 50  0001 L CNN
+	1    10500 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 1575 10100 1600
+Wire Wire Line
+	10200 1575 10200 1600
+Wire Wire Line
+	10300 1575 10300 1600
+Wire Wire Line
+	10400 1600 10400 2175
+Connection ~ 10400 2175
+Wire Wire Line
+	10400 2175 10400 2750
+Connection ~ 10400 2750
+Wire Wire Line
+	10400 2750 10400 3325
+Connection ~ 10400 3325
+Wire Wire Line
+	10400 3325 10400 3900
+Connection ~ 10500 2175
+Wire Wire Line
+	10500 2175 10500 2750
+Connection ~ 10500 2750
+Wire Wire Line
+	10500 2750 10500 3325
+Connection ~ 10500 3325
+Wire Wire Line
+	10500 3325 10500 3900
+Connection ~ 10600 2750
+Wire Wire Line
+	10600 2750 10600 3325
+Connection ~ 10600 3325
+Wire Wire Line
+	10600 3325 10600 3900
+Wire Wire Line
+	10700 2175 10700 2750
+Connection ~ 10700 2750
+Wire Wire Line
+	10700 2750 10700 3325
+Connection ~ 10700 3325
+Wire Wire Line
+	10700 3325 10700 3900
+Wire Wire Line
+	10500 1600 10500 2175
+Wire Wire Line
+	10600 2175 10600 2750
+$Comp
+L HariLib:5161AS U43
+U 1 1 5D4F5D81
+P 10500 1300
+F 0 "U43" V 10851 1295 50  0000 C CNN
+F 1 "5161AS" V 10768 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 10000 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 1640 50  0001 L CNN
+	1    10500 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 1600 10600 2175
+Connection ~ 10600 2175
+Wire Wire Line
+	10700 1600 10700 2175
+Connection ~ 10700 2175
+$Comp
+L HariLib:74HC595 U42
+U 1 1 5D4FF506
+P 9300 4600
+F 0 "U42" V 9346 5088 50  0000 L CNN
+F 1 "74HC595" V 9255 5088 50  0000 L CNN
+F 2 "" H 9300 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 4600 50  0001 C CNN
+	1    9300 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U41
+U 1 1 5D4FF50C
+P 9300 3600
+F 0 "U41" V 9651 3595 50  0000 C CNN
+F 1 "5161AS" V 9568 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 8800 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3940 50  0001 L CNN
+	1    9300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U40
+U 1 1 5D4FF512
+P 9300 3025
+F 0 "U40" V 9651 3020 50  0000 C CNN
+F 1 "5161AS" V 9568 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 8800 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3365 50  0001 L CNN
+	1    9300 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U39
+U 1 1 5D4FF518
+P 9300 2450
+F 0 "U39" V 9651 2445 50  0000 C CNN
+F 1 "5161AS" V 9568 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 8800 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2790 50  0001 L CNN
+	1    9300 2450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8900 2750
+Wire Wire Line
+	8900 2750 8900 3325
+Connection ~ 8900 3325
+Wire Wire Line
+	8900 3325 8900 3900
+Connection ~ 9000 2750
+Wire Wire Line
+	9000 2750 9000 3325
+Connection ~ 9000 3325
+Wire Wire Line
+	9000 3325 9000 3900
+Connection ~ 9100 2750
+Wire Wire Line
+	9100 2750 9100 3325
+Connection ~ 9100 3325
+Wire Wire Line
+	9100 3325 9100 3900
+Connection ~ 9200 2750
+Wire Wire Line
+	9200 2750 9200 3325
+Connection ~ 9200 3325
+Wire Wire Line
+	9200 3325 9200 3900
+Connection ~ 9300 2750
+Wire Wire Line
+	9300 2750 9300 3325
+Connection ~ 9300 3325
+Wire Wire Line
+	9300 3325 9300 3900
+Connection ~ 9400 2750
+Wire Wire Line
+	9400 2750 9400 3325
+Connection ~ 9400 3325
+Wire Wire Line
+	9400 3325 9400 3900
+Connection ~ 9500 2750
+Wire Wire Line
+	9500 2750 9500 3325
+Connection ~ 9500 3325
+Wire Wire Line
+	9500 3325 9500 3900
+Connection ~ 9600 2750
+Wire Wire Line
+	9600 2750 9600 3325
+Connection ~ 9600 3325
+Wire Wire Line
+	9600 3325 9600 3900
+$Comp
+L HariLib:5161AS U37
+U 1 1 5D4FF568
+P 9300 1300
+F 0 "U37" V 9651 1295 50  0000 C CNN
+F 1 "5161AS" V 9568 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 8800 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 1640 50  0001 L CNN
+	1    9300 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:74HC595 U36
+U 1 1 5D5068F8
+P 8125 4600
+F 0 "U36" V 8171 5088 50  0000 L CNN
+F 1 "74HC595" V 8080 5088 50  0000 L CNN
+F 2 "" H 8125 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8125 4600 50  0001 C CNN
+	1    8125 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U35
+U 1 1 5D5068FE
+P 8125 3600
+F 0 "U35" V 8476 3595 50  0000 C CNN
+F 1 "5161AS" V 8393 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 7625 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3940 50  0001 L CNN
+	1    8125 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U33
+U 1 1 5D50690A
+P 8125 2450
+F 0 "U33" V 8476 2445 50  0000 C CNN
+F 1 "5161AS" V 8393 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 7625 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2790 50  0001 L CNN
+	1    8125 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U32
+U 1 1 5D506910
+P 8125 1875
+F 0 "U32" V 8476 1870 50  0000 C CNN
+F 1 "5161AS" V 8393 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 7625 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2215 50  0001 L CNN
+	1    8125 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7725 1600 7725 2175
+Connection ~ 7725 2175
+Wire Wire Line
+	7725 2175 7725 2750
+Connection ~ 7725 2750
+Wire Wire Line
+	7825 1600 7825 2175
+Connection ~ 7825 2175
+Wire Wire Line
+	7825 2175 7825 2750
+Connection ~ 7825 2750
+Wire Wire Line
+	7925 1600 7925 2175
+Connection ~ 7925 2175
+Wire Wire Line
+	7925 2175 7925 2750
+Connection ~ 7925 2750
+Wire Wire Line
+	8025 1600 8025 2175
+Connection ~ 8025 2175
+Wire Wire Line
+	8025 2175 8025 2750
+Connection ~ 8025 2750
+Connection ~ 8125 2175
+Wire Wire Line
+	8125 2175 8125 2750
+Connection ~ 8125 2750
+Connection ~ 8225 2750
+Wire Wire Line
+	8325 2175 8325 2750
+Connection ~ 8325 2750
+Wire Wire Line
+	8425 1600 8425 2175
+Connection ~ 8425 2175
+Wire Wire Line
+	8425 2175 8425 2750
+Connection ~ 8425 2750
+Wire Wire Line
+	8125 1600 8125 2175
+Wire Wire Line
+	8225 2175 8225 2750
+Wire Wire Line
+	8225 1600 8225 2175
+Connection ~ 8225 2175
+Wire Wire Line
+	8325 1600 8325 2175
+Connection ~ 8325 2175
+$Comp
+L HariLib:74HC595 U30
+U 1 1 5D506964
+P 6925 4600
+F 0 "U30" V 6971 5088 50  0000 L CNN
+F 1 "74HC595" V 6880 5088 50  0000 L CNN
+F 2 "" H 6925 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6925 4600 50  0001 C CNN
+	1    6925 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U29
+U 1 1 5D50696A
+P 6925 3600
+F 0 "U29" V 7276 3595 50  0000 C CNN
+F 1 "5161AS" V 7193 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 6425 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3940 50  0001 L CNN
+	1    6925 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U28
+U 1 1 5D506970
+P 6925 3025
+F 0 "U28" V 7276 3020 50  0000 C CNN
+F 1 "5161AS" V 7193 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 6425 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3365 50  0001 L CNN
+	1    6925 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U27
+U 1 1 5D506976
+P 6925 2450
+F 0 "U27" V 7276 2445 50  0000 C CNN
+F 1 "5161AS" V 7193 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 6425 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2790 50  0001 L CNN
+	1    6925 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U26
+U 1 1 5D50697C
+P 6925 1875
+F 0 "U26" V 7276 1870 50  0000 C CNN
+F 1 "5161AS" V 7193 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 6425 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2215 50  0001 L CNN
+	1    6925 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6725 1600 6725 2175
+Wire Wire Line
+	6825 1600 6825 2175
+Connection ~ 6925 2175
+Wire Wire Line
+	6925 2175 6925 2750
+Connection ~ 6925 2750
+Wire Wire Line
+	6925 2750 6925 3325
+Connection ~ 6925 3325
+Wire Wire Line
+	6925 3325 6925 3900
+Connection ~ 7025 2750
+Wire Wire Line
+	7025 2750 7025 3325
+Connection ~ 7025 3325
+Wire Wire Line
+	7025 3325 7025 3900
+Wire Wire Line
+	7125 2175 7125 2750
+Connection ~ 7125 2750
+Wire Wire Line
+	7125 2750 7125 3325
+Connection ~ 7125 3325
+Wire Wire Line
+	7125 3325 7125 3900
+Wire Wire Line
+	7225 1600 7225 2175
+Wire Wire Line
+	7025 2175 7025 2750
+$Comp
+L HariLib:5161AS U25
+U 1 1 5D5069C6
+P 6925 1300
+F 0 "U25" V 7276 1295 50  0000 C CNN
+F 1 "5161AS" V 7193 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 6425 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 1640 50  0001 L CNN
+	1    6925 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7025 2175
+Connection ~ 7125 2175
+$Comp
+L HariLib:74HC595 U24
+U 1 1 5D5174A0
+P 5725 4600
+F 0 "U24" V 5771 5088 50  0000 L CNN
+F 1 "74HC595" V 5680 5088 50  0000 L CNN
+F 2 "" H 5725 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5725 4600 50  0001 C CNN
+	1    5725 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U23
+U 1 1 5D5174A6
+P 5725 3600
+F 0 "U23" V 6076 3595 50  0000 C CNN
+F 1 "5161AS" V 5993 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 5225 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3940 50  0001 L CNN
+	1    5725 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U21
+U 1 1 5D5174B2
+P 5725 2450
+F 0 "U21" V 6076 2445 50  0000 C CNN
+F 1 "5161AS" V 5993 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 5225 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2790 50  0001 L CNN
+	1    5725 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U20
+U 1 1 5D5174B8
+P 5725 1875
+F 0 "U20" V 6076 1870 50  0000 C CNN
+F 1 "5161AS" V 5993 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 5225 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2215 50  0001 L CNN
+	1    5725 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5625 1600 5625 2175
+Connection ~ 5625 2175
+Wire Wire Line
+	5625 2175 5625 2750
+Connection ~ 5725 2175
+Wire Wire Line
+	5725 2175 5725 2750
+Wire Wire Line
+	5925 2175 5925 2750
+Wire Wire Line
+	6025 1600 6025 2175
+Connection ~ 6025 2175
+Wire Wire Line
+	6025 2175 6025 2750
+Wire Wire Line
+	5725 1600 5725 2175
+Wire Wire Line
+	5825 2175 5825 2750
+$Comp
+L HariLib:5161AS U19
+U 1 1 5D517502
+P 5725 1300
+F 0 "U19" V 6076 1295 50  0000 C CNN
+F 1 "5161AS" V 5993 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 5225 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 1640 50  0001 L CNN
+	1    5725 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5825 1600 5825 2175
+Connection ~ 5825 2175
+Wire Wire Line
+	5925 1600 5925 2175
+Connection ~ 5925 2175
+$Comp
+L HariLib:74HC595 U18
+U 1 1 5D51750C
+P 4525 4600
+F 0 "U18" V 4571 5088 50  0000 L CNN
+F 1 "74HC595" V 4480 5088 50  0000 L CNN
+F 2 "" H 4525 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4525 4600 50  0001 C CNN
+	1    4525 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U17
+U 1 1 5D517512
+P 4525 3600
+F 0 "U17" V 4876 3595 50  0000 C CNN
+F 1 "5161AS" V 4793 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 4025 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3940 50  0001 L CNN
+	1    4525 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U16
+U 1 1 5D517518
+P 4525 3025
+F 0 "U16" V 4876 3020 50  0000 C CNN
+F 1 "5161AS" V 4793 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 4025 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3365 50  0001 L CNN
+	1    4525 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U15
+U 1 1 5D51751E
+P 4525 2450
+F 0 "U15" V 4876 2445 50  0000 C CNN
+F 1 "5161AS" V 4793 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 4025 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2790 50  0001 L CNN
+	1    4525 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U14
+U 1 1 5D517524
+P 4525 1875
+F 0 "U14" V 4876 1870 50  0000 C CNN
+F 1 "5161AS" V 4793 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 4025 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2215 50  0001 L CNN
+	1    4525 1875
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4525 2175
+Wire Wire Line
+	4525 2175 4525 2750
+Connection ~ 4525 2750
+Wire Wire Line
+	4525 2750 4525 3325
+Connection ~ 4525 3325
+Wire Wire Line
+	4525 3325 4525 3900
+Connection ~ 4625 2750
+Wire Wire Line
+	4625 2750 4625 3325
+Connection ~ 4625 3325
+Wire Wire Line
+	4625 3325 4625 3900
+Wire Wire Line
+	4525 1600 4525 2175
+Wire Wire Line
+	4625 2175 4625 2750
+$Comp
+L HariLib:5161AS U13
+U 1 1 5D51756E
+P 4525 1300
+F 0 "U13" V 4876 1295 50  0000 C CNN
+F 1 "5161AS" V 4793 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 4025 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 1640 50  0001 L CNN
+	1    4525 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4625 1600 4625 2175
+Connection ~ 4625 2175
+Wire Wire Line
+	4725 1600 4725 2175
+$Comp
+L HariLib:74HC595 U12
+U 1 1 5D517578
+P 3350 4600
+F 0 "U12" V 3396 5088 50  0000 L CNN
+F 1 "74HC595" V 3305 5088 50  0000 L CNN
+F 2 "" H 3350 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3350 4600 50  0001 C CNN
+	1    3350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U11
+U 1 1 5D51757E
+P 3350 3600
+F 0 "U11" V 3701 3595 50  0000 C CNN
+F 1 "5161AS" V 3618 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3940 50  0001 L CNN
+	1    3350 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U10
+U 1 1 5D517584
+P 3350 3025
+F 0 "U10" V 3701 3020 50  0000 C CNN
+F 1 "5161AS" V 3618 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3365 50  0001 L CNN
+	1    3350 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U9
+U 1 1 5D51758A
+P 3350 2450
+F 0 "U9" V 3701 2445 50  0000 C CNN
+F 1 "5161AS" V 3618 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2790 50  0001 L CNN
+	1    3350 2450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3050 2750
+Wire Wire Line
+	3050 2750 3050 3325
+Connection ~ 3050 3325
+Wire Wire Line
+	3050 3325 3050 3900
+Connection ~ 3150 2750
+Wire Wire Line
+	3150 2750 3150 3325
+Connection ~ 3150 3325
+Wire Wire Line
+	3150 3325 3150 3900
+Connection ~ 3250 2750
+Wire Wire Line
+	3250 2750 3250 3325
+Connection ~ 3250 3325
+Wire Wire Line
+	3250 3325 3250 3900
+Connection ~ 3350 2750
+Wire Wire Line
+	3350 2750 3350 3325
+Connection ~ 3350 3325
+Wire Wire Line
+	3350 3325 3350 3900
+Connection ~ 3450 2750
+Wire Wire Line
+	3450 2750 3450 3325
+Connection ~ 3450 3325
+Wire Wire Line
+	3450 3325 3450 3900
+Connection ~ 3550 2750
+Wire Wire Line
+	3550 2750 3550 3325
+Connection ~ 3550 3325
+Wire Wire Line
+	3550 3325 3550 3900
+$Comp
+L HariLib:5161AS U7
+U 1 1 5D5175DA
+P 3350 1300
+F 0 "U7" V 3701 1295 50  0000 C CNN
+F 1 "5161AS" V 3618 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 1640 50  0001 L CNN
+	1    3350 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:74HC595 U6
+U 1 1 5D5175E4
+P 2150 4600
+F 0 "U6" V 2196 5088 50  0000 L CNN
+F 1 "74HC595" V 2105 5088 50  0000 L CNN
+F 2 "" H 2150 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U5
+U 1 1 5D5175EA
+P 2150 3600
+F 0 "U5" V 2501 3595 50  0000 C CNN
+F 1 "5161AS" V 2418 3595 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 2850 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3940 50  0001 L CNN
+	1    2150 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U4
+U 1 1 5D5175F0
+P 2150 3025
+F 0 "U4" V 2501 3020 50  0000 C CNN
+F 1 "5161AS" V 2418 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3365 50  0001 L CNN
+	1    2150 3025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U3
+U 1 1 5D5175F6
+P 2150 2450
+F 0 "U3" V 2501 2445 50  0000 C CNN
+F 1 "5161AS" V 2418 2445 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 1700 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2790 50  0001 L CNN
+	1    2150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HariLib:5161AS U2
+U 1 1 5D5175FC
+P 2150 1875
+F 0 "U2" V 2501 1870 50  0000 C CNN
+F 1 "5161AS" V 2418 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2215 50  0001 L CNN
+	1    2150 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 1600 1750 2175
+Connection ~ 1750 2175
+Wire Wire Line
+	1750 2175 1750 2750
+Connection ~ 1750 2750
+Wire Wire Line
+	1750 2750 1750 3325
+Connection ~ 1750 3325
+Wire Wire Line
+	1750 3325 1750 3900
+Wire Wire Line
+	1750 4175 1750 4200
+Wire Wire Line
+	1850 1600 1850 2175
+Connection ~ 1850 2175
+Wire Wire Line
+	1850 2175 1850 2750
+Connection ~ 1850 2750
+Wire Wire Line
+	1850 2750 1850 3325
+Connection ~ 1850 3325
+Wire Wire Line
+	1850 3325 1850 3900
+Wire Wire Line
+	1850 4175 1850 4200
+Wire Wire Line
+	1950 1600 1950 2175
+Connection ~ 1950 2175
+Wire Wire Line
+	1950 2175 1950 2750
+Connection ~ 1950 2750
+Wire Wire Line
+	1950 2750 1950 3325
+Connection ~ 1950 3325
+Wire Wire Line
+	1950 3325 1950 3900
+Wire Wire Line
+	1950 4175 1950 4200
+Wire Wire Line
+	2050 1600 2050 2175
+Connection ~ 2050 2175
+Wire Wire Line
+	2050 2175 2050 2750
+Connection ~ 2050 2750
+Wire Wire Line
+	2050 2750 2050 3325
+Connection ~ 2050 3325
+Wire Wire Line
+	2050 3325 2050 3900
+Wire Wire Line
+	2050 4175 2050 4200
+Connection ~ 2150 2175
+Wire Wire Line
+	2150 2175 2150 2750
+Connection ~ 2150 2750
+Wire Wire Line
+	2150 2750 2150 3325
+Connection ~ 2150 3325
+Wire Wire Line
+	2150 3325 2150 3900
+Wire Wire Line
+	2150 4175 2150 4200
+Connection ~ 2250 2750
+Wire Wire Line
+	2250 2750 2250 3325
+Connection ~ 2250 3325
+Wire Wire Line
+	2250 3325 2250 3900
+Wire Wire Line
+	2250 4175 2250 4200
+Wire Wire Line
+	2350 2175 2350 2750
+Connection ~ 2350 2750
+Wire Wire Line
+	2350 2750 2350 3325
+Connection ~ 2350 3325
+Wire Wire Line
+	2350 3325 2350 3900
+Wire Wire Line
+	2350 4175 2350 4200
+Wire Wire Line
+	2450 1600 2450 2175
+Connection ~ 2450 2175
+Wire Wire Line
+	2450 2175 2450 2750
+Connection ~ 2450 2750
+Wire Wire Line
+	2450 2750 2450 3325
+Connection ~ 2450 3325
+Wire Wire Line
+	2450 3325 2450 3900
+Wire Wire Line
+	2450 4175 2450 4200
+Wire Wire Line
+	2150 1600 2150 2175
+Wire Wire Line
+	2250 2175 2250 2750
+$Comp
+L HariLib:5161AS U1
+U 1 1 5D517646
+P 2150 1300
+F 0 "U1" V 2501 1295 50  0000 C CNN
+F 1 "5161AS" V 2418 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 1640 50  0001 L CNN
+	1    2150 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 1600 2250 2175
+Connection ~ 2250 2175
+Wire Wire Line
+	2350 1600 2350 2175
+Connection ~ 2350 2175
+$Comp
+L Device:Q_NPN_BCE Q5
+U 1 1 5D63172C
+P 1275 3650
+F 0 "Q5" H 1466 3650 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 1466 3605 50  0001 L CNN
+F 2 "" H 1475 3750 50  0001 C CNN
+F 3 "~" H 1275 3650 50  0001 C CNN
+	1    1275 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 3450 2700 3450
+Wire Wire Line
+	2700 3450 2700 3550
+Connection ~ 2700 3450
+Wire Wire Line
+	3900 3450 5075 3450
+Wire Wire Line
+	5075 3425 5075 3450
+$Comp
+L Device:R_US R6
+U 1 1 5D795776
+P 1750 4050
+F 0 "R6" H 1818 4050 50  0001 L CNN
+F 1 "220" H 1818 4005 50  0001 L CNN
+F 2 "" V 1790 4040 50  0001 C CNN
+F 3 "~" H 1750 4050 50  0001 C CNN
+	1    1750 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 3900
+Connection ~ 1750 4200
+$Comp
+L Device:R_US R7
+U 1 1 5D7958B3
+P 1850 4050
+F 0 "R7" H 1918 4050 50  0001 L CNN
+F 1 "220" H 1918 4005 50  0001 L CNN
+F 2 "" V 1890 4040 50  0001 C CNN
+F 3 "~" H 1850 4050 50  0001 C CNN
+	1    1850 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 3900
+Connection ~ 1850 4200
+$Comp
+L Device:R_US R8
+U 1 1 5D795933
+P 1950 4050
+F 0 "R8" H 2018 4050 50  0001 L CNN
+F 1 "220" H 2018 4005 50  0001 L CNN
+F 2 "" V 1990 4040 50  0001 C CNN
+F 3 "~" H 1950 4050 50  0001 C CNN
+	1    1950 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 3900
+Connection ~ 1950 4200
+$Comp
+L Device:R_US R9
+U 1 1 5D7959B5
+P 2050 4050
+F 0 "R9" H 2118 4050 50  0001 L CNN
+F 1 "220" H 2118 4005 50  0001 L CNN
+F 2 "" V 2090 4040 50  0001 C CNN
+F 3 "~" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 3900
+Connection ~ 2050 4200
+$Comp
+L Device:R_US R10
+U 1 1 5D795A39
+P 2150 4050
+F 0 "R10" H 2218 4050 50  0001 L CNN
+F 1 "220" H 2218 4005 50  0001 L CNN
+F 2 "" V 2190 4040 50  0001 C CNN
+F 3 "~" H 2150 4050 50  0001 C CNN
+	1    2150 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 3900
+Connection ~ 2150 4200
+$Comp
+L Device:R_US R11
+U 1 1 5D795ABF
+P 2250 4050
+F 0 "R11" H 2318 4050 50  0001 L CNN
+F 1 "220" H 2318 4005 50  0001 L CNN
+F 2 "" V 2290 4040 50  0001 C CNN
+F 3 "~" H 2250 4050 50  0001 C CNN
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 3900
+Connection ~ 2250 4200
+$Comp
+L Device:R_US R12
+U 1 1 5D795C04
+P 2350 4050
+F 0 "R12" H 2418 4050 50  0001 L CNN
+F 1 "220" H 2418 4005 50  0001 L CNN
+F 2 "" V 2390 4040 50  0001 C CNN
+F 3 "~" H 2350 4050 50  0001 C CNN
+	1    2350 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 3900
+Connection ~ 2350 4200
+$Comp
+L Device:R_US R13
+U 1 1 5D795C88
+P 2450 4050
+F 0 "R13" H 2518 4050 50  0001 L CNN
+F 1 "220" H 2518 4005 50  0001 L CNN
+F 2 "" V 2490 4040 50  0001 C CNN
+F 3 "~" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3900
+Connection ~ 2450 4200
+Connection ~ 2950 2750
+Connection ~ 2950 3325
+Connection ~ 3650 2750
+Connection ~ 3650 3325
+Connection ~ 3900 3450
+Wire Wire Line
+	3900 3450 3900 3425
+Wire Wire Line
+	2950 2750 2950 3325
+Wire Wire Line
+	2950 3325 2950 3900
+Wire Wire Line
+	3650 2750 3650 3325
+Wire Wire Line
+	3650 3325 3650 3900
+Wire Wire Line
+	2700 1150 3900 1150
+Wire Wire Line
+	3900 1150 5075 1150
+Connection ~ 4725 2175
+Wire Wire Line
+	4725 3325 4725 3900
+Connection ~ 4725 3325
+Wire Wire Line
+	4725 2750 4725 3325
+Connection ~ 4725 2750
+Wire Wire Line
+	4725 2175 4725 2750
+Connection ~ 4125 2175
+Connection ~ 4125 2750
+Connection ~ 4125 3325
+Connection ~ 4225 2175
+Connection ~ 4225 2750
+Connection ~ 4225 3325
+Connection ~ 4325 2175
+Connection ~ 4325 2750
+Connection ~ 4325 3325
+Connection ~ 4425 2175
+Connection ~ 4425 2750
+Connection ~ 4425 3325
+Connection ~ 4825 2175
+Connection ~ 4825 2750
+Connection ~ 4825 3325
+Connection ~ 5075 3450
+Wire Wire Line
+	4325 1600 4325 2175
+Wire Wire Line
+	4325 2175 4325 2750
+Wire Wire Line
+	4325 2750 4325 3325
+Wire Wire Line
+	4325 3325 4325 3900
+Wire Wire Line
+	4425 1600 4425 2175
+Wire Wire Line
+	4425 2175 4425 2750
+Wire Wire Line
+	4425 2750 4425 3325
+Wire Wire Line
+	4425 3325 4425 3900
+Wire Wire Line
+	4225 3325 4225 3900
+Wire Wire Line
+	4225 2750 4225 3325
+Wire Wire Line
+	4225 2175 4225 2750
+Wire Wire Line
+	4225 1600 4225 2175
+Wire Wire Line
+	4125 3325 4125 3900
+Wire Wire Line
+	4125 2750 4125 3325
+Wire Wire Line
+	4125 2175 4125 2750
+Wire Wire Line
+	4125 1600 4125 2175
+Wire Wire Line
+	4825 1600 4825 2175
+Wire Wire Line
+	4825 2175 4825 2750
+Wire Wire Line
+	4825 2750 4825 3325
+Wire Wire Line
+	4825 3325 4825 3900
+Connection ~ 3900 1150
+Connection ~ 5325 2175
+Connection ~ 5425 2175
+Connection ~ 5525 2175
+Wire Wire Line
+	5325 1600 5325 2175
+Wire Wire Line
+	5325 2175 5325 2750
+Wire Wire Line
+	5425 1600 5425 2175
+Wire Wire Line
+	5425 2175 5425 2750
+Wire Wire Line
+	5525 1600 5525 2175
+Wire Wire Line
+	5525 2175 5525 2750
+$Comp
+L HariLib:5161AS U31
+U 1 1 5D50695A
+P 8125 1300
+F 0 "U31" V 8476 1295 50  0000 C CNN
+F 1 "5161AS" V 8393 1295 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 7625 550 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 1640 50  0001 L CNN
+	1    8125 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5075 1150 6275 1150
+Connection ~ 5075 1150
+Wire Wire Line
+	6525 1600 6525 2175
+Wire Wire Line
+	6625 1600 6625 2175
+Wire Wire Line
+	6275 1150 7475 1150
+Wire Wire Line
+	8675 1150 9850 1150
+Connection ~ 6275 1150
+Connection ~ 8675 1150
+Connection ~ 7475 1150
+Wire Wire Line
+	7475 1150 8675 1150
+Connection ~ 10100 1600
+Connection ~ 10100 2175
+Connection ~ 10100 2750
+Connection ~ 10100 3325
+Connection ~ 10200 1600
+Connection ~ 10200 2175
+Connection ~ 10200 2750
+Connection ~ 10200 3325
+Connection ~ 10300 1600
+Connection ~ 10300 2175
+Connection ~ 10300 2750
+Connection ~ 10300 3325
+Connection ~ 10800 1600
+Connection ~ 10800 2175
+Connection ~ 10800 2750
+Wire Wire Line
+	10100 1600 10100 2175
+Wire Wire Line
+	10100 2175 10100 2750
+Wire Wire Line
+	10100 2750 10100 3325
+Wire Wire Line
+	10100 3325 10100 3900
+Wire Wire Line
+	10200 1600 10200 2175
+Wire Wire Line
+	10200 2175 10200 2750
+Wire Wire Line
+	10200 2750 10200 3325
+Wire Wire Line
+	10200 3325 10200 3900
+Wire Wire Line
+	10300 1600 10300 2175
+Wire Wire Line
+	10300 2175 10300 2750
+Wire Wire Line
+	10300 2750 10300 3325
+Wire Wire Line
+	10300 3325 10300 3900
+Wire Wire Line
+	10800 1475 10800 1600
+Wire Wire Line
+	10800 2750 10800 3325
+Wire Wire Line
+	10800 1600 10800 2175
+Wire Wire Line
+	10800 2175 10800 2750
+Wire Wire Line
+	11050 1150 9850 1150
+Connection ~ 9850 1150
+Wire Wire Line
+	9850 1250 9850 1150
+Wire Wire Line
+	11050 1150 11050 1250
+Connection ~ 11050 1150
+Wire Wire Line
+	2700 1150 2700 1250
+Connection ~ 2700 1150
+Wire Wire Line
+	3900 1150 3900 1250
+Wire Wire Line
+	5075 1250 5075 1150
+Wire Wire Line
+	6275 1250 6275 1150
+Wire Wire Line
+	7475 1150 7475 1250
+Wire Wire Line
+	2700 3450 3900 3450
+Wire Wire Line
+	5075 3450 6275 3450
+Connection ~ 8675 3450
+Connection ~ 9850 3450
+Wire Wire Line
+	9850 3450 11050 3450
+Wire Wire Line
+	11050 3550 11050 3450
+Connection ~ 11050 3450
+Wire Wire Line
+	9850 3450 9850 3550
+Wire Wire Line
+	8675 3450 8675 3550
+Connection ~ 6525 2175
+Connection ~ 6525 2750
+Connection ~ 6525 3325
+Connection ~ 6625 2175
+Connection ~ 6625 2750
+Connection ~ 6625 3325
+Connection ~ 6725 2175
+Connection ~ 6725 2750
+Connection ~ 6725 3325
+Connection ~ 6825 2175
+Connection ~ 6825 2750
+Connection ~ 6825 3325
+Wire Wire Line
+	6925 1600 6925 2175
+Wire Wire Line
+	7025 1600 7025 2175
+Wire Wire Line
+	7125 1600 7125 2175
+Connection ~ 7225 2175
+Connection ~ 7225 2750
+Connection ~ 7225 3325
+Wire Wire Line
+	6725 2175 6725 2750
+Wire Wire Line
+	6725 2750 6725 3325
+Wire Wire Line
+	6725 3325 6725 3900
+Wire Wire Line
+	6825 2175 6825 2750
+Wire Wire Line
+	6825 2750 6825 3325
+Wire Wire Line
+	6825 3325 6825 3900
+Wire Wire Line
+	7225 2175 7225 2750
+Wire Wire Line
+	7225 2750 7225 3325
+Wire Wire Line
+	7225 3325 7225 3900
+Wire Wire Line
+	6525 2175 6525 2750
+Wire Wire Line
+	6525 2750 6525 3325
+Wire Wire Line
+	6525 3325 6525 3900
+Wire Wire Line
+	6625 2175 6625 2750
+Wire Wire Line
+	6625 2750 6625 3325
+Wire Wire Line
+	6625 3325 6625 3900
+Wire Wire Line
+	6275 3450 7475 3450
+Connection ~ 6275 3450
+Connection ~ 7475 3450
+Wire Wire Line
+	7475 3450 8675 3450
+Wire Wire Line
+	7475 3450 7475 3550
+Wire Wire Line
+	6275 3550 6275 3450
+Wire Wire Line
+	5075 3450 5075 3550
+Connection ~ 6275 1725
+Connection ~ 8675 1725
+Wire Wire Line
+	9850 2300 8675 2300
+Connection ~ 3900 2300
+Wire Wire Line
+	3900 2300 2700 2300
+Connection ~ 5075 2300
+Wire Wire Line
+	5075 2300 3900 2300
+Connection ~ 6275 2300
+Wire Wire Line
+	6275 2300 5075 2300
+Connection ~ 7475 2300
+Wire Wire Line
+	7475 2300 6275 2300
+Connection ~ 8675 2300
+Wire Wire Line
+	8675 2300 7475 2300
+Wire Wire Line
+	2700 2875 3900 2875
+Connection ~ 3900 2875
+Wire Wire Line
+	3900 2875 5075 2875
+Connection ~ 5075 2875
+Wire Wire Line
+	9850 2300 9850 2400
+Connection ~ 9850 2300
+Wire Wire Line
+	8675 2400 8675 2300
+Wire Wire Line
+	8675 1725 8675 1825
+Wire Wire Line
+	7475 2300 7475 2400
+Wire Wire Line
+	6275 2400 6275 2300
+Wire Wire Line
+	6275 1825 6275 1725
+Wire Wire Line
+	3900 2400 3900 2300
+Wire Wire Line
+	3900 2975 3900 2875
+Wire Wire Line
+	2700 1825 2700 1725
+Connection ~ 2700 1725
+Wire Wire Line
+	2700 2400 2700 2300
+Connection ~ 2700 2300
+Wire Wire Line
+	5075 2400 5075 2300
+Wire Wire Line
+	11050 1825 11050 1725
+Connection ~ 11050 1725
+Wire Wire Line
+	9850 2300 11050 2300
+Wire Wire Line
+	11050 2300 11050 2400
+Connection ~ 11050 2300
+$Comp
+L Device:R_US R14
+U 1 1 5F0674A9
+P 2950 4050
+F 0 "R14" H 3018 4050 50  0001 L CNN
+F 1 "220" H 3018 4005 50  0001 L CNN
+F 2 "" V 2990 4040 50  0001 C CNN
+F 3 "~" H 2950 4050 50  0001 C CNN
+	1    2950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 5F0674AF
+P 3050 4050
+F 0 "R15" H 3118 4050 50  0001 L CNN
+F 1 "220" H 3118 4005 50  0001 L CNN
+F 2 "" V 3090 4040 50  0001 C CNN
+F 3 "~" H 3050 4050 50  0001 C CNN
+	1    3050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R16
+U 1 1 5F0674B5
+P 3150 4050
+F 0 "R16" H 3218 4050 50  0001 L CNN
+F 1 "220" H 3218 4005 50  0001 L CNN
+F 2 "" V 3190 4040 50  0001 C CNN
+F 3 "~" H 3150 4050 50  0001 C CNN
+	1    3150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R17
+U 1 1 5F0674BB
+P 3250 4050
+F 0 "R17" H 3318 4050 50  0001 L CNN
+F 1 "220" H 3318 4005 50  0001 L CNN
+F 2 "" V 3290 4040 50  0001 C CNN
+F 3 "~" H 3250 4050 50  0001 C CNN
+	1    3250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R18
+U 1 1 5F0674C1
+P 3350 4050
+F 0 "R18" H 3418 4050 50  0001 L CNN
+F 1 "220" H 3418 4005 50  0001 L CNN
+F 2 "" V 3390 4040 50  0001 C CNN
+F 3 "~" H 3350 4050 50  0001 C CNN
+	1    3350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R19
+U 1 1 5F0674C7
+P 3450 4050
+F 0 "R19" H 3518 4050 50  0001 L CNN
+F 1 "220" H 3518 4005 50  0001 L CNN
+F 2 "" V 3490 4040 50  0001 C CNN
+F 3 "~" H 3450 4050 50  0001 C CNN
+	1    3450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R20
+U 1 1 5F0674CD
+P 3550 4050
+F 0 "R20" H 3618 4050 50  0001 L CNN
+F 1 "220" H 3618 4005 50  0001 L CNN
+F 2 "" V 3590 4040 50  0001 C CNN
+F 3 "~" H 3550 4050 50  0001 C CNN
+	1    3550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R21
+U 1 1 5F0674D3
+P 3650 4050
+F 0 "R21" H 3718 4050 50  0001 L CNN
+F 1 "220" H 3718 4005 50  0001 L CNN
+F 2 "" V 3690 4040 50  0001 C CNN
+F 3 "~" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 3900
+Connection ~ 3050 3900
+Connection ~ 3150 3900
+Connection ~ 3250 3900
+Connection ~ 3350 3900
+Connection ~ 3450 3900
+Connection ~ 3550 3900
+Connection ~ 3650 3900
+$Comp
+L Device:R_US R22
+U 1 1 5F0A5C55
+P 4125 4050
+F 0 "R22" H 4193 4050 50  0001 L CNN
+F 1 "220" H 4193 4005 50  0001 L CNN
+F 2 "" V 4165 4040 50  0001 C CNN
+F 3 "~" H 4125 4050 50  0001 C CNN
+	1    4125 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R23
+U 1 1 5F0A5C5B
+P 4225 4050
+F 0 "R23" H 4293 4050 50  0001 L CNN
+F 1 "220" H 4293 4005 50  0001 L CNN
+F 2 "" V 4265 4040 50  0001 C CNN
+F 3 "~" H 4225 4050 50  0001 C CNN
+	1    4225 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R24
+U 1 1 5F0A5C61
+P 4325 4050
+F 0 "R24" H 4393 4050 50  0001 L CNN
+F 1 "220" H 4393 4005 50  0001 L CNN
+F 2 "" V 4365 4040 50  0001 C CNN
+F 3 "~" H 4325 4050 50  0001 C CNN
+	1    4325 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R25
+U 1 1 5F0A5C67
+P 4425 4050
+F 0 "R25" H 4493 4050 50  0001 L CNN
+F 1 "220" H 4493 4005 50  0001 L CNN
+F 2 "" V 4465 4040 50  0001 C CNN
+F 3 "~" H 4425 4050 50  0001 C CNN
+	1    4425 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R26
+U 1 1 5F0A5C6D
+P 4525 4050
+F 0 "R26" H 4593 4050 50  0001 L CNN
+F 1 "220" H 4593 4005 50  0001 L CNN
+F 2 "" V 4565 4040 50  0001 C CNN
+F 3 "~" H 4525 4050 50  0001 C CNN
+	1    4525 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R27
+U 1 1 5F0A5C73
+P 4625 4050
+F 0 "R27" H 4693 4050 50  0001 L CNN
+F 1 "220" H 4693 4005 50  0001 L CNN
+F 2 "" V 4665 4040 50  0001 C CNN
+F 3 "~" H 4625 4050 50  0001 C CNN
+	1    4625 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R28
+U 1 1 5F0A5C79
+P 4725 4050
+F 0 "R28" H 4793 4050 50  0001 L CNN
+F 1 "220" H 4793 4005 50  0001 L CNN
+F 2 "" V 4765 4040 50  0001 C CNN
+F 3 "~" H 4725 4050 50  0001 C CNN
+	1    4725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R29
+U 1 1 5F0A5C7F
+P 4825 4050
+F 0 "R29" H 4893 4050 50  0001 L CNN
+F 1 "220" H 4893 4005 50  0001 L CNN
+F 2 "" V 4865 4040 50  0001 C CNN
+F 3 "~" H 4825 4050 50  0001 C CNN
+	1    4825 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4125 3900
+Connection ~ 4225 3900
+Connection ~ 4325 3900
+Connection ~ 4425 3900
+Connection ~ 4525 3900
+Connection ~ 4625 3900
+Connection ~ 4725 3900
+Connection ~ 4825 3900
+$Comp
+L Device:R_US R30
+U 1 1 5F122C0F
+P 5325 4050
+F 0 "R30" H 5393 4050 50  0001 L CNN
+F 1 "220" H 5393 4005 50  0001 L CNN
+F 2 "" V 5365 4040 50  0001 C CNN
+F 3 "~" H 5325 4050 50  0001 C CNN
+	1    5325 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R31
+U 1 1 5F122C15
+P 5425 4050
+F 0 "R31" H 5493 4050 50  0001 L CNN
+F 1 "220" H 5493 4005 50  0001 L CNN
+F 2 "" V 5465 4040 50  0001 C CNN
+F 3 "~" H 5425 4050 50  0001 C CNN
+	1    5425 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R32
+U 1 1 5F122C1B
+P 5525 4050
+F 0 "R32" H 5593 4050 50  0001 L CNN
+F 1 "220" H 5593 4005 50  0001 L CNN
+F 2 "" V 5565 4040 50  0001 C CNN
+F 3 "~" H 5525 4050 50  0001 C CNN
+	1    5525 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R33
+U 1 1 5F122C21
+P 5625 4050
+F 0 "R33" H 5693 4050 50  0001 L CNN
+F 1 "220" H 5693 4005 50  0001 L CNN
+F 2 "" V 5665 4040 50  0001 C CNN
+F 3 "~" H 5625 4050 50  0001 C CNN
+	1    5625 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R34
+U 1 1 5F122C27
+P 5725 4050
+F 0 "R34" H 5793 4050 50  0001 L CNN
+F 1 "220" H 5793 4005 50  0001 L CNN
+F 2 "" V 5765 4040 50  0001 C CNN
+F 3 "~" H 5725 4050 50  0001 C CNN
+	1    5725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R35
+U 1 1 5F122C2D
+P 5825 4050
+F 0 "R35" H 5893 4050 50  0001 L CNN
+F 1 "220" H 5893 4005 50  0001 L CNN
+F 2 "" V 5865 4040 50  0001 C CNN
+F 3 "~" H 5825 4050 50  0001 C CNN
+	1    5825 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R36
+U 1 1 5F122C33
+P 5925 4050
+F 0 "R36" H 5993 4050 50  0001 L CNN
+F 1 "220" H 5993 4005 50  0001 L CNN
+F 2 "" V 5965 4040 50  0001 C CNN
+F 3 "~" H 5925 4050 50  0001 C CNN
+	1    5925 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R37
+U 1 1 5F122C39
+P 6025 4050
+F 0 "R37" H 6093 4050 50  0001 L CNN
+F 1 "220" H 6093 4005 50  0001 L CNN
+F 2 "" V 6065 4040 50  0001 C CNN
+F 3 "~" H 6025 4050 50  0001 C CNN
+	1    6025 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5325 3900
+Connection ~ 5425 3900
+Connection ~ 5525 3900
+Connection ~ 5625 3900
+Connection ~ 5725 3900
+Connection ~ 5825 3900
+Connection ~ 5925 3900
+Connection ~ 6025 3900
+$Comp
+L Device:R_US R38
+U 1 1 5F161295
+P 6525 4050
+F 0 "R38" H 6593 4050 50  0001 L CNN
+F 1 "220" H 6593 4005 50  0001 L CNN
+F 2 "" V 6565 4040 50  0001 C CNN
+F 3 "~" H 6525 4050 50  0001 C CNN
+	1    6525 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R39
+U 1 1 5F16129B
+P 6625 4050
+F 0 "R39" H 6693 4050 50  0001 L CNN
+F 1 "220" H 6693 4005 50  0001 L CNN
+F 2 "" V 6665 4040 50  0001 C CNN
+F 3 "~" H 6625 4050 50  0001 C CNN
+	1    6625 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R40
+U 1 1 5F1612A1
+P 6725 4050
+F 0 "R40" H 6793 4050 50  0001 L CNN
+F 1 "220" H 6793 4005 50  0001 L CNN
+F 2 "" V 6765 4040 50  0001 C CNN
+F 3 "~" H 6725 4050 50  0001 C CNN
+	1    6725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R41
+U 1 1 5F1612A7
+P 6825 4050
+F 0 "R41" H 6893 4050 50  0001 L CNN
+F 1 "220" H 6893 4005 50  0001 L CNN
+F 2 "" V 6865 4040 50  0001 C CNN
+F 3 "~" H 6825 4050 50  0001 C CNN
+	1    6825 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R42
+U 1 1 5F1612AD
+P 6925 4050
+F 0 "R42" H 6993 4050 50  0001 L CNN
+F 1 "220" H 6993 4005 50  0001 L CNN
+F 2 "" V 6965 4040 50  0001 C CNN
+F 3 "~" H 6925 4050 50  0001 C CNN
+	1    6925 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R43
+U 1 1 5F1612B3
+P 7025 4050
+F 0 "R43" H 7093 4050 50  0001 L CNN
+F 1 "220" H 7093 4005 50  0001 L CNN
+F 2 "" V 7065 4040 50  0001 C CNN
+F 3 "~" H 7025 4050 50  0001 C CNN
+	1    7025 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R44
+U 1 1 5F1612B9
+P 7125 4050
+F 0 "R44" H 7193 4050 50  0001 L CNN
+F 1 "220" H 7193 4005 50  0001 L CNN
+F 2 "" V 7165 4040 50  0001 C CNN
+F 3 "~" H 7125 4050 50  0001 C CNN
+	1    7125 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R45
+U 1 1 5F1612BF
+P 7225 4050
+F 0 "R45" H 7293 4050 50  0001 L CNN
+F 1 "220" H 7293 4005 50  0001 L CNN
+F 2 "" V 7265 4040 50  0001 C CNN
+F 3 "~" H 7225 4050 50  0001 C CNN
+	1    7225 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6525 3900
+Connection ~ 6625 3900
+Connection ~ 6725 3900
+Connection ~ 6825 3900
+Connection ~ 6925 3900
+Connection ~ 7025 3900
+Connection ~ 7125 3900
+Connection ~ 7225 3900
+$Comp
+L Device:R_US R46
+U 1 1 5F19FFFF
+P 7725 4050
+F 0 "R46" H 7793 4050 50  0001 L CNN
+F 1 "220" H 7793 4005 50  0001 L CNN
+F 2 "" V 7765 4040 50  0001 C CNN
+F 3 "~" H 7725 4050 50  0001 C CNN
+	1    7725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R47
+U 1 1 5F1A0005
+P 7825 4050
+F 0 "R47" H 7893 4050 50  0001 L CNN
+F 1 "220" H 7893 4005 50  0001 L CNN
+F 2 "" V 7865 4040 50  0001 C CNN
+F 3 "~" H 7825 4050 50  0001 C CNN
+	1    7825 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R48
+U 1 1 5F1A000B
+P 7925 4050
+F 0 "R48" H 7993 4050 50  0001 L CNN
+F 1 "220" H 7993 4005 50  0001 L CNN
+F 2 "" V 7965 4040 50  0001 C CNN
+F 3 "~" H 7925 4050 50  0001 C CNN
+	1    7925 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R49
+U 1 1 5F1A0011
+P 8025 4050
+F 0 "R49" H 8093 4050 50  0001 L CNN
+F 1 "220" H 8093 4005 50  0001 L CNN
+F 2 "" V 8065 4040 50  0001 C CNN
+F 3 "~" H 8025 4050 50  0001 C CNN
+	1    8025 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R50
+U 1 1 5F1A0017
+P 8125 4050
+F 0 "R50" H 8193 4050 50  0001 L CNN
+F 1 "220" H 8193 4005 50  0001 L CNN
+F 2 "" V 8165 4040 50  0001 C CNN
+F 3 "~" H 8125 4050 50  0001 C CNN
+	1    8125 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R51
+U 1 1 5F1A001D
+P 8225 4050
+F 0 "R51" H 8293 4050 50  0001 L CNN
+F 1 "220" H 8293 4005 50  0001 L CNN
+F 2 "" V 8265 4040 50  0001 C CNN
+F 3 "~" H 8225 4050 50  0001 C CNN
+	1    8225 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R52
+U 1 1 5F1A0023
+P 8325 4050
+F 0 "R52" H 8393 4050 50  0001 L CNN
+F 1 "220" H 8393 4005 50  0001 L CNN
+F 2 "" V 8365 4040 50  0001 C CNN
+F 3 "~" H 8325 4050 50  0001 C CNN
+	1    8325 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R53
+U 1 1 5F1A0029
+P 8425 4050
+F 0 "R53" H 8493 4050 50  0001 L CNN
+F 1 "220" H 8493 4005 50  0001 L CNN
+F 2 "" V 8465 4040 50  0001 C CNN
+F 3 "~" H 8425 4050 50  0001 C CNN
+	1    8425 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7725 3900
+Connection ~ 7825 3900
+Connection ~ 7925 3900
+Connection ~ 8025 3900
+Connection ~ 8125 3900
+Connection ~ 8225 3900
+Connection ~ 8325 3900
+Connection ~ 8425 3900
+$Comp
+L Device:R_US R54
+U 1 1 5F1DE964
+P 8900 4050
+F 0 "R54" H 8968 4050 50  0001 L CNN
+F 1 "220" H 8968 4005 50  0001 L CNN
+F 2 "" V 8940 4040 50  0001 C CNN
+F 3 "~" H 8900 4050 50  0001 C CNN
+	1    8900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R55
+U 1 1 5F1DE96A
+P 9000 4050
+F 0 "R55" H 9068 4050 50  0001 L CNN
+F 1 "220" H 9068 4005 50  0001 L CNN
+F 2 "" V 9040 4040 50  0001 C CNN
+F 3 "~" H 9000 4050 50  0001 C CNN
+	1    9000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R56
+U 1 1 5F1DE970
+P 9100 4050
+F 0 "R56" H 9168 4050 50  0001 L CNN
+F 1 "220" H 9168 4005 50  0001 L CNN
+F 2 "" V 9140 4040 50  0001 C CNN
+F 3 "~" H 9100 4050 50  0001 C CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R57
+U 1 1 5F1DE976
+P 9200 4050
+F 0 "R57" H 9268 4050 50  0001 L CNN
+F 1 "220" H 9268 4005 50  0001 L CNN
+F 2 "" V 9240 4040 50  0001 C CNN
+F 3 "~" H 9200 4050 50  0001 C CNN
+	1    9200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R58
+U 1 1 5F1DE97C
+P 9300 4050
+F 0 "R58" H 9368 4050 50  0001 L CNN
+F 1 "220" H 9368 4005 50  0001 L CNN
+F 2 "" V 9340 4040 50  0001 C CNN
+F 3 "~" H 9300 4050 50  0001 C CNN
+	1    9300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R59
+U 1 1 5F1DE982
+P 9400 4050
+F 0 "R59" H 9468 4050 50  0001 L CNN
+F 1 "220" H 9468 4005 50  0001 L CNN
+F 2 "" V 9440 4040 50  0001 C CNN
+F 3 "~" H 9400 4050 50  0001 C CNN
+	1    9400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R60
+U 1 1 5F1DE988
+P 9500 4050
+F 0 "R60" H 9568 4050 50  0001 L CNN
+F 1 "220" H 9568 4005 50  0001 L CNN
+F 2 "" V 9540 4040 50  0001 C CNN
+F 3 "~" H 9500 4050 50  0001 C CNN
+	1    9500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R61
+U 1 1 5F1DE98E
+P 9600 4050
+F 0 "R61" H 9668 4050 50  0001 L CNN
+F 1 "220" H 9668 4005 50  0001 L CNN
+F 2 "" V 9640 4040 50  0001 C CNN
+F 3 "~" H 9600 4050 50  0001 C CNN
+	1    9600 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8900 3900
+Connection ~ 9000 3900
+Connection ~ 9100 3900
+Connection ~ 9200 3900
+Connection ~ 9300 3900
+Connection ~ 9400 3900
+Connection ~ 9500 3900
+Connection ~ 9600 3900
+$Comp
+L Device:R_US R62
+U 1 1 5F21CFEA
+P 10100 4050
+F 0 "R62" H 10168 4050 50  0001 L CNN
+F 1 "220" H 10168 4005 50  0001 L CNN
+F 2 "" V 10140 4040 50  0001 C CNN
+F 3 "~" H 10100 4050 50  0001 C CNN
+	1    10100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R63
+U 1 1 5F21CFF0
+P 10200 4050
+F 0 "R63" H 10268 4050 50  0001 L CNN
+F 1 "220" H 10268 4005 50  0001 L CNN
+F 2 "" V 10240 4040 50  0001 C CNN
+F 3 "~" H 10200 4050 50  0001 C CNN
+	1    10200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R64
+U 1 1 5F21CFF6
+P 10300 4050
+F 0 "R64" H 10368 4050 50  0001 L CNN
+F 1 "220" H 10368 4005 50  0001 L CNN
+F 2 "" V 10340 4040 50  0001 C CNN
+F 3 "~" H 10300 4050 50  0001 C CNN
+	1    10300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R65
+U 1 1 5F21CFFC
+P 10400 4050
+F 0 "R65" H 10468 4050 50  0001 L CNN
+F 1 "220" H 10468 4005 50  0001 L CNN
+F 2 "" V 10440 4040 50  0001 C CNN
+F 3 "~" H 10400 4050 50  0001 C CNN
+	1    10400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R66
+U 1 1 5F21D002
+P 10500 4050
+F 0 "R66" H 10568 4050 50  0001 L CNN
+F 1 "220" H 10568 4005 50  0001 L CNN
+F 2 "" V 10540 4040 50  0001 C CNN
+F 3 "~" H 10500 4050 50  0001 C CNN
+	1    10500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R67
+U 1 1 5F21D008
+P 10600 4050
+F 0 "R67" H 10668 4050 50  0001 L CNN
+F 1 "220" H 10668 4005 50  0001 L CNN
+F 2 "" V 10640 4040 50  0001 C CNN
+F 3 "~" H 10600 4050 50  0001 C CNN
+	1    10600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R68
+U 1 1 5F21D00E
+P 10700 4050
+F 0 "R68" H 10768 4050 50  0001 L CNN
+F 1 "220" H 10768 4005 50  0001 L CNN
+F 2 "" V 10740 4040 50  0001 C CNN
+F 3 "~" H 10700 4050 50  0001 C CNN
+	1    10700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R69
+U 1 1 5F21D014
+P 10800 4050
+F 0 "R69" H 10868 4050 50  0001 L CNN
+F 1 "220" H 10868 4005 50  0001 L CNN
+F 2 "" V 10840 4040 50  0001 C CNN
+F 3 "~" H 10800 4050 50  0001 C CNN
+	1    10800 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 3900
+Connection ~ 10200 3900
+Connection ~ 10300 3900
+Connection ~ 10400 3900
+Connection ~ 10500 3900
+Connection ~ 10600 3900
+Connection ~ 10700 3900
+$Comp
+L Device:R_US R5
+U 1 1 5F25BFD6
+P 925 3650
+F 0 "R5" V 720 3650 50  0000 C CNN
+F 1 "1K" V 811 3650 50  0000 C CNN
+F 2 "" V 965 3640 50  0001 C CNN
+F 3 "~" H 925 3650 50  0001 C CNN
+	1    925  3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F25C277
+P 1375 3850
+F 0 "#PWR07" H 1375 3600 50  0001 C CNN
+F 1 "GND" H 1380 3677 50  0000 C CNN
+F 2 "" H 1375 3850 50  0001 C CNN
+F 3 "" H 1375 3850 50  0001 C CNN
+	1    1375 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q2
+U 1 1 5F25CEF5
+P 1250 3075
+F 0 "Q2" H 1441 3075 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 1441 3030 50  0001 L CNN
+F 2 "" H 1450 3175 50  0001 C CNN
+F 3 "~" H 1250 3075 50  0001 C CNN
+	1    1250 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5F25CEFC
+P 900 3075
+F 0 "R2" V 695 3075 50  0000 C CNN
+F 1 "1K" V 786 3075 50  0000 C CNN
+F 2 "" V 940 3065 50  0001 C CNN
+F 3 "~" H 900 3075 50  0001 C CNN
+	1    900  3075
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F25CF02
+P 1350 3275
+F 0 "#PWR04" H 1350 3025 50  0001 C CNN
+F 1 "GND" H 1355 3102 50  0000 C CNN
+F 2 "" H 1350 3275 50  0001 C CNN
+F 3 "" H 1350 3275 50  0001 C CNN
+	1    1350 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q4
+U 1 1 5F29576F
+P 1275 2500
+F 0 "Q4" H 1466 2500 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 1466 2455 50  0001 L CNN
+F 2 "" H 1475 2600 50  0001 C CNN
+F 3 "~" H 1275 2500 50  0001 C CNN
+	1    1275 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 2300 2700 2300
+$Comp
+L Device:R_US R4
+U 1 1 5F295776
+P 925 2500
+F 0 "R4" V 720 2500 50  0000 C CNN
+F 1 "1K" V 811 2500 50  0000 C CNN
+F 2 "" V 965 2490 50  0001 C CNN
+F 3 "~" H 925 2500 50  0001 C CNN
+	1    925  2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F29577C
+P 1375 2700
+F 0 "#PWR06" H 1375 2450 50  0001 C CNN
+F 1 "GND" H 1380 2527 50  0000 C CNN
+F 2 "" H 1375 2700 50  0001 C CNN
+F 3 "" H 1375 2700 50  0001 C CNN
+	1    1375 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q1
+U 1 1 5F2CE118
+P 1250 1925
+F 0 "Q1" H 1441 1925 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 1441 1880 50  0001 L CNN
+F 2 "" H 1450 2025 50  0001 C CNN
+F 3 "~" H 1250 1925 50  0001 C CNN
+	1    1250 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5F2CE11F
+P 900 1925
+F 0 "R1" V 695 1925 50  0000 C CNN
+F 1 "1K" V 786 1925 50  0000 C CNN
+F 2 "" V 940 1915 50  0001 C CNN
+F 3 "~" H 900 1925 50  0001 C CNN
+	1    900  1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F2CE125
+P 1350 2125
+F 0 "#PWR03" H 1350 1875 50  0001 C CNN
+F 1 "GND" H 1355 1952 50  0000 C CNN
+F 2 "" H 1350 2125 50  0001 C CNN
+F 3 "" H 1350 2125 50  0001 C CNN
+	1    1350 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q3
+U 1 1 5F2CE12B
+P 1275 1350
+F 0 "Q3" H 1466 1350 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 1466 1305 50  0001 L CNN
+F 2 "" H 1475 1450 50  0001 C CNN
+F 3 "~" H 1275 1350 50  0001 C CNN
+	1    1275 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 1150 2700 1150
+$Comp
+L Device:R_US R3
+U 1 1 5F2CE132
+P 925 1350
+F 0 "R3" V 720 1350 50  0000 C CNN
+F 1 "1K" V 811 1350 50  0000 C CNN
+F 2 "" V 965 1340 50  0001 C CNN
+F 3 "~" H 925 1350 50  0001 C CNN
+	1    925  1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F2CE138
+P 1375 1550
+F 0 "#PWR05" H 1375 1300 50  0001 C CNN
+F 1 "GND" H 1380 1377 50  0000 C CNN
+F 2 "" H 1375 1550 50  0001 C CNN
+F 3 "" H 1375 1550 50  0001 C CNN
+	1    1375 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5F306E96
+P 2700 4800
+F 0 "#PWR09" H 2700 4550 50  0001 C CNN
+F 1 "GND" H 2705 4627 50  0000 C CNN
+F 2 "" H 2700 4800 50  0001 C CNN
+F 3 "" H 2700 4800 50  0001 C CNN
+	1    2700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5F306F15
+P 3900 4800
+F 0 "#PWR011" H 3900 4550 50  0001 C CNN
+F 1 "GND" H 3905 4627 50  0000 C CNN
+F 2 "" H 3900 4800 50  0001 C CNN
+F 3 "" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5F307042
+P 5075 4800
+F 0 "#PWR013" H 5075 4550 50  0001 C CNN
+F 1 "GND" H 5080 4627 50  0000 C CNN
+F 2 "" H 5075 4800 50  0001 C CNN
+F 3 "" H 5075 4800 50  0001 C CNN
+	1    5075 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5F307291
+P 6275 4800
+F 0 "#PWR015" H 6275 4550 50  0001 C CNN
+F 1 "GND" H 6280 4627 50  0000 C CNN
+F 2 "" H 6275 4800 50  0001 C CNN
+F 3 "" H 6275 4800 50  0001 C CNN
+	1    6275 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5F307310
+P 7475 4800
+F 0 "#PWR017" H 7475 4550 50  0001 C CNN
+F 1 "GND" H 7480 4627 50  0000 C CNN
+F 2 "" H 7475 4800 50  0001 C CNN
+F 3 "" H 7475 4800 50  0001 C CNN
+	1    7475 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5F30738F
+P 8675 4800
+F 0 "#PWR019" H 8675 4550 50  0001 C CNN
+F 1 "GND" H 8680 4627 50  0000 C CNN
+F 2 "" H 8675 4800 50  0001 C CNN
+F 3 "" H 8675 4800 50  0001 C CNN
+	1    8675 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5F307530
+P 9850 4800
+F 0 "#PWR021" H 9850 4550 50  0001 C CNN
+F 1 "GND" H 9855 4627 50  0000 C CNN
+F 2 "" H 9850 4800 50  0001 C CNN
+F 3 "" H 9850 4800 50  0001 C CNN
+	1    9850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5F3075AF
+P 11050 4800
+F 0 "#PWR023" H 11050 4550 50  0001 C CNN
+F 1 "GND" H 11055 4627 50  0000 C CNN
+F 2 "" H 11050 4800 50  0001 C CNN
+F 3 "" H 11050 4800 50  0001 C CNN
+	1    11050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 3450 9850 3450
+$Comp
+L power:GND #PWR022
+U 1 1 5D52FF50
+P 10700 5000
+F 0 "#PWR022" H 10700 4750 50  0001 C CNN
+F 1 "GND" H 10705 4827 50  0000 C CNN
+F 2 "" H 10700 5000 50  0001 C CNN
+F 3 "" H 10700 5000 50  0001 C CNN
+	1    10700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5D52FFCF
+P 9500 5000
+F 0 "#PWR020" H 9500 4750 50  0001 C CNN
+F 1 "GND" H 9505 4827 50  0000 C CNN
+F 2 "" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5D5303B4
+P 8325 5000
+F 0 "#PWR018" H 8325 4750 50  0001 C CNN
+F 1 "GND" H 8330 4827 50  0000 C CNN
+F 2 "" H 8325 5000 50  0001 C CNN
+F 3 "" H 8325 5000 50  0001 C CNN
+	1    8325 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5D530677
+P 7125 5000
+F 0 "#PWR016" H 7125 4750 50  0001 C CNN
+F 1 "GND" H 7130 4827 50  0000 C CNN
+F 2 "" H 7125 5000 50  0001 C CNN
+F 3 "" H 7125 5000 50  0001 C CNN
+	1    7125 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5D530A5C
+P 5925 5000
+F 0 "#PWR014" H 5925 4750 50  0001 C CNN
+F 1 "GND" H 5930 4827 50  0000 C CNN
+F 2 "" H 5925 5000 50  0001 C CNN
+F 3 "" H 5925 5000 50  0001 C CNN
+	1    5925 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D530CAB
+P 4725 5000
+F 0 "#PWR012" H 4725 4750 50  0001 C CNN
+F 1 "GND" H 4730 4827 50  0000 C CNN
+F 2 "" H 4725 5000 50  0001 C CNN
+F 3 "" H 4725 5000 50  0001 C CNN
+	1    4725 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5D530D2A
+P 3550 5000
+F 0 "#PWR010" H 3550 4750 50  0001 C CNN
+F 1 "GND" H 3555 4827 50  0000 C CNN
+F 2 "" H 3550 5000 50  0001 C CNN
+F 3 "" H 3550 5000 50  0001 C CNN
+	1    3550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5D530F3F
+P 2350 5000
+F 0 "#PWR08" H 2350 4750 50  0001 C CNN
+F 1 "GND" H 2355 4827 50  0000 C CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B3B-PH-K-S_LF__SN_ J2
+U 1 1 5D53167A
+P 1600 5250
+F 0 "J2" V 1375 5306 50  0000 C CNN
+F 1 "B3B-PH-K-S_LF__SN_" V 1466 5306 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2mm_Drill1mm" H 1800 5450 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 5550 60  0001 L CNN
+F 4 "455-1705-ND" H 1800 5650 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3B-PH-K-S(LF)(SN)" H 1800 5750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1800 5850 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1800 5950 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 6050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B3B-PH-K-S(LF)(SN)/455-1705-ND/926612" H 1800 6150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2MM" H 1800 6250 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 1800 6350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1800 6450 60  0001 L CNN "Status"
+	1    1600 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 5250 1750 5000
+Wire Wire Line
+	1950 5000 1950 5350
+Wire Wire Line
+	1950 5350 1750 5350
+Wire Wire Line
+	1750 5450 2250 5450
+Wire Wire Line
+	2250 5450 2250 5000
+Wire Wire Line
+	5825 5000 5825 5450
+Wire Wire Line
+	5825 5450 4625 5450
+Connection ~ 2250 5450
+Wire Wire Line
+	10600 5000 10600 5450
+Wire Wire Line
+	10600 5450 9400 5450
+Connection ~ 5825 5450
+Wire Wire Line
+	9400 5000 9400 5450
+Connection ~ 9400 5450
+Wire Wire Line
+	9400 5450 8225 5450
+Wire Wire Line
+	8225 5000 8225 5450
+Connection ~ 8225 5450
+Wire Wire Line
+	8225 5450 7025 5450
+Wire Wire Line
+	7025 5000 7025 5450
+Connection ~ 7025 5450
+Wire Wire Line
+	7025 5450 5825 5450
+Wire Wire Line
+	4625 5000 4625 5450
+Connection ~ 4625 5450
+Wire Wire Line
+	4625 5450 3450 5450
+Wire Wire Line
+	3450 5000 3450 5450
+Connection ~ 3450 5450
+Wire Wire Line
+	3450 5450 2250 5450
+Wire Wire Line
+	1950 5350 3150 5350
+Wire Wire Line
+	10300 5350 10300 5000
+Connection ~ 1950 5350
+Wire Wire Line
+	9100 5000 9100 5350
+Connection ~ 9100 5350
+Wire Wire Line
+	9100 5350 10300 5350
+Wire Wire Line
+	7925 5000 7925 5350
+Connection ~ 7925 5350
+Wire Wire Line
+	7925 5350 9100 5350
+Wire Wire Line
+	6725 5000 6725 5350
+Connection ~ 6725 5350
+Wire Wire Line
+	6725 5350 7925 5350
+Wire Wire Line
+	5525 5000 5525 5350
+Connection ~ 5525 5350
+Wire Wire Line
+	5525 5350 6725 5350
+Wire Wire Line
+	3150 5000 3150 5350
+Connection ~ 3150 5350
+Wire Wire Line
+	3150 5350 4325 5350
+Wire Wire Line
+	4325 5000 4325 5350
+Connection ~ 4325 5350
+Wire Wire Line
+	4325 5350 5525 5350
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5D9A2378
+P 975 6000
+F 0 "#PWR01" H 975 5850 50  0001 C CNN
+F 1 "+3.3V" H 990 6173 50  0000 C CNN
+F 2 "" H 975 6000 50  0001 C CNN
+F 3 "" H 975 6000 50  0001 C CNN
+	1    975  6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D9A245D
+P 975 6000
+F 0 "#FLG01" H 975 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 975 6173 50  0000 C CNN
+F 2 "" H 975 6000 50  0001 C CNN
+F 3 "~" H 975 6000 50  0001 C CNN
+	1    975  6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D9A260C
+P 975 6475
+F 0 "#FLG02" H 975 6550 50  0001 C CNN
+F 1 "PWR_FLAG" H 975 6649 50  0000 C CNN
+F 2 "" H 975 6475 50  0001 C CNN
+F 3 "~" H 975 6475 50  0001 C CNN
+	1    975  6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D9A27BE
+P 975 6475
+F 0 "#PWR02" H 975 6225 50  0001 C CNN
+F 1 "GND" H 980 6302 50  0000 C CNN
+F 2 "" H 975 6475 50  0001 C CNN
+F 3 "" H 975 6475 50  0001 C CNN
+	1    975  6475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 4550 7475 4550
+Connection ~ 7475 4550
+Wire Wire Line
+	7475 4550 8675 4550
+Connection ~ 8675 4550
+Wire Wire Line
+	8675 4550 9850 4550
+Connection ~ 9850 4550
+Wire Wire Line
+	2700 4550 3900 4550
+Connection ~ 6275 4550
+Connection ~ 3900 4550
+Wire Wire Line
+	3900 4550 5075 4550
+Connection ~ 5075 4550
+Wire Wire Line
+	5075 4550 6275 4550
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B5B-XH-A_LF__SN_ J1
+U 1 1 5DA62C7E
+P 875 4100
+F 0 "J1" V 1024 3973 50  0000 R CNN
+F 1 "B5B-XH-A_LF__SN_" V 1115 3973 50  0000 R CNN
+F 2 "digikey-footprints:PinHeader_1x5_P2.5mm_Drill1.1mm" H 1075 4300 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4400 60  0001 L CNN
+F 4 "455-2270-ND" H 1075 4500 60  0001 L CNN "Digi-Key_PN"
+F 5 "B5B-XH-A(LF)(SN)" H 1075 4600 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1075 4700 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1075 4800 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B5B-XH-A(LF)(SN)/455-2270-ND/1530483" H 1075 5000 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 5POS 2.5MM" H 1075 5100 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 1075 5200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1075 5300 60  0001 L CNN "Status"
+	1    875  4100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	775  3650 775  4100
+Wire Wire Line
+	775  4200 725  4200
+Wire Wire Line
+	725  4200 725  3075
+Wire Wire Line
+	725  3075 750  3075
+Wire Wire Line
+	775  4300 675  4300
+Wire Wire Line
+	675  4300 675  2500
+Wire Wire Line
+	675  2500 775  2500
+Wire Wire Line
+	750  1925 625  1925
+Wire Wire Line
+	625  1925 625  4400
+Wire Wire Line
+	625  4400 775  4400
+Wire Wire Line
+	550  4500 550  1350
+Wire Wire Line
+	550  1350 775  1350
+Wire Wire Line
+	2550 4200 2850 4200
+Wire Wire Line
+	2850 4200 2850 5000
+Wire Wire Line
+	2850 5000 2950 5000
+Wire Wire Line
+	3750 4200 4025 4200
+Wire Wire Line
+	4025 4200 4025 5000
+Wire Wire Line
+	4025 5000 4125 5000
+Wire Wire Line
+	4925 4200 5225 4200
+Wire Wire Line
+	5225 4200 5225 5000
+Wire Wire Line
+	5225 5000 5325 5000
+Wire Wire Line
+	6425 4200 6425 5000
+Wire Wire Line
+	6425 5000 6525 5000
+Wire Wire Line
+	8525 4200 8800 4200
+Wire Wire Line
+	8800 4200 8800 5000
+Wire Wire Line
+	8800 5000 8900 5000
+Wire Wire Line
+	9700 4200 10000 4200
+Wire Wire Line
+	10000 4200 10000 5000
+Wire Wire Line
+	10000 5000 10100 5000
+Connection ~ 11050 4550
+Wire Wire Line
+	11050 4550 11150 4550
+Wire Wire Line
+	9850 4550 11050 4550
+NoConn ~ 10900 4200
+Wire Wire Line
+	2050 5000 2050 5250
+Wire Wire Line
+	2050 5250 2700 5250
+Wire Wire Line
+	3250 5250 3250 5000
+Wire Wire Line
+	3250 5250 4425 5250
+Wire Wire Line
+	4425 5250 4425 5000
+Connection ~ 3250 5250
+Wire Wire Line
+	4425 5250 5625 5250
+Wire Wire Line
+	5625 5250 5625 5000
+Connection ~ 4425 5250
+Wire Wire Line
+	5625 5250 6825 5250
+Wire Wire Line
+	6825 5250 6825 5000
+Connection ~ 5625 5250
+Wire Wire Line
+	8025 5250 8025 5000
+Wire Wire Line
+	7625 4200 7625 5000
+Wire Wire Line
+	7625 5000 7725 5000
+Wire Wire Line
+	8025 5250 9200 5250
+Wire Wire Line
+	9200 5250 9200 5000
+Connection ~ 8025 5250
+Wire Wire Line
+	9200 5250 10400 5250
+Wire Wire Line
+	10400 5250 10400 5000
+Connection ~ 9200 5250
+Wire Wire Line
+	10800 3900 10800 3325
+Wire Wire Line
+	10800 2750 10825 2750
+Connection ~ 10800 3900
+Connection ~ 10800 3325
+Wire Wire Line
+	8675 1150 8675 1250
+Wire Wire Line
+	3900 3450 3900 3550
+Wire Wire Line
+	5075 2975 5075 2875
+Wire Wire Line
+	5825 3325 5825 3900
+Wire Wire Line
+	5325 3325 5325 3900
+Wire Wire Line
+	5425 3325 5425 3900
+Wire Wire Line
+	6025 3325 6025 3900
+Wire Wire Line
+	5525 3325 5525 3900
+Wire Wire Line
+	5625 3325 5625 3900
+Wire Wire Line
+	5925 3325 5925 3900
+Wire Wire Line
+	5725 3325 5725 3900
+$Comp
+L HariLib:5161AS U22
+U 1 1 5D5174AC
+P 5725 3025
+F 0 "U22" V 6076 3020 50  0000 C CNN
+F 1 "5161AS" V 5993 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 5225 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3365 50  0001 L CNN
+	1    5725 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6275 2875 7475 2875
+Wire Wire Line
+	5075 2875 6275 2875
+Wire Wire Line
+	6275 2975 6275 2875
+Connection ~ 6275 2875
+Wire Wire Line
+	11050 2975 11050 2875
+Connection ~ 11050 2875
+Wire Wire Line
+	7475 2875 7475 2975
+Connection ~ 7475 2875
+Wire Wire Line
+	6275 1725 7475 1725
+Wire Wire Line
+	7475 1825 7475 1725
+Connection ~ 7475 1725
+Wire Wire Line
+	7475 1725 8675 1725
+Wire Wire Line
+	8225 3325 8225 3900
+Wire Wire Line
+	8225 2750 8225 3325
+Connection ~ 8225 3325
+Wire Wire Line
+	7725 3325 7725 3900
+Wire Wire Line
+	7725 2750 7725 3325
+Connection ~ 7725 3325
+Wire Wire Line
+	7825 3325 7825 3900
+Wire Wire Line
+	7825 2750 7825 3325
+Connection ~ 7825 3325
+Wire Wire Line
+	8425 3325 8425 3900
+Wire Wire Line
+	8425 2750 8425 3325
+Connection ~ 8425 3325
+Wire Wire Line
+	7925 3325 7925 3900
+Wire Wire Line
+	7925 2750 7925 3325
+Connection ~ 7925 3325
+Wire Wire Line
+	8025 3325 8025 3900
+Wire Wire Line
+	8025 2750 8025 3325
+Connection ~ 8025 3325
+Wire Wire Line
+	8325 3325 8325 3900
+Wire Wire Line
+	8325 2750 8325 3325
+Connection ~ 8325 3325
+Wire Wire Line
+	8125 3325 8125 3900
+Wire Wire Line
+	8125 2750 8125 3325
+Connection ~ 8125 3325
+$Comp
+L HariLib:5161AS U34
+U 1 1 5D506904
+P 8125 3025
+F 0 "U34" V 8476 3020 50  0000 C CNN
+F 1 "5161AS" V 8393 3020 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 7625 2275 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3365 50  0001 L CNN
+	1    8125 3025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7475 2875 8675 2875
+Wire Wire Line
+	8675 2875 8675 2975
+Connection ~ 8675 2875
+Wire Wire Line
+	5075 1825 5075 1725
+Connection ~ 5075 1725
+Wire Wire Line
+	5075 1725 6275 1725
+Wire Wire Line
+	3450 2175 3450 2750
+Wire Wire Line
+	2950 2175 2950 2750
+Wire Wire Line
+	3050 2175 3050 2750
+Wire Wire Line
+	3650 2175 3650 2750
+Wire Wire Line
+	3150 2175 3150 2750
+Wire Wire Line
+	3250 2175 3250 2750
+Wire Wire Line
+	3550 2175 3550 2750
+Wire Wire Line
+	3350 2175 3350 2750
+$Comp
+L HariLib:5161AS U8
+U 1 1 5D517590
+P 3350 1875
+F 0 "U8" V 3701 1870 50  0000 C CNN
+F 1 "5161AS" V 3618 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2215 50  0001 L CNN
+	1    3350 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1725 3900 1725
+Wire Wire Line
+	3900 1725 3900 1825
+Connection ~ 3900 1725
+Wire Wire Line
+	3900 1725 5075 1725
+Wire Wire Line
+	10400 5250 11150 5250
+Wire Wire Line
+	11150 5250 11150 4550
+Connection ~ 10400 5250
+Wire Wire Line
+	9850 1825 9850 1725
+Connection ~ 9850 1725
+Wire Wire Line
+	9850 1725 11050 1725
+Wire Wire Line
+	6125 4200 6425 4200
+Wire Wire Line
+	7325 4200 7625 4200
+Wire Wire Line
+	6825 5250 8025 5250
+Connection ~ 6825 5250
+Wire Wire Line
+	550  4500 775  4500
+Wire Wire Line
+	8675 2875 9850 2875
+Wire Wire Line
+	9850 2875 9850 2975
+Connection ~ 9850 2875
+Wire Wire Line
+	9850 2875 11050 2875
+Wire Wire Line
+	2700 2975 2700 2875
+Connection ~ 2700 2875
+Wire Wire Line
+	1350 2875 2700 2875
+Wire Wire Line
+	1350 1725 2700 1725
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5ECCECFF
+P 2700 5250
+F 0 "#PWR0101" H 2700 5100 50  0001 C CNN
+F 1 "+3.3V" H 2715 5423 50  0000 C CNN
+F 2 "" H 2700 5250 50  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 5250
+Wire Wire Line
+	2700 5250 3250 5250
+Wire Wire Line
+	7725 3325 7750 3325
+$Comp
+L HariLib:5161AS U38
+U 1 1 5D59792E
+P 9300 1875
+F 0 "U38" V 9651 1870 50  0000 C CNN
+F 1 "5161AS" V 9568 1870 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 8800 1125 50  0001 L CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2215 50  0001 L CNN
+	1    9300 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 2175 9300 2750
+Wire Wire Line
+	9500 2175 9500 2750
+Wire Wire Line
+	9200 2175 9200 2750
+Wire Wire Line
+	9100 2175 9100 2750
+Wire Wire Line
+	9600 2175 9600 2750
+Wire Wire Line
+	9000 2175 9000 2750
+Wire Wire Line
+	8900 2175 8900 2750
+Wire Wire Line
+	9400 2175 9400 2750
+Wire Wire Line
+	8675 1725 9850 1725
+Connection ~ 9000 2175
+Wire Wire Line
+	9000 1600 9000 2175
+Connection ~ 9100 2175
+Wire Wire Line
+	9100 1600 9100 2175
+Connection ~ 9200 2175
+Wire Wire Line
+	9200 1600 9200 2175
+Connection ~ 9300 2175
+Wire Wire Line
+	9300 1600 9300 2175
+Wire Wire Line
+	8900 1600 8900 2175
+Connection ~ 8900 2175
+Connection ~ 9400 2175
+Wire Wire Line
+	9400 1600 9400 2175
+Connection ~ 9500 2175
+Wire Wire Line
+	9500 1600 9500 2175
+Connection ~ 9600 2175
+Wire Wire Line
+	9600 1600 9600 2175
+Connection ~ 6025 3325
+Connection ~ 6025 2750
+Wire Wire Line
+	6025 2750 6025 3325
+Connection ~ 5925 3325
+Connection ~ 5925 2750
+Wire Wire Line
+	5925 2750 5925 3325
+Connection ~ 5825 3325
+Connection ~ 5825 2750
+Wire Wire Line
+	5825 2750 5825 3325
+Connection ~ 5725 3325
+Connection ~ 5725 2750
+Wire Wire Line
+	5725 2750 5725 3325
+Connection ~ 5625 3325
+Connection ~ 5625 2750
+Wire Wire Line
+	5625 2750 5625 3325
+Connection ~ 5525 3325
+Connection ~ 5525 2750
+Wire Wire Line
+	5525 2750 5525 3325
+Connection ~ 5425 3325
+Connection ~ 5425 2750
+Wire Wire Line
+	5425 2750 5425 3325
+Connection ~ 5325 3325
+Connection ~ 5325 2750
+Wire Wire Line
+	5325 2750 5325 3325
+Connection ~ 2950 2175
+Wire Wire Line
+	2950 1600 2950 2175
+Connection ~ 3050 2175
+Wire Wire Line
+	3050 1600 3050 2175
+Connection ~ 3150 2175
+Wire Wire Line
+	3150 1600 3150 2175
+Connection ~ 3250 2175
+Wire Wire Line
+	3250 1600 3250 2175
+Connection ~ 3350 2175
+Wire Wire Line
+	3350 1600 3350 2175
+Connection ~ 3450 2175
+Wire Wire Line
+	3450 1600 3450 2175
+Connection ~ 3550 2175
+Wire Wire Line
+	3550 1600 3550 2175
+Connection ~ 3650 2175
+Wire Wire Line
+	3650 1600 3650 2175
+$EndSCHEMATC

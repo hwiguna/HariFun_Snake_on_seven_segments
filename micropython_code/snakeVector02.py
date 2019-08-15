@@ -145,7 +145,8 @@ class snakeVector02:
         self.button = Button.Button()
         self.direction = 0
         self.bitmap = bytearray(6)  # Six bytes represents six bytes in shift registers
-        self.snake = [vector(point(1, 1), 0)]
+        #self.snake = [vector(point(1, 1), 0)]
+        self.snake = [vector(point(1, 0), 0)]
 
     @micropython.native
     def shift_out(self, bits):
@@ -219,36 +220,37 @@ class snakeVector02:
         # self.setupBitmap()
 
         flash = Timer(0)
-        flash.init(freq=72 * 6 * 5, mode=Timer.PERIODIC, callback=self.refresh)
+        flash.init(freq=72 * 8 * 5, mode=Timer.PERIODIC, callback=self.refresh)
 
         self.plot_vector(self.snake[0])
+        self.plot_vector(vector(point(1, 2), 1))
 
-        while True:
-            button_press = self.button.read_button()
-            if button_press != -1:
-                head = self.snake[0]
-                if button_press == 3:
-                    new_head = forward(head)
-                elif button_press == 0:
-                    new_head = turn_right(head)
-                elif button_press == 2:
-                    new_head = turn_left(head)
-
-                if self.check_bounds():
-                    # Draw & save new head
-                    self.plot_vector(new_head)
-                    self.snake.insert(0, new_head)
-
-                    # Erase old tail
-                    last_index = len(self.snake) - 1
-                    if last_index > 2:
-                        tail = self.snake[last_index]
-                        self.erase_vector(tail)
-                        self.snake.pop(last_index)
-
-                # time.sleep_ms(50)  # poorman's debouncer
-                time.sleep(0.5)  # poorman's debouncer
-            time.sleep_ms(5)  # Don't call adc read too often
+        # while True:
+            # button_press = self.button.read_button()
+            # if button_press != -1:
+            #     head = self.snake[0]
+            #     if button_press == 3:
+            #         new_head = forward(head)
+            #     elif button_press == 0:
+            #         new_head = turn_right(head)
+            #     elif button_press == 2:
+            #         new_head = turn_left(head)
+            #
+            #     if self.check_bounds():
+            #         # Draw & save new head
+            #         self.plot_vector(new_head)
+            #         self.snake.insert(0, new_head)
+            #
+            #         # Erase old tail
+            #         last_index = len(self.snake) - 1
+            #         if last_index > 2:
+            #             tail = self.snake[last_index]
+            #             self.erase_vector(tail)
+            #             self.snake.pop(last_index)
+            #
+            #     # time.sleep_ms(50)  # poorman's debouncer
+            #     time.sleep(0.5)  # poorman's debouncer
+            # time.sleep_ms(5)  # Don't call adc read too often
 
 
 instance = snakeVector02()

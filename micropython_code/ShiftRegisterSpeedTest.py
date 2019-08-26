@@ -11,6 +11,7 @@ class ShiftRegisterSpeedTest:
         self.row_max = 5  # Five rows of transistor drivers
         self.col_max = 8  # Eight columns of shift registers
         self.bitmap = []
+        self.bit_values = [1,2,4,8,16,32,64,128]
 
         # === Column Transistors ===
         self.previous_row = 0
@@ -29,14 +30,27 @@ class ShiftRegisterSpeedTest:
     @micropython.native
     def shift_out(self, bits):
         for i in range(8):
-            value = bits & (1 << i)  # Is bit set or cleared?
-            self.data.value(1 if value > 0 else 0)
+            #value = bits & (1 << i)  # Is bit set or cleared?
+            if bits & self.bit_values[i] > 0:
+                self.data.on()
+            else:
+                self.data.off()
             self.clock.on()  # pulsing clock HIGH then LOW to shift data
             self.clock.off()
 
+    # def shift_out(self, bits):
+    #     for i in range(8):
+    #         value = bits & (1 << i)  # Is bit set or cleared?
+    #         self.data.value(1 if value > 0 else 0)
+    #         self.clock.on()  # pulsing clock HIGH then LOW to shift data
+    #         self.clock.off()
+
     @micropython.native
     def refresh(self, timer):
-        new_row = self.previous_row + 1 if (self.previous_row + 1) < self.row_max else 0
+        #new_row = self.previous_row + 1 if (self.previous_row + 1) < self.row_max else 0
+        new_row = self.previous_row + 1
+        if new_row >= self.row_max:
+            new_row = 0
 
         # == Shift out all the columns for new row (8 digits x 8 bits = 64 bits) ==
         self.latch.off()  # Don't show changes to the bits on the output lines
@@ -57,7 +71,7 @@ class ShiftRegisterSpeedTest:
 
     def main(self):
         flash = Timer(0)
-        flash.init(freq=72 * self.row_max * self.col_max, mode=Timer.PERIODIC, callback=self.refresh)
+        flash.init(freq=1 * self.row_max * self.col_max, mode=Timer.PERIODIC, callback=self.refresh)
 
         while True:
             for i in range(64):

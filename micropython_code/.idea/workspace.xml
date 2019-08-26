@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb8ca5a-a84d-4902-93ed-0632501eb332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiftRegisterSpeedTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftRegisterSpeedTest_esp32.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftRegisterSpeedTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftRegisterSpeedTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeVector02.py" beforeDir="false" afterPath="$PROJECT_DIR$/snakeVector02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/seven_segment_octet.sch" beforeDir="false" afterPath="$PROJECT_DIR$/../pcb/seven_segment_octet/seven_segment_octet.sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/Seven_segment_Eight_ShiftRegisters/Seven_segment_Eight_ShiftRegisters.kicad_pcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/Seven_segment_Eight_ShiftRegisters/Seven_segment_Eight_ShiftRegisters.net" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/Seven_segment_Eight_ShiftRegisters/Seven_segment_Eight_ShiftRegisters.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/Seven_segment_Eight_ShiftRegisters/Seven_segment_Eight_ShiftRegisters.sch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcb/seven_segment_octet/Seven_segment_Eight_ShiftRegisters/hari.dcm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +32,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShiftRegisterSpeedTest.py" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hwiguna\Documents\GitHub\Hari\HariFun_Snake_on_seven_segments\micropython_code" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

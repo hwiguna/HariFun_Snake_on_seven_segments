@@ -1316,7 +1316,7 @@ U 1 1 5D5175EA
 P 2150 3600
 F 0 "U5" V 2501 3595 50  0000 C CNN
 F 1 "5161AS" V 2418 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3940 50  0001 L CNN
 	1    2150 3600
 	0    -1   -1   0   
@@ -1471,7 +1471,7 @@ U 1 1 5D59792E
 P 9300 1875
 F 0 "U38" V 9651 1870 50  0000 C CNN
 F 1 "5161AS" V 9568 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 8800 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 8800 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2215 50  0001 L CNN
 	1    9300 1875
 	0    -1   -1   0   
@@ -1482,7 +1482,7 @@ U 1 1 5D517590
 P 3350 1875
 F 0 "U8" V 3701 1870 50  0000 C CNN
 F 1 "5161AS" V 3618 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2215 50  0001 L CNN
 	1    3350 1875
 	0    -1   -1   0   
@@ -1493,7 +1493,7 @@ U 1 1 5D506904
 P 8125 3025
 F 0 "U34" V 8476 3020 50  0000 C CNN
 F 1 "5161AS" V 8393 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 7625 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 7625 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3365 50  0001 L CNN
 	1    8125 3025
 	0    -1   -1   0   
@@ -1504,7 +1504,7 @@ U 1 1 5D5174AC
 P 5725 3025
 F 0 "U22" V 6076 3020 50  0000 C CNN
 F 1 "5161AS" V 5993 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 5225 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 5225 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3365 50  0001 L CNN
 	1    5725 3025
 	0    -1   -1   0   
@@ -1515,7 +1515,7 @@ U 1 1 5DA62C7E
 P 875 4100
 F 0 "J1" V 1024 3973 50  0000 R CNN
 F 1 "B5B-XH-A_LF__SN_" V 1115 3973 50  0000 R CNN
-F 2 "digikey-footprints:PinHeader_1x5_P2.5mm_Drill1.1mm" H 1075 4300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1075 4300 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4400 60  0001 L CNN
 F 4 "455-2270-ND" H 1075 4500 60  0001 L CNN "Digi-Key_PN"
 F 5 "B5B-XH-A(LF)(SN)" H 1075 4600 60  0001 L CNN "MPN"
@@ -1579,7 +1579,7 @@ U 1 1 5D53167A
 P 1600 5350
 F 0 "J2" V 1375 5406 50  0000 C CNN
 F 1 "B3B-PH-K-S_LF__SN_" V 1466 5406 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2mm_Drill1mm" H 1800 5550 60  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 1800 5550 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 5650 60  0001 L CNN
 F 4 "455-1705-ND" H 1800 5750 60  0001 L CNN "Digi-Key_PN"
 F 5 "B3B-PH-K-S(LF)(SN)" H 1800 5850 60  0001 L CNN "MPN"
@@ -1885,7 +1885,7 @@ U 1 1 5D50695A
 P 8125 1300
 F 0 "U31" V 8476 1295 50  0000 C CNN
 F 1 "5161AS" V 8393 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 7625 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 7625 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 1640 50  0001 L CNN
 	1    8125 1300
 	0    -1   -1   0   
@@ -1896,7 +1896,7 @@ U 1 1 5D517646
 P 2150 1300
 F 0 "U1" V 2501 1295 50  0000 C CNN
 F 1 "5161AS" V 2418 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 1640 50  0001 L CNN
 	1    2150 1300
 	0    -1   -1   0   
@@ -1907,7 +1907,7 @@ U 1 1 5D5175FC
 P 2150 1875
 F 0 "U2" V 2501 1870 50  0000 C CNN
 F 1 "5161AS" V 2418 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2215 50  0001 L CNN
 	1    2150 1875
 	0    -1   -1   0   
@@ -1918,7 +1918,7 @@ U 1 1 5D5175F6
 P 2150 2450
 F 0 "U3" V 2501 2445 50  0000 C CNN
 F 1 "5161AS" V 2418 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2790 50  0001 L CNN
 	1    2150 2450
 	0    -1   -1   0   
@@ -1929,7 +1929,7 @@ U 1 1 5D5175F0
 P 2150 3025
 F 0 "U4" V 2501 3020 50  0000 C CNN
 F 1 "5161AS" V 2418 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3365 50  0001 L CNN
 	1    2150 3025
 	0    -1   -1   0   
@@ -1940,7 +1940,7 @@ U 1 1 5D5175E4
 P 2150 4700
 F 0 "U6" V 2196 5188 50  0000 L CNN
 F 1 "74HC595" V 2105 5188 50  0000 L CNN
-F 2 "" H 2150 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2150 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2150 4700 50  0001 C CNN
 	1    2150 4700
 	0    -1   -1   0   
@@ -1951,7 +1951,7 @@ U 1 1 5D5175DA
 P 3350 1300
 F 0 "U7" V 3701 1295 50  0000 C CNN
 F 1 "5161AS" V 3618 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 1640 50  0001 L CNN
 	1    3350 1300
 	0    -1   -1   0   
@@ -1962,7 +1962,7 @@ U 1 1 5D51758A
 P 3350 2450
 F 0 "U9" V 3701 2445 50  0000 C CNN
 F 1 "5161AS" V 3618 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2790 50  0001 L CNN
 	1    3350 2450
 	0    -1   -1   0   
@@ -1973,7 +1973,7 @@ U 1 1 5D517584
 P 3350 3025
 F 0 "U10" V 3701 3020 50  0000 C CNN
 F 1 "5161AS" V 3618 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3365 50  0001 L CNN
 	1    3350 3025
 	0    -1   -1   0   
@@ -1984,7 +1984,7 @@ U 1 1 5D51757E
 P 3350 3600
 F 0 "U11" V 3701 3595 50  0000 C CNN
 F 1 "5161AS" V 3618 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3940 50  0001 L CNN
 	1    3350 3600
 	0    -1   -1   0   
@@ -1995,7 +1995,7 @@ U 1 1 5D517578
 P 3350 4700
 F 0 "U12" V 3396 5188 50  0000 L CNN
 F 1 "74HC595" V 3305 5188 50  0000 L CNN
-F 2 "" H 3350 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3350 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3350 4700 50  0001 C CNN
 	1    3350 4700
 	0    -1   -1   0   
@@ -2006,7 +2006,7 @@ U 1 1 5D51756E
 P 4525 1300
 F 0 "U13" V 4876 1295 50  0000 C CNN
 F 1 "5161AS" V 4793 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 4025 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 4025 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 1640 50  0001 L CNN
 	1    4525 1300
 	0    -1   -1   0   
@@ -2017,7 +2017,7 @@ U 1 1 5D517524
 P 4525 1875
 F 0 "U14" V 4876 1870 50  0000 C CNN
 F 1 "5161AS" V 4793 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 4025 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 4025 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2215 50  0001 L CNN
 	1    4525 1875
 	0    -1   -1   0   
@@ -2028,7 +2028,7 @@ U 1 1 5D51751E
 P 4525 2450
 F 0 "U15" V 4876 2445 50  0000 C CNN
 F 1 "5161AS" V 4793 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 4025 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 4025 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2790 50  0001 L CNN
 	1    4525 2450
 	0    -1   -1   0   
@@ -2039,7 +2039,7 @@ U 1 1 5D517518
 P 4525 3025
 F 0 "U16" V 4876 3020 50  0000 C CNN
 F 1 "5161AS" V 4793 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 4025 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 4025 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3365 50  0001 L CNN
 	1    4525 3025
 	0    -1   -1   0   
@@ -2050,7 +2050,7 @@ U 1 1 5D517512
 P 4525 3600
 F 0 "U17" V 4876 3595 50  0000 C CNN
 F 1 "5161AS" V 4793 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 4025 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 4025 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3940 50  0001 L CNN
 	1    4525 3600
 	0    -1   -1   0   
@@ -2061,7 +2061,7 @@ U 1 1 5D51750C
 P 4525 4700
 F 0 "U18" V 4571 5188 50  0000 L CNN
 F 1 "74HC595" V 4480 5188 50  0000 L CNN
-F 2 "" H 4525 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4525 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4525 4700 50  0001 C CNN
 	1    4525 4700
 	0    -1   -1   0   
@@ -2072,7 +2072,7 @@ U 1 1 5D517502
 P 5725 1300
 F 0 "U19" V 6076 1295 50  0000 C CNN
 F 1 "5161AS" V 5993 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 5225 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 5225 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 1640 50  0001 L CNN
 	1    5725 1300
 	0    -1   -1   0   
@@ -2083,7 +2083,7 @@ U 1 1 5D5174B8
 P 5725 1875
 F 0 "U20" V 6076 1870 50  0000 C CNN
 F 1 "5161AS" V 5993 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 5225 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 5225 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2215 50  0001 L CNN
 	1    5725 1875
 	0    -1   -1   0   
@@ -2094,7 +2094,7 @@ U 1 1 5D5174B2
 P 5725 2450
 F 0 "U21" V 6076 2445 50  0000 C CNN
 F 1 "5161AS" V 5993 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 5225 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 5225 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2790 50  0001 L CNN
 	1    5725 2450
 	0    -1   -1   0   
@@ -2105,7 +2105,7 @@ U 1 1 5D5174A6
 P 5725 3600
 F 0 "U23" V 6076 3595 50  0000 C CNN
 F 1 "5161AS" V 5993 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 5225 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 5225 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3940 50  0001 L CNN
 	1    5725 3600
 	0    -1   -1   0   
@@ -2116,7 +2116,7 @@ U 1 1 5D5174A0
 P 5725 4700
 F 0 "U24" V 5771 5188 50  0000 L CNN
 F 1 "74HC595" V 5680 5188 50  0000 L CNN
-F 2 "" H 5725 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5725 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5725 4700 50  0001 C CNN
 	1    5725 4700
 	0    -1   -1   0   
@@ -2127,7 +2127,7 @@ U 1 1 5D5069C6
 P 6925 1300
 F 0 "U25" V 7276 1295 50  0000 C CNN
 F 1 "5161AS" V 7193 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 6425 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 6425 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 1640 50  0001 L CNN
 	1    6925 1300
 	0    -1   -1   0   
@@ -2138,7 +2138,7 @@ U 1 1 5D50697C
 P 6925 1875
 F 0 "U26" V 7276 1870 50  0000 C CNN
 F 1 "5161AS" V 7193 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 6425 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 6425 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2215 50  0001 L CNN
 	1    6925 1875
 	0    -1   -1   0   
@@ -2149,7 +2149,7 @@ U 1 1 5D506976
 P 6925 2450
 F 0 "U27" V 7276 2445 50  0000 C CNN
 F 1 "5161AS" V 7193 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 6425 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 6425 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2790 50  0001 L CNN
 	1    6925 2450
 	0    -1   -1   0   
@@ -2160,7 +2160,7 @@ U 1 1 5D506970
 P 6925 3025
 F 0 "U28" V 7276 3020 50  0000 C CNN
 F 1 "5161AS" V 7193 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 6425 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 6425 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3365 50  0001 L CNN
 	1    6925 3025
 	0    -1   -1   0   
@@ -2171,7 +2171,7 @@ U 1 1 5D50696A
 P 6925 3600
 F 0 "U29" V 7276 3595 50  0000 C CNN
 F 1 "5161AS" V 7193 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 6425 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 6425 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3940 50  0001 L CNN
 	1    6925 3600
 	0    -1   -1   0   
@@ -2182,7 +2182,7 @@ U 1 1 5D506964
 P 6925 4700
 F 0 "U30" V 6971 5188 50  0000 L CNN
 F 1 "74HC595" V 6880 5188 50  0000 L CNN
-F 2 "" H 6925 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6925 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6925 4700 50  0001 C CNN
 	1    6925 4700
 	0    -1   -1   0   
@@ -2193,7 +2193,7 @@ U 1 1 5D506910
 P 8125 1875
 F 0 "U32" V 8476 1870 50  0000 C CNN
 F 1 "5161AS" V 8393 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 7625 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 7625 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2215 50  0001 L CNN
 	1    8125 1875
 	0    -1   -1   0   
@@ -2204,7 +2204,7 @@ U 1 1 5D50690A
 P 8125 2450
 F 0 "U33" V 8476 2445 50  0000 C CNN
 F 1 "5161AS" V 8393 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 7625 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 7625 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2790 50  0001 L CNN
 	1    8125 2450
 	0    -1   -1   0   
@@ -2215,7 +2215,7 @@ U 1 1 5D5068FE
 P 8125 3600
 F 0 "U35" V 8476 3595 50  0000 C CNN
 F 1 "5161AS" V 8393 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 7625 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 7625 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3940 50  0001 L CNN
 	1    8125 3600
 	0    -1   -1   0   
@@ -2226,7 +2226,7 @@ U 1 1 5D5068F8
 P 8125 4700
 F 0 "U36" V 8171 5188 50  0000 L CNN
 F 1 "74HC595" V 8080 5188 50  0000 L CNN
-F 2 "" H 8125 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8125 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8125 4700 50  0001 C CNN
 	1    8125 4700
 	0    -1   -1   0   
@@ -2237,7 +2237,7 @@ U 1 1 5D4FF568
 P 9300 1300
 F 0 "U37" V 9651 1295 50  0000 C CNN
 F 1 "5161AS" V 9568 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 8800 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 8800 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 1640 50  0001 L CNN
 	1    9300 1300
 	0    -1   -1   0   
@@ -2248,7 +2248,7 @@ U 1 1 5D4FF518
 P 9300 2450
 F 0 "U39" V 9651 2445 50  0000 C CNN
 F 1 "5161AS" V 9568 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 8800 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 8800 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2790 50  0001 L CNN
 	1    9300 2450
 	0    -1   -1   0   
@@ -2259,7 +2259,7 @@ U 1 1 5D4FF512
 P 9300 3025
 F 0 "U40" V 9651 3020 50  0000 C CNN
 F 1 "5161AS" V 9568 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 8800 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 8800 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3365 50  0001 L CNN
 	1    9300 3025
 	0    -1   -1   0   
@@ -2270,7 +2270,7 @@ U 1 1 5D4FF50C
 P 9300 3600
 F 0 "U41" V 9651 3595 50  0000 C CNN
 F 1 "5161AS" V 9568 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 8800 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 8800 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3940 50  0001 L CNN
 	1    9300 3600
 	0    -1   -1   0   
@@ -2281,7 +2281,7 @@ U 1 1 5D4FF506
 P 9300 4700
 F 0 "U42" V 9346 5188 50  0000 L CNN
 F 1 "74HC595" V 9255 5188 50  0000 L CNN
-F 2 "" H 9300 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9300 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 4700 50  0001 C CNN
 	1    9300 4700
 	0    -1   -1   0   
@@ -2292,7 +2292,7 @@ U 1 1 5D4F5D81
 P 10500 1300
 F 0 "U43" V 10851 1295 50  0000 C CNN
 F 1 "5161AS" V 10768 1295 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 10000 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 10000 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 1640 50  0001 L CNN
 	1    10500 1300
 	0    -1   -1   0   
@@ -2303,7 +2303,7 @@ U 1 1 5D4F5D53
 P 10500 1875
 F 0 "U44" V 10851 1870 50  0000 C CNN
 F 1 "5161AS" V 10768 1870 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 10000 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 10000 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2215 50  0001 L CNN
 	1    10500 1875
 	0    -1   -1   0   
@@ -2314,7 +2314,7 @@ U 1 1 5D4F5D2F
 P 10500 2450
 F 0 "U45" V 10851 2445 50  0000 C CNN
 F 1 "5161AS" V 10768 2445 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 10000 1700 50  0001 L CNN
+F 2 "HariLib:5161AS" H 10000 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2790 50  0001 L CNN
 	1    10500 2450
 	0    -1   -1   0   
@@ -2325,7 +2325,7 @@ U 1 1 5D4F5CE4
 P 10500 3025
 F 0 "U46" V 10851 3020 50  0000 C CNN
 F 1 "5161AS" V 10768 3020 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 10000 2275 50  0001 L CNN
+F 2 "HariLib:5161AS" H 10000 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3365 50  0001 L CNN
 	1    10500 3025
 	0    -1   -1   0   
@@ -2336,7 +2336,7 @@ U 1 1 5D4F5ADF
 P 10500 3600
 F 0 "U47" V 10851 3595 50  0000 C CNN
 F 1 "5161AS" V 10768 3595 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 10000 2850 50  0001 L CNN
+F 2 "HariLib:5161AS" H 10000 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3940 50  0001 L CNN
 	1    10500 3600
 	0    -1   -1   0   
@@ -2347,7 +2347,7 @@ U 1 1 5D4F596C
 P 10500 4700
 F 0 "U48" V 10546 5188 50  0000 L CNN
 F 1 "74HC595" V 10455 5188 50  0000 L CNN
-F 2 "" H 10500 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 10500 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10500 4700 50  0001 C CNN
 	1    10500 4700
 	0    -1   -1   0   

@@ -487,6 +487,11 @@
       (net 12 "Net-(RN1-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module EXB-2HV221JV:EXB-2HV221JV (layer F.Cu) (tedit 0) (tstamp 5D66925E)
@@ -585,6 +590,11 @@
       (net 26 "Net-(RN1-Pad2)"))
     (pad 1 smd rect (at -0.9652 -1.778 90) (size 0.6858 0.2032) (layers F.Cu F.Paste F.Mask)
       (net 27 "Net-(RN1-Pad1)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6695AE)
@@ -663,6 +673,11 @@
       (net 12 "Net-(RN1-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6694BA)
@@ -741,6 +756,11 @@
       (net 12 "Net-(RN1-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6694F7)
@@ -819,6 +839,11 @@
       (net 12 "Net-(RN1-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669534)
@@ -897,6 +922,11 @@
       (net 12 "Net-(RN1-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D66960D)
@@ -975,6 +1005,11 @@
       (net 43 "Net-(RN2-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D66964A)
@@ -1053,6 +1088,11 @@
       (net 43 "Net-(RN2-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669687)
@@ -1131,6 +1171,11 @@
       (net 43 "Net-(RN2-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6696C4)
@@ -1209,6 +1254,11 @@
       (net 43 "Net-(RN2-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669701)
@@ -1287,6 +1337,11 @@
       (net 43 "Net-(RN2-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669760)
@@ -1365,6 +1420,11 @@
       (net 44 "Net-(RN3-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D66979D)
@@ -1443,6 +1503,11 @@
       (net 44 "Net-(RN3-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6697DA)
@@ -1521,6 +1586,11 @@
       (net 44 "Net-(RN3-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669817)
@@ -1599,6 +1669,11 @@
       (net 44 "Net-(RN3-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669854)
@@ -1677,6 +1752,11 @@
       (net 44 "Net-(RN3-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6698B3)
@@ -1755,6 +1835,11 @@
       (net 75 "Net-(RN4-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6698F0)
@@ -1833,6 +1918,11 @@
       (net 75 "Net-(RN4-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D66992D)
@@ -1911,6 +2001,11 @@
       (net 75 "Net-(RN4-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D66996A)
@@ -1989,6 +2084,11 @@
       (net 75 "Net-(RN4-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6699A7)
@@ -2067,6 +2167,11 @@
       (net 75 "Net-(RN4-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669A06)
@@ -2145,6 +2250,11 @@
       (net 76 "Net-(RN5-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669A43)
@@ -2223,6 +2333,11 @@
       (net 76 "Net-(RN5-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669A80)
@@ -2301,6 +2416,11 @@
       (net 76 "Net-(RN5-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669ABD)
@@ -2379,6 +2499,11 @@
       (net 76 "Net-(RN5-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669AFA)
@@ -2457,6 +2582,11 @@
       (net 76 "Net-(RN5-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669B59)
@@ -2535,6 +2665,11 @@
       (net 107 "Net-(RN6-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669B96)
@@ -2613,6 +2748,11 @@
       (net 107 "Net-(RN6-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669BD3)
@@ -2691,6 +2831,11 @@
       (net 107 "Net-(RN6-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669C10)
@@ -2769,6 +2914,11 @@
       (net 107 "Net-(RN6-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D6C4C84)
@@ -2848,9 +2998,9 @@
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
     (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 8.199999999999999))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -2930,6 +3080,11 @@
       (net 108 "Net-(RN7-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669CE9)
@@ -3008,6 +3163,11 @@
       (net 108 "Net-(RN7-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669D26)
@@ -3086,6 +3246,11 @@
       (net 108 "Net-(RN7-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669D63)
@@ -3164,6 +3329,11 @@
       (net 108 "Net-(RN7-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669DA0)
@@ -3325,6 +3495,11 @@
       (net 139 "Net-(RN8-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "Net-(Q3-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669E3C)
@@ -3403,6 +3578,11 @@
       (net 139 "Net-(RN8-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 "Net-(Q1-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669E79)
@@ -3481,6 +3661,11 @@
       (net 139 "Net-(RN8-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(Q4-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669EB6)
@@ -3559,6 +3744,11 @@
       (net 139 "Net-(RN8-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(Q2-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module HariLib:5161AS (layer F.Cu) (tedit 5D67BB81) (tstamp 5D669EF3)
@@ -3637,6 +3827,11 @@
       (net 139 "Net-(RN8-Pad16)"))
     (pad 8 thru_hole circle (at 6.3 1.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 11 "Net-(Q5-Pad2)"))
+    (model C:/Users/hwiguna/Documents/GitHub/Hari/HariFun_KiCad_Footprint_Libraries/HariLib.pretty/packages3d/5161AS.step
+      (offset (xyz 0 0 8.199999999999999))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5D5974F8)

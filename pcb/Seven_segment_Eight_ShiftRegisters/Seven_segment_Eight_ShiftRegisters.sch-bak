@@ -14,98 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	10100 1575 10100 1600
-Wire Wire Line
-	10200 1575 10200 1600
-Wire Wire Line
-	10300 1575 10300 1600
-Wire Wire Line
-	10400 1600 10400 2175
-Connection ~ 10400 2175
-Wire Wire Line
-	10400 2175 10400 2750
-Connection ~ 10400 2750
-Wire Wire Line
-	10400 2750 10400 3325
-Connection ~ 10400 3325
-Wire Wire Line
-	10400 3325 10400 3900
-Connection ~ 10500 2175
-Wire Wire Line
-	10500 2175 10500 2750
-Connection ~ 10500 2750
-Wire Wire Line
-	10500 2750 10500 3325
-Connection ~ 10500 3325
-Wire Wire Line
-	10500 3325 10500 3900
-Connection ~ 10600 2750
-Wire Wire Line
-	10600 2750 10600 3325
-Connection ~ 10600 3325
-Wire Wire Line
-	10600 3325 10600 3900
-Wire Wire Line
-	10700 2175 10700 2750
-Connection ~ 10700 2750
-Wire Wire Line
-	10700 2750 10700 3325
-Connection ~ 10700 3325
-Wire Wire Line
-	10700 3325 10700 3900
-Wire Wire Line
-	10500 1600 10500 2175
-Wire Wire Line
-	10600 2175 10600 2750
-Wire Wire Line
-	10600 1600 10600 2175
-Connection ~ 10600 2175
-Wire Wire Line
-	10700 1600 10700 2175
-Connection ~ 10700 2175
-Connection ~ 8900 2750
-Wire Wire Line
-	8900 2750 8900 3325
-Connection ~ 8900 3325
-Wire Wire Line
-	8900 3325 8900 3900
-Connection ~ 9000 2750
-Wire Wire Line
-	9000 2750 9000 3325
-Connection ~ 9000 3325
-Wire Wire Line
-	9000 3325 9000 3900
-Connection ~ 9100 2750
-Wire Wire Line
-	9100 2750 9100 3325
-Connection ~ 9100 3325
-Wire Wire Line
-	9100 3325 9100 3900
-Connection ~ 9200 2750
-Wire Wire Line
-	9200 2750 9200 3325
-Connection ~ 9200 3325
-Wire Wire Line
-	9200 3325 9200 3900
-Connection ~ 9300 2750
-Wire Wire Line
-	9300 2750 9300 3325
-Connection ~ 9300 3325
-Wire Wire Line
-	9300 3325 9300 3900
-Connection ~ 9400 2750
-Wire Wire Line
-	9400 2750 9400 3325
-Connection ~ 9400 3325
-Wire Wire Line
-	9400 3325 9400 3900
-Connection ~ 9500 2750
-Wire Wire Line
-	9500 2750 9500 3325
-Connection ~ 9500 3325
-Wire Wire Line
-	9500 3325 9500 3900
 Connection ~ 9600 2750
 Wire Wire Line
 	9600 2750 9600 3325
@@ -113,242 +21,32 @@ Connection ~ 9600 3325
 Wire Wire Line
 	9600 3325 9600 3900
 Wire Wire Line
-	7725 1600 7725 2175
-Connection ~ 7725 2175
-Wire Wire Line
-	7725 2175 7725 2750
-Connection ~ 7725 2750
-Wire Wire Line
-	7825 1600 7825 2175
-Connection ~ 7825 2175
-Wire Wire Line
-	7825 2175 7825 2750
-Connection ~ 7825 2750
-Wire Wire Line
-	7925 1600 7925 2175
-Connection ~ 7925 2175
-Wire Wire Line
-	7925 2175 7925 2750
-Connection ~ 7925 2750
-Wire Wire Line
-	8025 1600 8025 2175
-Connection ~ 8025 2175
-Wire Wire Line
-	8025 2175 8025 2750
-Connection ~ 8025 2750
-Connection ~ 8125 2175
-Wire Wire Line
-	8125 2175 8125 2750
-Connection ~ 8125 2750
-Connection ~ 8225 2750
-Wire Wire Line
-	8325 2175 8325 2750
-Connection ~ 8325 2750
-Wire Wire Line
 	8425 1600 8425 2175
 Connection ~ 8425 2175
 Wire Wire Line
 	8425 2175 8425 2750
 Connection ~ 8425 2750
 Wire Wire Line
-	8125 1600 8125 2175
-Wire Wire Line
-	8225 2175 8225 2750
-Wire Wire Line
-	8225 1600 8225 2175
-Connection ~ 8225 2175
-Wire Wire Line
-	8325 1600 8325 2175
-Connection ~ 8325 2175
-Wire Wire Line
-	6725 1600 6725 2175
-Wire Wire Line
-	6825 1600 6825 2175
-Connection ~ 6925 2175
-Wire Wire Line
-	6925 2175 6925 2750
-Connection ~ 6925 2750
-Wire Wire Line
-	6925 2750 6925 3325
-Connection ~ 6925 3325
-Wire Wire Line
-	6925 3325 6925 3900
-Connection ~ 7025 2750
-Wire Wire Line
-	7025 2750 7025 3325
-Connection ~ 7025 3325
-Wire Wire Line
-	7025 3325 7025 3900
-Wire Wire Line
-	7125 2175 7125 2750
-Connection ~ 7125 2750
-Wire Wire Line
-	7125 2750 7125 3325
-Connection ~ 7125 3325
-Wire Wire Line
-	7125 3325 7125 3900
-Wire Wire Line
 	7225 1600 7225 2175
-Wire Wire Line
-	7025 2175 7025 2750
-Connection ~ 7025 2175
-Connection ~ 7125 2175
-Wire Wire Line
-	5625 1600 5625 2175
-Connection ~ 5625 2175
-Wire Wire Line
-	5625 2175 5625 2750
-Connection ~ 5725 2175
-Wire Wire Line
-	5725 2175 5725 2750
-Wire Wire Line
-	5925 2175 5925 2750
 Wire Wire Line
 	6025 1600 6025 2175
 Connection ~ 6025 2175
 Wire Wire Line
 	6025 2175 6025 2750
 Wire Wire Line
-	5725 1600 5725 2175
-Wire Wire Line
-	5825 2175 5825 2750
-Wire Wire Line
-	5825 1600 5825 2175
-Connection ~ 5825 2175
-Wire Wire Line
-	5925 1600 5925 2175
-Connection ~ 5925 2175
-Connection ~ 4525 2175
-Wire Wire Line
-	4525 2175 4525 2750
-Connection ~ 4525 2750
-Wire Wire Line
-	4525 2750 4525 3325
-Connection ~ 4525 3325
-Wire Wire Line
-	4525 3325 4525 3900
-Connection ~ 4625 2750
-Wire Wire Line
-	4625 2750 4625 3325
-Connection ~ 4625 3325
-Wire Wire Line
-	4625 3325 4625 3900
-Wire Wire Line
-	4525 1600 4525 2175
-Wire Wire Line
-	4625 2175 4625 2750
-Wire Wire Line
-	4625 1600 4625 2175
-Connection ~ 4625 2175
-Wire Wire Line
-	4725 1600 4725 2175
-Connection ~ 3050 2750
-Wire Wire Line
-	3050 2750 3050 3325
-Connection ~ 3050 3325
-Wire Wire Line
-	3050 3325 3050 3900
-Connection ~ 3150 2750
-Wire Wire Line
-	3150 2750 3150 3325
-Connection ~ 3150 3325
-Wire Wire Line
-	3150 3325 3150 3900
-Connection ~ 3250 2750
-Wire Wire Line
-	3250 2750 3250 3325
-Connection ~ 3250 3325
-Wire Wire Line
-	3250 3325 3250 3900
-Connection ~ 3350 2750
-Wire Wire Line
-	3350 2750 3350 3325
-Connection ~ 3350 3325
-Wire Wire Line
-	3350 3325 3350 3900
-Connection ~ 3450 2750
-Wire Wire Line
-	3450 2750 3450 3325
-Connection ~ 3450 3325
-Wire Wire Line
-	3450 3325 3450 3900
-Connection ~ 3550 2750
-Wire Wire Line
-	3550 2750 3550 3325
-Connection ~ 3550 3325
-Wire Wire Line
-	3550 3325 3550 3900
-Wire Wire Line
-	1750 1600 1750 2175
-Connection ~ 1750 2175
-Wire Wire Line
-	1750 2175 1750 2750
-Connection ~ 1750 2750
-Wire Wire Line
-	1750 2750 1750 3325
-Connection ~ 1750 3325
-Wire Wire Line
-	1750 3325 1750 3900
-Wire Wire Line
 	1750 4175 1750 4200
-Wire Wire Line
-	1850 1600 1850 2175
-Connection ~ 1850 2175
-Wire Wire Line
-	1850 2175 1850 2750
-Connection ~ 1850 2750
-Wire Wire Line
-	1850 2750 1850 3325
-Connection ~ 1850 3325
 Wire Wire Line
 	1850 4175 1850 4200
 Wire Wire Line
-	1950 1600 1950 2175
-Connection ~ 1950 2175
-Wire Wire Line
-	1950 2175 1950 2750
-Connection ~ 1950 2750
-Wire Wire Line
-	1950 2750 1950 3325
-Connection ~ 1950 3325
-Wire Wire Line
 	1950 4175 1950 4200
 Wire Wire Line
-	2050 1600 2050 2175
-Connection ~ 2050 2175
-Wire Wire Line
-	2050 2175 2050 2750
-Connection ~ 2050 2750
-Wire Wire Line
-	2050 2750 2050 3325
-Connection ~ 2050 3325
-Wire Wire Line
 	2050 4175 2050 4200
-Connection ~ 2150 2175
-Wire Wire Line
-	2150 2175 2150 2750
-Connection ~ 2150 2750
-Wire Wire Line
-	2150 2750 2150 3325
-Connection ~ 2150 3325
 Wire Wire Line
 	2150 4175 2150 4200
-Connection ~ 2250 2750
-Wire Wire Line
-	2250 2750 2250 3325
-Connection ~ 2250 3325
 Wire Wire Line
 	2250 4175 2250 4200
 Wire Wire Line
-	2350 2175 2350 2750
-Connection ~ 2350 2750
-Wire Wire Line
-	2350 2750 2350 3325
-Connection ~ 2350 3325
-Wire Wire Line
 	2350 4175 2350 4200
-Wire Wire Line
-	2450 1600 2450 2175
 Connection ~ 2450 2175
 Wire Wire Line
 	2450 2175 2450 2750
@@ -359,16 +57,6 @@ Connection ~ 2450 3325
 Wire Wire Line
 	2450 4175 2450 4200
 Wire Wire Line
-	2150 1600 2150 2175
-Wire Wire Line
-	2250 2175 2250 2750
-Wire Wire Line
-	2250 1600 2250 2175
-Connection ~ 2250 2175
-Wire Wire Line
-	2350 1600 2350 2175
-Connection ~ 2350 2175
-Wire Wire Line
 	1375 3450 2700 3450
 Wire Wire Line
 	2700 3450 2700 3550
@@ -377,17 +65,11 @@ Wire Wire Line
 	3900 3450 5075 3450
 Wire Wire Line
 	5075 3425 5075 3450
-Connection ~ 2950 2750
-Connection ~ 2950 3325
 Connection ~ 3650 2750
 Connection ~ 3650 3325
 Connection ~ 3900 3450
 Wire Wire Line
 	3900 3450 3900 3425
-Wire Wire Line
-	2950 2750 2950 3325
-Wire Wire Line
-	2950 3325 2950 3900
 Wire Wire Line
 	3650 2750 3650 3325
 Wire Wire Line
@@ -396,63 +78,10 @@ Wire Wire Line
 	2700 1150 3900 1150
 Wire Wire Line
 	3900 1150 5075 1150
-Connection ~ 4725 2175
-Wire Wire Line
-	4725 3325 4725 3900
-Connection ~ 4725 3325
-Wire Wire Line
-	4725 2750 4725 3325
-Connection ~ 4725 2750
-Wire Wire Line
-	4725 2175 4725 2750
-Connection ~ 4125 2175
-Connection ~ 4125 2750
-Connection ~ 4125 3325
-Connection ~ 4225 2175
-Connection ~ 4225 2750
-Connection ~ 4225 3325
-Connection ~ 4325 2175
-Connection ~ 4325 2750
-Connection ~ 4325 3325
-Connection ~ 4425 2175
-Connection ~ 4425 2750
-Connection ~ 4425 3325
 Connection ~ 4825 2175
 Connection ~ 4825 2750
 Connection ~ 4825 3325
 Connection ~ 5075 3450
-Wire Wire Line
-	4325 1600 4325 2175
-Wire Wire Line
-	4325 2175 4325 2750
-Wire Wire Line
-	4325 2750 4325 3325
-Wire Wire Line
-	4325 3325 4325 3900
-Wire Wire Line
-	4425 1600 4425 2175
-Wire Wire Line
-	4425 2175 4425 2750
-Wire Wire Line
-	4425 2750 4425 3325
-Wire Wire Line
-	4425 3325 4425 3900
-Wire Wire Line
-	4225 3325 4225 3900
-Wire Wire Line
-	4225 2750 4225 3325
-Wire Wire Line
-	4225 2175 4225 2750
-Wire Wire Line
-	4225 1600 4225 2175
-Wire Wire Line
-	4125 3325 4125 3900
-Wire Wire Line
-	4125 2750 4125 3325
-Wire Wire Line
-	4125 2175 4125 2750
-Wire Wire Line
-	4125 1600 4125 2175
 Wire Wire Line
 	4825 1600 4825 2175
 Wire Wire Line
@@ -462,28 +91,9 @@ Wire Wire Line
 Wire Wire Line
 	4825 3325 4825 3900
 Connection ~ 3900 1150
-Connection ~ 5325 2175
-Connection ~ 5425 2175
-Connection ~ 5525 2175
-Wire Wire Line
-	5325 1600 5325 2175
-Wire Wire Line
-	5325 2175 5325 2750
-Wire Wire Line
-	5425 1600 5425 2175
-Wire Wire Line
-	5425 2175 5425 2750
-Wire Wire Line
-	5525 1600 5525 2175
-Wire Wire Line
-	5525 2175 5525 2750
 Wire Wire Line
 	5075 1150 6275 1150
 Connection ~ 5075 1150
-Wire Wire Line
-	6525 1600 6525 2175
-Wire Wire Line
-	6625 1600 6625 2175
 Wire Wire Line
 	6275 1150 7475 1150
 Wire Wire Line
@@ -493,45 +103,9 @@ Connection ~ 8675 1150
 Connection ~ 7475 1150
 Wire Wire Line
 	7475 1150 8675 1150
-Connection ~ 10100 1600
-Connection ~ 10100 2175
-Connection ~ 10100 2750
-Connection ~ 10100 3325
-Connection ~ 10200 1600
-Connection ~ 10200 2175
-Connection ~ 10200 2750
-Connection ~ 10200 3325
-Connection ~ 10300 1600
-Connection ~ 10300 2175
-Connection ~ 10300 2750
-Connection ~ 10300 3325
 Connection ~ 10800 1600
 Connection ~ 10800 2175
 Connection ~ 10800 2750
-Wire Wire Line
-	10100 1600 10100 2175
-Wire Wire Line
-	10100 2175 10100 2750
-Wire Wire Line
-	10100 2750 10100 3325
-Wire Wire Line
-	10100 3325 10100 3900
-Wire Wire Line
-	10200 1600 10200 2175
-Wire Wire Line
-	10200 2175 10200 2750
-Wire Wire Line
-	10200 2750 10200 3325
-Wire Wire Line
-	10200 3325 10200 3900
-Wire Wire Line
-	10300 1600 10300 2175
-Wire Wire Line
-	10300 2175 10300 2750
-Wire Wire Line
-	10300 2750 10300 3325
-Wire Wire Line
-	10300 3325 10300 3900
 Wire Wire Line
 	10800 1475 10800 1600
 Wire Wire Line
@@ -547,7 +121,6 @@ Wire Wire Line
 	9850 1250 9850 1150
 Wire Wire Line
 	11050 1150 11050 1250
-Connection ~ 11050 1150
 Wire Wire Line
 	2700 1150 2700 1250
 Connection ~ 2700 1150
@@ -567,62 +140,19 @@ Wire Wire Line
 	9850 3450 11050 3450
 Wire Wire Line
 	11050 3550 11050 3450
-Connection ~ 11050 3450
 Wire Wire Line
 	9850 3450 9850 3550
 Wire Wire Line
 	8675 3450 8675 3550
-Connection ~ 6525 2175
-Connection ~ 6525 2750
-Connection ~ 6525 3325
-Connection ~ 6625 2175
-Connection ~ 6625 2750
-Connection ~ 6625 3325
-Connection ~ 6725 2175
-Connection ~ 6725 2750
-Connection ~ 6725 3325
-Connection ~ 6825 2175
-Connection ~ 6825 2750
-Connection ~ 6825 3325
-Wire Wire Line
-	6925 1600 6925 2175
-Wire Wire Line
-	7025 1600 7025 2175
-Wire Wire Line
-	7125 1600 7125 2175
 Connection ~ 7225 2175
 Connection ~ 7225 2750
 Connection ~ 7225 3325
-Wire Wire Line
-	6725 2175 6725 2750
-Wire Wire Line
-	6725 2750 6725 3325
-Wire Wire Line
-	6725 3325 6725 3900
-Wire Wire Line
-	6825 2175 6825 2750
-Wire Wire Line
-	6825 2750 6825 3325
-Wire Wire Line
-	6825 3325 6825 3900
 Wire Wire Line
 	7225 2175 7225 2750
 Wire Wire Line
 	7225 2750 7225 3325
 Wire Wire Line
 	7225 3325 7225 3900
-Wire Wire Line
-	6525 2175 6525 2750
-Wire Wire Line
-	6525 2750 6525 3325
-Wire Wire Line
-	6525 3325 6525 3900
-Wire Wire Line
-	6625 2175 6625 2750
-Wire Wire Line
-	6625 2750 6625 3325
-Wire Wire Line
-	6625 3325 6625 3900
 Wire Wire Line
 	6275 3450 7475 3450
 Connection ~ 6275 3450
@@ -687,12 +217,10 @@ Wire Wire Line
 	5075 2400 5075 2300
 Wire Wire Line
 	11050 1825 11050 1725
-Connection ~ 11050 1725
 Wire Wire Line
 	9850 2300 11050 2300
 Wire Wire Line
 	11050 2300 11050 2400
-Connection ~ 11050 2300
 Wire Wire Line
 	1375 2300 2700 2300
 Wire Wire Line
@@ -883,21 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	5075 2975 5075 2875
 Wire Wire Line
-	5825 3325 5825 3900
-Wire Wire Line
-	5325 3325 5325 3900
-Wire Wire Line
-	5425 3325 5425 3900
-Wire Wire Line
 	6025 3325 6025 3900
-Wire Wire Line
-	5525 3325 5525 3900
-Wire Wire Line
-	5625 3325 5625 3900
-Wire Wire Line
-	5925 3325 5925 3900
-Wire Wire Line
-	5725 3325 5725 3900
 Wire Wire Line
 	6275 2875 7475 2875
 Wire Wire Line
@@ -907,7 +421,6 @@ Wire Wire Line
 Connection ~ 6275 2875
 Wire Wire Line
 	11050 2975 11050 2875
-Connection ~ 11050 2875
 Wire Wire Line
 	7475 2875 7475 2975
 Connection ~ 7475 2875
@@ -919,45 +432,13 @@ Connection ~ 7475 1725
 Wire Wire Line
 	7475 1725 8675 1725
 Wire Wire Line
-	8225 3325 8225 3900
-Wire Wire Line
-	8225 2750 8225 3325
-Connection ~ 8225 3325
-Wire Wire Line
 	7725 3325 7725 3900
-Wire Wire Line
-	7725 2750 7725 3325
 Connection ~ 7725 3325
-Wire Wire Line
-	7825 3325 7825 3900
-Wire Wire Line
-	7825 2750 7825 3325
-Connection ~ 7825 3325
 Wire Wire Line
 	8425 3325 8425 3900
 Wire Wire Line
 	8425 2750 8425 3325
 Connection ~ 8425 3325
-Wire Wire Line
-	7925 3325 7925 3900
-Wire Wire Line
-	7925 2750 7925 3325
-Connection ~ 7925 3325
-Wire Wire Line
-	8025 3325 8025 3900
-Wire Wire Line
-	8025 2750 8025 3325
-Connection ~ 8025 3325
-Wire Wire Line
-	8325 3325 8325 3900
-Wire Wire Line
-	8325 2750 8325 3325
-Connection ~ 8325 3325
-Wire Wire Line
-	8125 3325 8125 3900
-Wire Wire Line
-	8125 2750 8125 3325
-Connection ~ 8125 3325
 Wire Wire Line
 	7475 2875 8675 2875
 Wire Wire Line
@@ -969,21 +450,7 @@ Connection ~ 5075 1725
 Wire Wire Line
 	5075 1725 6275 1725
 Wire Wire Line
-	3450 2175 3450 2750
-Wire Wire Line
-	2950 2175 2950 2750
-Wire Wire Line
-	3050 2175 3050 2750
-Wire Wire Line
 	3650 2175 3650 2750
-Wire Wire Line
-	3150 2175 3150 2750
-Wire Wire Line
-	3250 2175 3250 2750
-Wire Wire Line
-	3550 2175 3550 2750
-Wire Wire Line
-	3350 2175 3350 2750
 Wire Wire Line
 	2700 1725 3900 1725
 Wire Wire Line
@@ -1025,44 +492,9 @@ Wire Wire Line
 Wire Wire Line
 	7725 3325 7750 3325
 Wire Wire Line
-	9300 2175 9300 2750
-Wire Wire Line
-	9500 2175 9500 2750
-Wire Wire Line
-	9200 2175 9200 2750
-Wire Wire Line
-	9100 2175 9100 2750
-Wire Wire Line
 	9600 2175 9600 2750
 Wire Wire Line
-	9000 2175 9000 2750
-Wire Wire Line
-	8900 2175 8900 2750
-Wire Wire Line
-	9400 2175 9400 2750
-Wire Wire Line
 	8675 1725 9850 1725
-Connection ~ 9000 2175
-Wire Wire Line
-	9000 1600 9000 2175
-Connection ~ 9100 2175
-Wire Wire Line
-	9100 1600 9100 2175
-Connection ~ 9200 2175
-Wire Wire Line
-	9200 1600 9200 2175
-Connection ~ 9300 2175
-Wire Wire Line
-	9300 1600 9300 2175
-Wire Wire Line
-	8900 1600 8900 2175
-Connection ~ 8900 2175
-Connection ~ 9400 2175
-Wire Wire Line
-	9400 1600 9400 2175
-Connection ~ 9500 2175
-Wire Wire Line
-	9500 1600 9500 2175
 Connection ~ 9600 2175
 Wire Wire Line
 	9600 1600 9600 2175
@@ -1070,58 +502,7 @@ Connection ~ 6025 3325
 Connection ~ 6025 2750
 Wire Wire Line
 	6025 2750 6025 3325
-Connection ~ 5925 3325
-Connection ~ 5925 2750
-Wire Wire Line
-	5925 2750 5925 3325
-Connection ~ 5825 3325
-Connection ~ 5825 2750
-Wire Wire Line
-	5825 2750 5825 3325
-Connection ~ 5725 3325
-Connection ~ 5725 2750
-Wire Wire Line
-	5725 2750 5725 3325
-Connection ~ 5625 3325
-Connection ~ 5625 2750
-Wire Wire Line
-	5625 2750 5625 3325
-Connection ~ 5525 3325
-Connection ~ 5525 2750
-Wire Wire Line
-	5525 2750 5525 3325
-Connection ~ 5425 3325
-Connection ~ 5425 2750
-Wire Wire Line
-	5425 2750 5425 3325
-Connection ~ 5325 3325
-Connection ~ 5325 2750
-Wire Wire Line
-	5325 2750 5325 3325
-Connection ~ 2950 2175
-Wire Wire Line
-	2950 1600 2950 2175
-Connection ~ 3050 2175
-Wire Wire Line
-	3050 1600 3050 2175
-Connection ~ 3150 2175
-Wire Wire Line
-	3150 1600 3150 2175
-Connection ~ 3250 2175
-Wire Wire Line
-	3250 1600 3250 2175
-Connection ~ 3350 2175
-Wire Wire Line
-	3350 1600 3350 2175
-Connection ~ 3450 2175
-Wire Wire Line
-	3450 1600 3450 2175
-Connection ~ 3550 2175
-Wire Wire Line
-	3550 1600 3550 2175
 Connection ~ 3650 2175
-Wire Wire Line
-	3650 1600 3650 2175
 Wire Wire Line
 	2050 5350 2700 5350
 Connection ~ 2700 5350
@@ -1130,87 +511,20 @@ Wire Wire Line
 Wire Wire Line
 	2700 4650 3900 4650
 Connection ~ 2450 3900
-Connection ~ 1850 3900
-Connection ~ 1950 3900
-Connection ~ 2050 3900
-Connection ~ 2150 3900
-Connection ~ 2250 3900
-Connection ~ 2350 3900
-Wire Wire Line
-	1850 3325 1850 3900
-Wire Wire Line
-	1950 3325 1950 3900
-Wire Wire Line
-	2050 3325 2050 3900
-Wire Wire Line
-	2150 3325 2150 3900
-Wire Wire Line
-	2250 3325 2250 3900
-Wire Wire Line
-	2350 3325 2350 3900
 Wire Wire Line
 	2450 3325 2450 3900
 Wire Wire Line
 	2700 3450 3900 3450
-Connection ~ 3550 3900
-Connection ~ 3450 3900
-Connection ~ 3350 3900
-Connection ~ 3250 3900
-Connection ~ 3150 3900
-Connection ~ 3050 3900
-Connection ~ 2950 3900
 Connection ~ 3650 3900
-Connection ~ 4725 3900
-Connection ~ 4625 3900
-Connection ~ 4525 3900
-Connection ~ 4425 3900
-Connection ~ 4325 3900
-Connection ~ 4225 3900
-Connection ~ 4125 3900
 Connection ~ 4825 3900
 Wire Wire Line
 	6125 4300 6425 4300
-Connection ~ 5925 3900
-Connection ~ 5825 3900
-Connection ~ 5725 3900
-Connection ~ 5625 3900
-Connection ~ 5525 3900
-Connection ~ 5425 3900
-Connection ~ 5325 3900
 Connection ~ 6025 3900
-Connection ~ 7125 3900
-Connection ~ 7025 3900
-Connection ~ 6925 3900
-Connection ~ 6825 3900
-Connection ~ 6725 3900
-Connection ~ 6625 3900
-Connection ~ 6525 3900
 Connection ~ 7225 3900
 Wire Wire Line
 	8525 4300 8800 4300
-Connection ~ 8325 3900
-Connection ~ 8225 3900
-Connection ~ 8125 3900
-Connection ~ 8025 3900
-Connection ~ 7925 3900
-Connection ~ 7825 3900
-Connection ~ 7725 3900
 Connection ~ 8425 3900
-Connection ~ 9500 3900
-Connection ~ 9400 3900
-Connection ~ 9300 3900
-Connection ~ 9200 3900
-Connection ~ 9100 3900
-Connection ~ 9000 3900
-Connection ~ 8900 3900
 Connection ~ 9600 3900
-Connection ~ 10700 3900
-Connection ~ 10600 3900
-Connection ~ 10500 3900
-Connection ~ 10400 3900
-Connection ~ 10300 3900
-Connection ~ 10200 3900
-Connection ~ 10100 3900
 Connection ~ 10800 3900
 Connection ~ 3900 4650
 Wire Wire Line
@@ -1311,15 +625,15 @@ F 3 "~" H 3350 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U5
+L HariLib:5161AS DS33
 U 1 1 5D5175EA
 P 2150 3600
-F 0 "U5" V 2501 3595 50  0000 C CNN
+F 0 "DS33" H 2150 3600 50  0000 C CNN
 F 1 "5161AS" V 2418 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 1650 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3940 50  0001 L CNN
 	1    2150 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Pack08 RN1
@@ -1353,10 +667,10 @@ F 12 "Active" H 1475 4850 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:TIP120 Q2
+L dk_Transistors-Bipolar-BJT-Single:TIP120 Q4
 U 1 1 5D5E1F28
 P 1250 3075
-F 0 "Q2" H 1438 3128 60  0000 L CNN
+F 0 "Q4" H 1438 3128 60  0000 L CNN
 F 1 "TIP120" H 1438 3022 60  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 3275 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" H 1450 3375 60  0001 L CNN
@@ -1373,10 +687,10 @@ F 12 "Active" H 1450 4275 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:TIP120 Q4
+L dk_Transistors-Bipolar-BJT-Single:TIP120 Q3
 U 1 1 5D5E1697
 P 1275 2500
-F 0 "Q4" H 1463 2553 60  0000 L CNN
+F 0 "Q3" H 1463 2553 60  0000 L CNN
 F 1 "TIP120" H 1463 2447 60  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1475 2700 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" H 1475 2800 60  0001 L CNN
@@ -1393,10 +707,10 @@ F 12 "Active" H 1475 3700 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:TIP120 Q1
+L dk_Transistors-Bipolar-BJT-Single:TIP120 Q2
 U 1 1 5D5E0E4E
 P 1250 1925
-F 0 "Q1" H 1438 1978 60  0000 L CNN
+F 0 "Q2" H 1438 1978 60  0000 L CNN
 F 1 "TIP120" H 1438 1872 60  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 2125 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" H 1450 2225 60  0001 L CNN
@@ -1413,10 +727,10 @@ F 12 "Active" H 1450 3125 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:TIP120 Q3
+L dk_Transistors-Bipolar-BJT-Single:TIP120 Q1
 U 1 1 5D5DF253
 P 1275 1350
-F 0 "Q3" H 1463 1403 60  0000 L CNN
+F 0 "Q1" H 1463 1403 60  0000 L CNN
 F 1 "TIP120" H 1463 1297 60  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1475 1550 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f9/ed/f5/44/26/b9/43/a4/CD00000911.pdf/files/CD00000911.pdf/jcr:content/translations/en.CD00000911.pdf" H 1475 1650 60  0001 L CNN
@@ -1433,10 +747,10 @@ F 12 "Active" H 1475 2550 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR025
+L power:+5V #PWR022
 U 1 1 5D5DE755
 P 2700 5350
-F 0 "#PWR025" H 2700 5200 50  0001 C CNN
+F 0 "#PWR022" H 2700 5200 50  0001 C CNN
 F 1 "+5V" H 2715 5523 50  0000 C CNN
 F 2 "" H 2700 5350 50  0001 C CNN
 F 3 "" H 2700 5350 50  0001 C CNN
@@ -1455,10 +769,10 @@ F 3 "" H 1475 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG02
 U 1 1 5D5D97DA
 P 1475 6100
-F 0 "#FLG03" H 1475 6175 50  0001 C CNN
+F 0 "#FLG02" H 1475 6175 50  0001 C CNN
 F 1 "PWR_FLAG" H 1475 6273 50  0000 C CNN
 F 2 "" H 1475 6100 50  0001 C CNN
 F 3 "~" H 1475 6100 50  0001 C CNN
@@ -1466,48 +780,48 @@ F 3 "~" H 1475 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HariLib:5161AS U38
+L HariLib:5161AS DS15
 U 1 1 5D59792E
 P 9300 1875
-F 0 "U38" V 9651 1870 50  0000 C CNN
+F 0 "DS15" H 9300 1875 50  0000 C CNN
 F 1 "5161AS" V 9568 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 8800 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2215 50  0001 L CNN
 	1    9300 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U8
+L HariLib:5161AS DS10
 U 1 1 5D517590
 P 3350 1875
-F 0 "U8" V 3701 1870 50  0000 C CNN
+F 0 "DS10" H 3350 1875 50  0000 C CNN
 F 1 "5161AS" V 3618 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 2850 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2215 50  0001 L CNN
 	1    3350 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U34
+L HariLib:5161AS DS30
 U 1 1 5D506904
 P 8125 3025
-F 0 "U34" V 8476 3020 50  0000 C CNN
+F 0 "DS30" H 8125 3025 50  0000 C CNN
 F 1 "5161AS" V 8393 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 7625 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3365 50  0001 L CNN
 	1    8125 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U22
+L HariLib:5161AS DS28
 U 1 1 5D5174AC
 P 5725 3025
-F 0 "U22" V 6076 3020 50  0000 C CNN
+F 0 "DS28" H 5725 3025 50  0000 C CNN
 F 1 "5161AS" V 5993 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 5225 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3365 50  0001 L CNN
 	1    5725 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:B5B-XH-A_LF__SN_ J1
@@ -1515,7 +829,7 @@ U 1 1 5DA62C7E
 P 875 4100
 F 0 "J1" V 1024 3973 50  0000 R CNN
 F 1 "B5B-XH-A_LF__SN_" V 1115 3973 50  0000 R CNN
-F 2 "digikey-footprints:PinHeader_1x5_P2.5mm_Drill1.1mm" H 1075 4300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1075 4300 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4400 60  0001 L CNN
 F 4 "455-2270-ND" H 1075 4500 60  0001 L CNN "Digi-Key_PN"
 F 5 "B5B-XH-A(LF)(SN)" H 1075 4600 60  0001 L CNN "MPN"
@@ -1530,10 +844,10 @@ F 12 "Active" H 1075 5300 60  0001 L CNN "Status"
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR025
 U 1 1 5D9A27BE
 P 975 6575
-F 0 "#PWR02" H 975 6325 50  0001 C CNN
+F 0 "#PWR025" H 975 6325 50  0001 C CNN
 F 1 "GND" H 980 6402 50  0000 C CNN
 F 2 "" H 975 6575 50  0001 C CNN
 F 3 "" H 975 6575 50  0001 C CNN
@@ -1541,10 +855,10 @@ F 3 "" H 975 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG03
 U 1 1 5D9A260C
 P 975 6575
-F 0 "#FLG02" H 975 6650 50  0001 C CNN
+F 0 "#FLG03" H 975 6650 50  0001 C CNN
 F 1 "PWR_FLAG" H 975 6749 50  0000 C CNN
 F 2 "" H 975 6575 50  0001 C CNN
 F 3 "~" H 975 6575 50  0001 C CNN
@@ -1563,10 +877,10 @@ F 3 "~" H 975 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR01
+L power:+3.3V #PWR023
 U 1 1 5D9A2378
 P 975 6100
-F 0 "#PWR01" H 975 5950 50  0001 C CNN
+F 0 "#PWR023" H 975 5950 50  0001 C CNN
 F 1 "+3.3V" H 990 6273 50  0000 C CNN
 F 2 "" H 975 6100 50  0001 C CNN
 F 3 "" H 975 6100 50  0001 C CNN
@@ -1579,7 +893,7 @@ U 1 1 5D53167A
 P 1600 5350
 F 0 "J2" V 1375 5406 50  0000 C CNN
 F 1 "B3B-PH-K-S_LF__SN_" V 1466 5406 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2mm_Drill1mm" H 1800 5550 60  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 1800 5550 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 5650 60  0001 L CNN
 F 4 "455-1705-ND" H 1800 5750 60  0001 L CNN "Digi-Key_PN"
 F 5 "B3B-PH-K-S(LF)(SN)" H 1800 5850 60  0001 L CNN "MPN"
@@ -1594,10 +908,10 @@ F 12 "Active" H 1800 6550 60  0001 L CNN "Status"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR014
 U 1 1 5D530F3F
 P 2350 5100
-F 0 "#PWR08" H 2350 4850 50  0001 C CNN
+F 0 "#PWR014" H 2350 4850 50  0001 C CNN
 F 1 "GND" H 2355 4927 50  0000 C CNN
 F 2 "" H 2350 5100 50  0001 C CNN
 F 3 "" H 2350 5100 50  0001 C CNN
@@ -1605,10 +919,10 @@ F 3 "" H 2350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L power:GND #PWR015
 U 1 1 5D530D2A
 P 3550 5100
-F 0 "#PWR010" H 3550 4850 50  0001 C CNN
+F 0 "#PWR015" H 3550 4850 50  0001 C CNN
 F 1 "GND" H 3555 4927 50  0000 C CNN
 F 2 "" H 3550 5100 50  0001 C CNN
 F 3 "" H 3550 5100 50  0001 C CNN
@@ -1616,10 +930,10 @@ F 3 "" H 3550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR016
 U 1 1 5D530CAB
 P 4725 5100
-F 0 "#PWR012" H 4725 4850 50  0001 C CNN
+F 0 "#PWR016" H 4725 4850 50  0001 C CNN
 F 1 "GND" H 4730 4927 50  0000 C CNN
 F 2 "" H 4725 5100 50  0001 C CNN
 F 3 "" H 4725 5100 50  0001 C CNN
@@ -1627,10 +941,10 @@ F 3 "" H 4725 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L power:GND #PWR017
 U 1 1 5D530A5C
 P 5925 5100
-F 0 "#PWR014" H 5925 4850 50  0001 C CNN
+F 0 "#PWR017" H 5925 4850 50  0001 C CNN
 F 1 "GND" H 5930 4927 50  0000 C CNN
 F 2 "" H 5925 5100 50  0001 C CNN
 F 3 "" H 5925 5100 50  0001 C CNN
@@ -1638,10 +952,10 @@ F 3 "" H 5925 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L power:GND #PWR018
 U 1 1 5D530677
 P 7125 5100
-F 0 "#PWR016" H 7125 4850 50  0001 C CNN
+F 0 "#PWR018" H 7125 4850 50  0001 C CNN
 F 1 "GND" H 7130 4927 50  0000 C CNN
 F 2 "" H 7125 5100 50  0001 C CNN
 F 3 "" H 7125 5100 50  0001 C CNN
@@ -1649,10 +963,10 @@ F 3 "" H 7125 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L power:GND #PWR019
 U 1 1 5D5303B4
 P 8325 5100
-F 0 "#PWR018" H 8325 4850 50  0001 C CNN
+F 0 "#PWR019" H 8325 4850 50  0001 C CNN
 F 1 "GND" H 8330 4927 50  0000 C CNN
 F 2 "" H 8325 5100 50  0001 C CNN
 F 3 "" H 8325 5100 50  0001 C CNN
@@ -1671,10 +985,10 @@ F 3 "" H 9500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L power:GND #PWR021
 U 1 1 5D52FF50
 P 10700 5100
-F 0 "#PWR022" H 10700 4850 50  0001 C CNN
+F 0 "#PWR021" H 10700 4850 50  0001 C CNN
 F 1 "GND" H 10705 4927 50  0000 C CNN
 F 2 "" H 10700 5100 50  0001 C CNN
 F 3 "" H 10700 5100 50  0001 C CNN
@@ -1682,10 +996,10 @@ F 3 "" H 10700 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L power:GND #PWR013
 U 1 1 5F3075AF
 P 11050 4900
-F 0 "#PWR023" H 11050 4650 50  0001 C CNN
+F 0 "#PWR013" H 11050 4650 50  0001 C CNN
 F 1 "GND" H 11055 4727 50  0000 C CNN
 F 2 "" H 11050 4900 50  0001 C CNN
 F 3 "" H 11050 4900 50  0001 C CNN
@@ -1693,10 +1007,10 @@ F 3 "" H 11050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L power:GND #PWR012
 U 1 1 5F307530
 P 9850 4900
-F 0 "#PWR021" H 9850 4650 50  0001 C CNN
+F 0 "#PWR012" H 9850 4650 50  0001 C CNN
 F 1 "GND" H 9855 4727 50  0000 C CNN
 F 2 "" H 9850 4900 50  0001 C CNN
 F 3 "" H 9850 4900 50  0001 C CNN
@@ -1704,10 +1018,10 @@ F 3 "" H 9850 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L power:GND #PWR011
 U 1 1 5F30738F
 P 8675 4900
-F 0 "#PWR019" H 8675 4650 50  0001 C CNN
+F 0 "#PWR011" H 8675 4650 50  0001 C CNN
 F 1 "GND" H 8680 4727 50  0000 C CNN
 F 2 "" H 8675 4900 50  0001 C CNN
 F 3 "" H 8675 4900 50  0001 C CNN
@@ -1715,10 +1029,10 @@ F 3 "" H 8675 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L power:GND #PWR010
 U 1 1 5F307310
 P 7475 4900
-F 0 "#PWR017" H 7475 4650 50  0001 C CNN
+F 0 "#PWR010" H 7475 4650 50  0001 C CNN
 F 1 "GND" H 7480 4727 50  0000 C CNN
 F 2 "" H 7475 4900 50  0001 C CNN
 F 3 "" H 7475 4900 50  0001 C CNN
@@ -1726,10 +1040,10 @@ F 3 "" H 7475 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L power:GND #PWR09
 U 1 1 5F307291
 P 6275 4900
-F 0 "#PWR015" H 6275 4650 50  0001 C CNN
+F 0 "#PWR09" H 6275 4650 50  0001 C CNN
 F 1 "GND" H 6280 4727 50  0000 C CNN
 F 2 "" H 6275 4900 50  0001 C CNN
 F 3 "" H 6275 4900 50  0001 C CNN
@@ -1737,10 +1051,10 @@ F 3 "" H 6275 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L power:GND #PWR08
 U 1 1 5F307042
 P 5075 4900
-F 0 "#PWR013" H 5075 4650 50  0001 C CNN
+F 0 "#PWR08" H 5075 4650 50  0001 C CNN
 F 1 "GND" H 5080 4727 50  0000 C CNN
 F 2 "" H 5075 4900 50  0001 C CNN
 F 3 "" H 5075 4900 50  0001 C CNN
@@ -1748,10 +1062,10 @@ F 3 "" H 5075 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L power:GND #PWR07
 U 1 1 5F306F15
 P 3900 4900
-F 0 "#PWR011" H 3900 4650 50  0001 C CNN
+F 0 "#PWR07" H 3900 4650 50  0001 C CNN
 F 1 "GND" H 3905 4727 50  0000 C CNN
 F 2 "" H 3900 4900 50  0001 C CNN
 F 3 "" H 3900 4900 50  0001 C CNN
@@ -1759,10 +1073,10 @@ F 3 "" H 3900 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR06
 U 1 1 5F306E96
 P 2700 4900
-F 0 "#PWR09" H 2700 4650 50  0001 C CNN
+F 0 "#PWR06" H 2700 4650 50  0001 C CNN
 F 1 "GND" H 2705 4727 50  0000 C CNN
 F 2 "" H 2700 4900 50  0001 C CNN
 F 3 "" H 2700 4900 50  0001 C CNN
@@ -1770,10 +1084,10 @@ F 3 "" H 2700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR01
 U 1 1 5F2CE138
 P 1375 1550
-F 0 "#PWR05" H 1375 1300 50  0001 C CNN
+F 0 "#PWR01" H 1375 1300 50  0001 C CNN
 F 1 "GND" H 1380 1377 50  0000 C CNN
 F 2 "" H 1375 1550 50  0001 C CNN
 F 3 "" H 1375 1550 50  0001 C CNN
@@ -1781,10 +1095,10 @@ F 3 "" H 1375 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R3
+L Device:R_US R1
 U 1 1 5F2CE132
 P 925 1350
-F 0 "R3" V 720 1350 50  0000 C CNN
+F 0 "R1" V 720 1350 50  0000 C CNN
 F 1 "1K" V 811 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 965 1340 50  0001 C CNN
 F 3 "~" H 925 1350 50  0001 C CNN
@@ -1792,10 +1106,10 @@ F 3 "~" H 925 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR02
 U 1 1 5F2CE125
 P 1350 2125
-F 0 "#PWR03" H 1350 1875 50  0001 C CNN
+F 0 "#PWR02" H 1350 1875 50  0001 C CNN
 F 1 "GND" H 1355 1952 50  0000 C CNN
 F 2 "" H 1350 2125 50  0001 C CNN
 F 3 "" H 1350 2125 50  0001 C CNN
@@ -1803,10 +1117,10 @@ F 3 "" H 1350 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R1
+L Device:R_US R2
 U 1 1 5F2CE11F
 P 900 1925
-F 0 "R1" V 695 1925 50  0000 C CNN
+F 0 "R2" V 695 1925 50  0000 C CNN
 F 1 "1K" V 786 1925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 940 1915 50  0001 C CNN
 F 3 "~" H 900 1925 50  0001 C CNN
@@ -1814,10 +1128,10 @@ F 3 "~" H 900 1925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR06
+L power:GND #PWR03
 U 1 1 5F29577C
 P 1375 2700
-F 0 "#PWR06" H 1375 2450 50  0001 C CNN
+F 0 "#PWR03" H 1375 2450 50  0001 C CNN
 F 1 "GND" H 1380 2527 50  0000 C CNN
 F 2 "" H 1375 2700 50  0001 C CNN
 F 3 "" H 1375 2700 50  0001 C CNN
@@ -1825,10 +1139,10 @@ F 3 "" H 1375 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R4
+L Device:R_US R3
 U 1 1 5F295776
 P 925 2500
-F 0 "R4" V 720 2500 50  0000 C CNN
+F 0 "R3" V 720 2500 50  0000 C CNN
 F 1 "1K" V 811 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 965 2490 50  0001 C CNN
 F 3 "~" H 925 2500 50  0001 C CNN
@@ -1847,10 +1161,10 @@ F 3 "" H 1350 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R2
+L Device:R_US R4
 U 1 1 5F25CEFC
 P 900 3075
-F 0 "R2" V 695 3075 50  0000 C CNN
+F 0 "R4" V 695 3075 50  0000 C CNN
 F 1 "1K" V 786 3075 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 940 3065 50  0001 C CNN
 F 3 "~" H 900 3075 50  0001 C CNN
@@ -1858,10 +1172,10 @@ F 3 "~" H 900 3075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR05
 U 1 1 5F25C277
 P 1375 3850
-F 0 "#PWR07" H 1375 3600 50  0001 C CNN
+F 0 "#PWR05" H 1375 3600 50  0001 C CNN
 F 1 "GND" H 1380 3677 50  0000 C CNN
 F 2 "" H 1375 3850 50  0001 C CNN
 F 3 "" H 1375 3850 50  0001 C CNN
@@ -1880,65 +1194,65 @@ F 3 "~" H 925 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L HariLib:5161AS U31
+L HariLib:5161AS DS6
 U 1 1 5D50695A
 P 8125 1300
-F 0 "U31" V 8476 1295 50  0000 C CNN
+F 0 "DS6" H 8125 1300 50  0000 C CNN
 F 1 "5161AS" V 8393 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 7625 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 1640 50  0001 L CNN
 	1    8125 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U1
+L HariLib:5161AS DS1
 U 1 1 5D517646
 P 2150 1300
-F 0 "U1" V 2501 1295 50  0000 C CNN
-F 1 "5161AS" V 2418 1295 39  0000 C CNN
-F 2 "HariLib:5161AS" H 1650 550 50  0001 L CNN
+F 0 "DS1" H 2150 1300 50  0000 C CNN
+F 1 "5161AS" H 2150 1575 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 1640 50  0001 L CNN
 	1    2150 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U2
+L HariLib:5161AS DS9
 U 1 1 5D5175FC
 P 2150 1875
-F 0 "U2" V 2501 1870 50  0000 C CNN
-F 1 "5161AS" V 2418 1870 39  0000 C CNN
-F 2 "HariLib:5161AS" H 1650 1125 50  0001 L CNN
+F 0 "DS9" H 2150 1900 50  0000 C CNN
+F 1 "5161AS" H 2157 2151 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 1650 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2215 50  0001 L CNN
 	1    2150 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U3
+L HariLib:5161AS DS17
 U 1 1 5D5175F6
 P 2150 2450
-F 0 "U3" V 2501 2445 50  0000 C CNN
+F 0 "DS17" H 2150 2450 50  0000 C CNN
 F 1 "5161AS" V 2418 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 1650 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2790 50  0001 L CNN
 	1    2150 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U4
+L HariLib:5161AS DS25
 U 1 1 5D5175F0
 P 2150 3025
-F 0 "U4" V 2501 3020 50  0000 C CNN
+F 0 "DS25" H 2150 3025 50  0000 C CNN
 F 1 "5161AS" V 2418 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 1650 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 3365 50  0001 L CNN
 	1    2150 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U6
+L HariLib:74HC595 U1
 U 1 1 5D5175E4
 P 2150 4700
-F 0 "U6" V 2196 5188 50  0000 L CNN
+F 0 "U1" V 2196 5188 50  0000 L CNN
 F 1 "74HC595" V 2105 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2150 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2150 4700 50  0001 C CNN
@@ -1946,54 +1260,54 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2150 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U7
+L HariLib:5161AS DS2
 U 1 1 5D5175DA
 P 3350 1300
-F 0 "U7" V 3701 1295 50  0000 C CNN
-F 1 "5161AS" V 3618 1295 39  0000 C CNN
-F 2 "HariLib:5161AS" H 2850 550 50  0001 L CNN
+F 0 "DS2" H 3350 1300 50  0000 C CNN
+F 1 "5161AS" H 3357 1576 39  0000 C CNN
+F 2 "Display_7Segment:5161AS" H 2850 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 1640 50  0001 L CNN
 	1    3350 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U9
+L HariLib:5161AS DS18
 U 1 1 5D51758A
 P 3350 2450
-F 0 "U9" V 3701 2445 50  0000 C CNN
+F 0 "DS18" H 3350 2450 50  0000 C CNN
 F 1 "5161AS" V 3618 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 2850 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 2790 50  0001 L CNN
 	1    3350 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U10
+L HariLib:5161AS DS26
 U 1 1 5D517584
 P 3350 3025
-F 0 "U10" V 3701 3020 50  0000 C CNN
+F 0 "DS26" H 3350 3025 50  0000 C CNN
 F 1 "5161AS" V 3618 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 2850 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3365 50  0001 L CNN
 	1    3350 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U11
+L HariLib:5161AS DS34
 U 1 1 5D51757E
 P 3350 3600
-F 0 "U11" V 3701 3595 50  0000 C CNN
+F 0 "DS34" H 3350 3600 50  0000 C CNN
 F 1 "5161AS" V 3618 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 2850 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 3940 50  0001 L CNN
 	1    3350 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U12
+L HariLib:74HC595 U2
 U 1 1 5D517578
 P 3350 4700
-F 0 "U12" V 3396 5188 50  0000 L CNN
+F 0 "U2" V 3396 5188 50  0000 L CNN
 F 1 "74HC595" V 3305 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3350 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3350 4700 50  0001 C CNN
@@ -2001,65 +1315,65 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3350 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U13
+L HariLib:5161AS DS3
 U 1 1 5D51756E
 P 4525 1300
-F 0 "U13" V 4876 1295 50  0000 C CNN
+F 0 "DS3" H 4525 1300 50  0000 C CNN
 F 1 "5161AS" V 4793 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 4025 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 1640 50  0001 L CNN
 	1    4525 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U14
+L HariLib:5161AS DS11
 U 1 1 5D517524
 P 4525 1875
-F 0 "U14" V 4876 1870 50  0000 C CNN
+F 0 "DS11" H 4525 1875 50  0000 C CNN
 F 1 "5161AS" V 4793 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 4025 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2215 50  0001 L CNN
 	1    4525 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U15
+L HariLib:5161AS DS19
 U 1 1 5D51751E
 P 4525 2450
-F 0 "U15" V 4876 2445 50  0000 C CNN
+F 0 "DS19" H 4500 2450 50  0000 C CNN
 F 1 "5161AS" V 4793 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 4025 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 2790 50  0001 L CNN
 	1    4525 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U16
+L HariLib:5161AS DS27
 U 1 1 5D517518
 P 4525 3025
-F 0 "U16" V 4876 3020 50  0000 C CNN
+F 0 "DS27" H 4525 3025 50  0000 C CNN
 F 1 "5161AS" V 4793 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 4025 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3365 50  0001 L CNN
 	1    4525 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U17
+L HariLib:5161AS DS35
 U 1 1 5D517512
 P 4525 3600
-F 0 "U17" V 4876 3595 50  0000 C CNN
+F 0 "DS35" H 4525 3600 50  0000 C CNN
 F 1 "5161AS" V 4793 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 4025 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 4535 3940 50  0001 L CNN
 	1    4525 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U18
+L HariLib:74HC595 U3
 U 1 1 5D51750C
 P 4525 4700
-F 0 "U18" V 4571 5188 50  0000 L CNN
+F 0 "U3" V 4571 5188 50  0000 L CNN
 F 1 "74HC595" V 4480 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4525 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4525 4700 50  0001 C CNN
@@ -2067,54 +1381,54 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4525 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U19
+L HariLib:5161AS DS4
 U 1 1 5D517502
 P 5725 1300
-F 0 "U19" V 6076 1295 50  0000 C CNN
+F 0 "DS4" H 5725 1300 50  0000 C CNN
 F 1 "5161AS" V 5993 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 5225 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 1640 50  0001 L CNN
 	1    5725 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U20
+L HariLib:5161AS DS12
 U 1 1 5D5174B8
 P 5725 1875
-F 0 "U20" V 6076 1870 50  0000 C CNN
+F 0 "DS12" H 5725 1875 50  0000 C CNN
 F 1 "5161AS" V 5993 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 5225 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2215 50  0001 L CNN
 	1    5725 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U21
+L HariLib:5161AS DS20
 U 1 1 5D5174B2
 P 5725 2450
-F 0 "U21" V 6076 2445 50  0000 C CNN
+F 0 "DS20" H 5725 2450 50  0000 C CNN
 F 1 "5161AS" V 5993 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 5225 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 2790 50  0001 L CNN
 	1    5725 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U23
+L HariLib:5161AS DS36
 U 1 1 5D5174A6
 P 5725 3600
-F 0 "U23" V 6076 3595 50  0000 C CNN
+F 0 "DS36" H 5725 3600 50  0000 C CNN
 F 1 "5161AS" V 5993 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 5225 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 5735 3940 50  0001 L CNN
 	1    5725 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U24
+L HariLib:74HC595 U4
 U 1 1 5D5174A0
 P 5725 4700
-F 0 "U24" V 5771 5188 50  0000 L CNN
+F 0 "U4" V 5771 5188 50  0000 L CNN
 F 1 "74HC595" V 5680 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5725 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5725 4700 50  0001 C CNN
@@ -2122,65 +1436,65 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5725 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U25
+L HariLib:5161AS DS5
 U 1 1 5D5069C6
 P 6925 1300
-F 0 "U25" V 7276 1295 50  0000 C CNN
+F 0 "DS5" H 6925 1300 50  0000 C CNN
 F 1 "5161AS" V 7193 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 6425 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 1640 50  0001 L CNN
 	1    6925 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U26
+L HariLib:5161AS DS13
 U 1 1 5D50697C
 P 6925 1875
-F 0 "U26" V 7276 1870 50  0000 C CNN
+F 0 "DS13" H 6925 1875 50  0000 C CNN
 F 1 "5161AS" V 7193 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 6425 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2215 50  0001 L CNN
 	1    6925 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U27
+L HariLib:5161AS DS21
 U 1 1 5D506976
 P 6925 2450
-F 0 "U27" V 7276 2445 50  0000 C CNN
+F 0 "DS21" H 6925 2450 50  0000 C CNN
 F 1 "5161AS" V 7193 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 6425 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 2790 50  0001 L CNN
 	1    6925 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U28
+L HariLib:5161AS DS29
 U 1 1 5D506970
 P 6925 3025
-F 0 "U28" V 7276 3020 50  0000 C CNN
+F 0 "DS29" H 6925 3025 50  0000 C CNN
 F 1 "5161AS" V 7193 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 6425 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3365 50  0001 L CNN
 	1    6925 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U29
+L HariLib:5161AS DS37
 U 1 1 5D50696A
 P 6925 3600
-F 0 "U29" V 7276 3595 50  0000 C CNN
+F 0 "DS37" H 6925 3600 50  0000 C CNN
 F 1 "5161AS" V 7193 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 6425 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 6935 3940 50  0001 L CNN
 	1    6925 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U30
+L HariLib:74HC595 U5
 U 1 1 5D506964
 P 6925 4700
-F 0 "U30" V 6971 5188 50  0000 L CNN
+F 0 "U5" V 6971 5188 50  0000 L CNN
 F 1 "74HC595" V 6880 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6925 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6925 4700 50  0001 C CNN
@@ -2188,43 +1502,43 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6925 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U32
+L HariLib:5161AS DS14
 U 1 1 5D506910
 P 8125 1875
-F 0 "U32" V 8476 1870 50  0000 C CNN
+F 0 "DS14" H 8125 1875 50  0000 C CNN
 F 1 "5161AS" V 8393 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 7625 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2215 50  0001 L CNN
 	1    8125 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U33
+L HariLib:5161AS DS22
 U 1 1 5D50690A
 P 8125 2450
-F 0 "U33" V 8476 2445 50  0000 C CNN
+F 0 "DS22" H 8125 2450 50  0000 C CNN
 F 1 "5161AS" V 8393 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 7625 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 2790 50  0001 L CNN
 	1    8125 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U35
+L HariLib:5161AS DS38
 U 1 1 5D5068FE
 P 8125 3600
-F 0 "U35" V 8476 3595 50  0000 C CNN
+F 0 "DS38" H 8125 3600 50  0000 C CNN
 F 1 "5161AS" V 8393 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 7625 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8135 3940 50  0001 L CNN
 	1    8125 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U36
+L HariLib:74HC595 U6
 U 1 1 5D5068F8
 P 8125 4700
-F 0 "U36" V 8171 5188 50  0000 L CNN
+F 0 "U6" V 8171 5188 50  0000 L CNN
 F 1 "74HC595" V 8080 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8125 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8125 4700 50  0001 C CNN
@@ -2232,54 +1546,54 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8125 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U37
+L HariLib:5161AS DS7
 U 1 1 5D4FF568
 P 9300 1300
-F 0 "U37" V 9651 1295 50  0000 C CNN
+F 0 "DS7" H 9300 1300 50  0000 C CNN
 F 1 "5161AS" V 9568 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 8800 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 1640 50  0001 L CNN
 	1    9300 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U39
+L HariLib:5161AS DS23
 U 1 1 5D4FF518
 P 9300 2450
-F 0 "U39" V 9651 2445 50  0000 C CNN
+F 0 "DS23" H 9300 2450 50  0000 C CNN
 F 1 "5161AS" V 9568 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 8800 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 2790 50  0001 L CNN
 	1    9300 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U40
+L HariLib:5161AS DS31
 U 1 1 5D4FF512
 P 9300 3025
-F 0 "U40" V 9651 3020 50  0000 C CNN
+F 0 "DS31" H 9300 3025 50  0000 C CNN
 F 1 "5161AS" V 9568 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 8800 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3365 50  0001 L CNN
 	1    9300 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U41
+L HariLib:5161AS DS39
 U 1 1 5D4FF50C
 P 9300 3600
-F 0 "U41" V 9651 3595 50  0000 C CNN
+F 0 "DS39" H 9300 3600 50  0000 C CNN
 F 1 "5161AS" V 9568 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 8800 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 9310 3940 50  0001 L CNN
 	1    9300 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U42
+L HariLib:74HC595 U7
 U 1 1 5D4FF506
 P 9300 4700
-F 0 "U42" V 9346 5188 50  0000 L CNN
+F 0 "U7" V 9346 5188 50  0000 L CNN
 F 1 "74HC595" V 9255 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9300 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 4700 50  0001 C CNN
@@ -2287,70 +1601,756 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HariLib:5161AS U43
+L HariLib:5161AS DS8
 U 1 1 5D4F5D81
 P 10500 1300
-F 0 "U43" V 10851 1295 50  0000 C CNN
+F 0 "DS8" H 10500 1300 50  0000 C CNN
 F 1 "5161AS" V 10768 1295 39  0000 C CNN
 F 2 "HariLib:5161AS" H 10000 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 1640 50  0001 L CNN
 	1    10500 1300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U44
+L HariLib:5161AS DS16
 U 1 1 5D4F5D53
 P 10500 1875
-F 0 "U44" V 10851 1870 50  0000 C CNN
+F 0 "DS16" H 10500 1875 50  0000 C CNN
 F 1 "5161AS" V 10768 1870 39  0000 C CNN
 F 2 "HariLib:5161AS" H 10000 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2215 50  0001 L CNN
 	1    10500 1875
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U45
+L HariLib:5161AS DS24
 U 1 1 5D4F5D2F
 P 10500 2450
-F 0 "U45" V 10851 2445 50  0000 C CNN
+F 0 "DS24" H 10500 2450 50  0000 C CNN
 F 1 "5161AS" V 10768 2445 39  0000 C CNN
 F 2 "HariLib:5161AS" H 10000 1700 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 2790 50  0001 L CNN
 	1    10500 2450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U46
+L HariLib:5161AS DS32
 U 1 1 5D4F5CE4
 P 10500 3025
-F 0 "U46" V 10851 3020 50  0000 C CNN
+F 0 "DS32" H 10500 3025 50  0000 C CNN
 F 1 "5161AS" V 10768 3020 39  0000 C CNN
 F 2 "HariLib:5161AS" H 10000 2275 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3365 50  0001 L CNN
 	1    10500 3025
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:5161AS U47
+L HariLib:5161AS DS40
 U 1 1 5D4F5ADF
 P 10500 3600
-F 0 "U47" V 10851 3595 50  0000 C CNN
+F 0 "DS40" H 10500 3600 50  0000 C CNN
 F 1 "5161AS" V 10768 3595 39  0000 C CNN
 F 2 "HariLib:5161AS" H 10000 2850 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 10510 3940 50  0001 L CNN
 	1    10500 3600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L HariLib:74HC595 U48
+L HariLib:74HC595 U8
 U 1 1 5D4F596C
 P 10500 4700
-F 0 "U48" V 10546 5188 50  0000 L CNN
+F 0 "U8" V 10546 5188 50  0000 L CNN
 F 1 "74HC595" V 10455 5188 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 10500 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10500 4700 50  0001 C CNN
 	1    10500 4700
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2450 1700 2450 2175
+Wire Wire Line
+	10500 1600 10500 2175
+Wire Wire Line
+	10700 1600 10700 2175
+Wire Wire Line
+	4525 1600 4525 2175
+Wire Wire Line
+	6925 1600 6925 2175
+Wire Wire Line
+	7125 1600 7125 2175
+Wire Wire Line
+	7725 1600 7725 2175
+Wire Wire Line
+	2150 1600 2150 2175
+Wire Wire Line
+	2250 1600 2250 2175
+Wire Wire Line
+	2350 1600 2350 2175
+Wire Wire Line
+	10100 1575 10100 1600
+Wire Wire Line
+	10200 1575 10200 1600
+Wire Wire Line
+	10300 1575 10300 1600
+Wire Wire Line
+	10400 1600 10400 2175
+Wire Wire Line
+	10600 1600 10600 2175
+Wire Wire Line
+	8900 1600 8900 2175
+Wire Wire Line
+	9000 1600 9000 2175
+Wire Wire Line
+	9100 1600 9100 2175
+Wire Wire Line
+	9200 1600 9200 2175
+Wire Wire Line
+	9300 1600 9300 2175
+Wire Wire Line
+	9400 1600 9400 2175
+Wire Wire Line
+	9500 1600 9500 2175
+Wire Wire Line
+	7825 1600 7825 2175
+Wire Wire Line
+	7925 1600 7925 2175
+Wire Wire Line
+	8025 1600 8025 2175
+Wire Wire Line
+	8125 1600 8125 2175
+Wire Wire Line
+	8325 1600 8325 2175
+Wire Wire Line
+	8225 1600 8225 2175
+Wire Wire Line
+	6725 1600 6725 2175
+Wire Wire Line
+	6825 1600 6825 2175
+Wire Wire Line
+	7025 1600 7025 2175
+Wire Wire Line
+	5625 1600 5625 2175
+Wire Wire Line
+	5725 1600 5725 2175
+Wire Wire Line
+	5925 1600 5925 2175
+Wire Wire Line
+	5825 1600 5825 2175
+Wire Wire Line
+	4625 1600 4625 2175
+Wire Wire Line
+	4725 1600 4725 2175
+Wire Wire Line
+	3050 1600 3050 2175
+Wire Wire Line
+	3150 1600 3150 2175
+Wire Wire Line
+	3250 1600 3250 2175
+Wire Wire Line
+	3350 1600 3350 2175
+Wire Wire Line
+	3450 1600 3450 2175
+Wire Wire Line
+	3550 1600 3550 2175
+Wire Wire Line
+	1750 1600 1750 2175
+Wire Wire Line
+	1850 1600 1850 2175
+Wire Wire Line
+	1950 1600 1950 2175
+Wire Wire Line
+	2050 1600 2050 2175
+Wire Wire Line
+	2950 1600 2950 2175
+Wire Wire Line
+	4325 1600 4325 2175
+Wire Wire Line
+	4425 1600 4425 2175
+Wire Wire Line
+	4225 1600 4225 2175
+Wire Wire Line
+	4125 1600 4125 2175
+Wire Wire Line
+	5325 1600 5325 2175
+Wire Wire Line
+	5425 1600 5425 2175
+Wire Wire Line
+	5525 1600 5525 2175
+Wire Wire Line
+	6525 1600 6525 2175
+Wire Wire Line
+	6625 1600 6625 2175
+Connection ~ 2150 2175
+Wire Wire Line
+	2150 2175 2150 2750
+Connection ~ 2350 2175
+Wire Wire Line
+	2350 2175 2350 2750
+Connection ~ 2050 2175
+Wire Wire Line
+	2050 2175 2050 2750
+Connection ~ 1950 2175
+Wire Wire Line
+	1950 2175 1950 2750
+Connection ~ 1850 2175
+Wire Wire Line
+	1850 2175 1850 2750
+Connection ~ 1750 2175
+Wire Wire Line
+	1750 2175 1750 2750
+Connection ~ 2250 2175
+Wire Wire Line
+	2250 2175 2250 2750
+Connection ~ 2150 2750
+Wire Wire Line
+	2150 2750 2150 3325
+Connection ~ 2350 2750
+Wire Wire Line
+	2350 2750 2350 3325
+Connection ~ 2050 2750
+Wire Wire Line
+	2050 2750 2050 3325
+Connection ~ 1950 2750
+Wire Wire Line
+	1950 2750 1950 3325
+Connection ~ 1850 2750
+Wire Wire Line
+	1850 2750 1850 3325
+Connection ~ 1750 2750
+Wire Wire Line
+	1750 2750 1750 3325
+Connection ~ 2250 2750
+Wire Wire Line
+	2250 2750 2250 3325
+Connection ~ 3350 2175
+Wire Wire Line
+	3350 2175 3350 2750
+Connection ~ 3550 2175
+Wire Wire Line
+	3550 2175 3550 2750
+Connection ~ 3250 2175
+Wire Wire Line
+	3250 2175 3250 2750
+Connection ~ 3150 2175
+Wire Wire Line
+	3150 2175 3150 2750
+Connection ~ 3050 2175
+Wire Wire Line
+	3050 2175 3050 2750
+Connection ~ 2950 2175
+Wire Wire Line
+	2950 2175 2950 2750
+Connection ~ 3450 2175
+Wire Wire Line
+	3450 2175 3450 2750
+Connection ~ 3350 2750
+Wire Wire Line
+	3350 2750 3350 3325
+Connection ~ 3550 2750
+Wire Wire Line
+	3550 2750 3550 3325
+Connection ~ 3250 2750
+Wire Wire Line
+	3250 2750 3250 3325
+Connection ~ 3150 2750
+Wire Wire Line
+	3150 2750 3150 3325
+Connection ~ 3050 2750
+Wire Wire Line
+	3050 2750 3050 3325
+Connection ~ 2950 2750
+Wire Wire Line
+	2950 2750 2950 3325
+Connection ~ 3450 2750
+Wire Wire Line
+	3450 2750 3450 3325
+Connection ~ 2150 3325
+Wire Wire Line
+	2150 3325 2150 3900
+Connection ~ 2350 3325
+Wire Wire Line
+	2350 3325 2350 3900
+Connection ~ 2050 3325
+Wire Wire Line
+	2050 3325 2050 3900
+Connection ~ 1950 3325
+Wire Wire Line
+	1950 3325 1950 3900
+Connection ~ 1850 3325
+Wire Wire Line
+	1850 3325 1850 3900
+Connection ~ 1750 3325
+Wire Wire Line
+	1750 3325 1750 3900
+Connection ~ 2250 3325
+Wire Wire Line
+	2250 3325 2250 3900
+Connection ~ 3350 3325
+Wire Wire Line
+	3350 3325 3350 3900
+Connection ~ 3550 3325
+Wire Wire Line
+	3550 3325 3550 3900
+Connection ~ 3250 3325
+Wire Wire Line
+	3250 3325 3250 3900
+Connection ~ 3150 3325
+Wire Wire Line
+	3150 3325 3150 3900
+Connection ~ 3050 3325
+Wire Wire Line
+	3050 3325 3050 3900
+Connection ~ 2950 3325
+Wire Wire Line
+	2950 3325 2950 3900
+Connection ~ 3450 3325
+Wire Wire Line
+	3450 3325 3450 3900
+Connection ~ 2150 3900
+Connection ~ 2350 3900
+Connection ~ 2050 3900
+Connection ~ 1950 3900
+Connection ~ 1850 3900
 Connection ~ 1750 3900
+Connection ~ 2250 3900
+Connection ~ 3350 3900
+Connection ~ 3550 3900
+Connection ~ 3250 3900
+Connection ~ 3150 3900
+Connection ~ 3050 3900
+Connection ~ 2950 3900
+Connection ~ 3450 3900
+Connection ~ 4525 3900
+Connection ~ 4725 3900
+Connection ~ 4425 3900
+Connection ~ 4325 3900
+Connection ~ 4225 3900
+Connection ~ 4125 3900
+Connection ~ 4625 3900
+Connection ~ 4525 3325
+Wire Wire Line
+	4525 3325 4525 3900
+Connection ~ 4725 3325
+Wire Wire Line
+	4725 3325 4725 3900
+Connection ~ 4425 3325
+Wire Wire Line
+	4425 3325 4425 3900
+Connection ~ 4325 3325
+Wire Wire Line
+	4325 3325 4325 3900
+Connection ~ 4225 3325
+Wire Wire Line
+	4225 3325 4225 3900
+Connection ~ 4125 3325
+Wire Wire Line
+	4125 3325 4125 3900
+Connection ~ 4625 3325
+Wire Wire Line
+	4625 3325 4625 3900
+Connection ~ 4525 2750
+Wire Wire Line
+	4525 2750 4525 3325
+Connection ~ 4725 2750
+Wire Wire Line
+	4725 2750 4725 3325
+Connection ~ 4425 2750
+Wire Wire Line
+	4425 2750 4425 3325
+Connection ~ 4325 2750
+Wire Wire Line
+	4325 2750 4325 3325
+Connection ~ 4225 2750
+Wire Wire Line
+	4225 2750 4225 3325
+Connection ~ 4125 2750
+Wire Wire Line
+	4125 2750 4125 3325
+Connection ~ 4625 2750
+Wire Wire Line
+	4625 2750 4625 3325
+Connection ~ 4525 2175
+Wire Wire Line
+	4525 2175 4525 2750
+Connection ~ 4725 2175
+Wire Wire Line
+	4725 2175 4725 2750
+Connection ~ 4425 2175
+Wire Wire Line
+	4425 2175 4425 2750
+Connection ~ 4325 2175
+Wire Wire Line
+	4325 2175 4325 2750
+Connection ~ 4225 2175
+Wire Wire Line
+	4225 2175 4225 2750
+Connection ~ 4125 2175
+Wire Wire Line
+	4125 2175 4125 2750
+Connection ~ 4625 2175
+Wire Wire Line
+	4625 2175 4625 2750
+Connection ~ 5725 2175
+Wire Wire Line
+	5725 2175 5725 2750
+Connection ~ 5925 2175
+Wire Wire Line
+	5925 2175 5925 2750
+Connection ~ 5625 2175
+Wire Wire Line
+	5625 2175 5625 2750
+Connection ~ 5525 2175
+Wire Wire Line
+	5525 2175 5525 2750
+Connection ~ 5425 2175
+Wire Wire Line
+	5425 2175 5425 2750
+Connection ~ 5325 2175
+Wire Wire Line
+	5325 2175 5325 2750
+Connection ~ 5825 2175
+Wire Wire Line
+	5825 2175 5825 2750
+Connection ~ 5725 2750
+Wire Wire Line
+	5725 2750 5725 3325
+Connection ~ 5925 2750
+Wire Wire Line
+	5925 2750 5925 3325
+Connection ~ 5625 2750
+Wire Wire Line
+	5625 2750 5625 3325
+Connection ~ 5525 2750
+Wire Wire Line
+	5525 2750 5525 3325
+Connection ~ 5425 2750
+Wire Wire Line
+	5425 2750 5425 3325
+Connection ~ 5325 2750
+Wire Wire Line
+	5325 2750 5325 3325
+Connection ~ 5825 2750
+Wire Wire Line
+	5825 2750 5825 3325
+Connection ~ 5725 3325
+Wire Wire Line
+	5725 3325 5725 3900
+Connection ~ 5925 3325
+Wire Wire Line
+	5925 3325 5925 3900
+Connection ~ 5625 3325
+Wire Wire Line
+	5625 3325 5625 3900
+Connection ~ 5525 3325
+Wire Wire Line
+	5525 3325 5525 3900
+Connection ~ 5425 3325
+Wire Wire Line
+	5425 3325 5425 3900
+Connection ~ 5325 3325
+Wire Wire Line
+	5325 3325 5325 3900
+Connection ~ 5825 3325
+Wire Wire Line
+	5825 3325 5825 3900
+Connection ~ 5725 3900
+Connection ~ 5925 3900
+Connection ~ 5625 3900
+Connection ~ 5525 3900
+Connection ~ 5425 3900
+Connection ~ 5325 3900
+Connection ~ 5825 3900
+Connection ~ 6925 3900
+Connection ~ 7125 3900
+Connection ~ 6825 3900
+Connection ~ 6725 3900
+Connection ~ 6625 3900
+Connection ~ 6525 3900
+Connection ~ 7025 3900
+Connection ~ 6925 3325
+Wire Wire Line
+	6925 3325 6925 3900
+Connection ~ 7125 3325
+Wire Wire Line
+	7125 3325 7125 3900
+Connection ~ 6825 3325
+Wire Wire Line
+	6825 3325 6825 3900
+Connection ~ 6725 3325
+Wire Wire Line
+	6725 3325 6725 3900
+Connection ~ 6625 3325
+Wire Wire Line
+	6625 3325 6625 3900
+Connection ~ 6525 3325
+Wire Wire Line
+	6525 3325 6525 3900
+Connection ~ 7025 3325
+Wire Wire Line
+	7025 3325 7025 3900
+Connection ~ 6925 2750
+Wire Wire Line
+	6925 2750 6925 3325
+Connection ~ 7125 2750
+Wire Wire Line
+	7125 2750 7125 3325
+Connection ~ 6825 2750
+Wire Wire Line
+	6825 2750 6825 3325
+Connection ~ 6725 2750
+Wire Wire Line
+	6725 2750 6725 3325
+Connection ~ 6625 2750
+Wire Wire Line
+	6625 2750 6625 3325
+Connection ~ 6525 2750
+Wire Wire Line
+	6525 2750 6525 3325
+Connection ~ 7025 2750
+Wire Wire Line
+	7025 2750 7025 3325
+Connection ~ 6925 2175
+Wire Wire Line
+	6925 2175 6925 2750
+Connection ~ 7125 2175
+Wire Wire Line
+	7125 2175 7125 2750
+Connection ~ 6825 2175
+Wire Wire Line
+	6825 2175 6825 2750
+Connection ~ 6725 2175
+Wire Wire Line
+	6725 2175 6725 2750
+Connection ~ 6625 2175
+Wire Wire Line
+	6625 2175 6625 2750
+Connection ~ 6525 2175
+Wire Wire Line
+	6525 2175 6525 2750
+Connection ~ 7025 2175
+Wire Wire Line
+	7025 2175 7025 2750
+Connection ~ 8125 2175
+Wire Wire Line
+	8125 2175 8125 2750
+Connection ~ 8325 2175
+Wire Wire Line
+	8325 2175 8325 2750
+Connection ~ 8025 2175
+Wire Wire Line
+	8025 2175 8025 2750
+Connection ~ 7925 2175
+Wire Wire Line
+	7925 2175 7925 2750
+Connection ~ 7825 2175
+Wire Wire Line
+	7825 2175 7825 2750
+Connection ~ 7725 2175
+Wire Wire Line
+	7725 2175 7725 2750
+Connection ~ 8225 2175
+Wire Wire Line
+	8225 2175 8225 2750
+Connection ~ 8125 2750
+Wire Wire Line
+	8125 2750 8125 3325
+Connection ~ 8325 2750
+Wire Wire Line
+	8325 2750 8325 3325
+Connection ~ 8025 2750
+Wire Wire Line
+	8025 2750 8025 3325
+Connection ~ 7925 2750
+Wire Wire Line
+	7925 2750 7925 3325
+Connection ~ 7825 2750
+Wire Wire Line
+	7825 2750 7825 3325
+Connection ~ 7725 2750
+Wire Wire Line
+	7725 2750 7725 3325
+Connection ~ 8225 2750
+Wire Wire Line
+	8225 2750 8225 3325
+Connection ~ 8125 3325
+Wire Wire Line
+	8125 3325 8125 3900
+Connection ~ 8325 3325
+Wire Wire Line
+	8325 3325 8325 3900
+Connection ~ 8025 3325
+Wire Wire Line
+	8025 3325 8025 3900
+Connection ~ 7925 3325
+Wire Wire Line
+	7925 3325 7925 3900
+Connection ~ 7825 3325
+Wire Wire Line
+	7825 3325 7825 3900
+Connection ~ 8225 3325
+Wire Wire Line
+	8225 3325 8225 3900
+Connection ~ 8125 3900
+Connection ~ 8325 3900
+Connection ~ 8025 3900
+Connection ~ 7925 3900
+Connection ~ 7825 3900
+Connection ~ 7725 3900
+Connection ~ 8225 3900
+Connection ~ 9300 3900
+Connection ~ 9500 3900
+Connection ~ 9200 3900
+Connection ~ 9100 3900
+Connection ~ 9000 3900
+Connection ~ 8900 3900
+Connection ~ 9400 3900
+Connection ~ 9300 3325
+Wire Wire Line
+	9300 3325 9300 3900
+Connection ~ 9500 3325
+Wire Wire Line
+	9500 3325 9500 3900
+Connection ~ 9200 3325
+Wire Wire Line
+	9200 3325 9200 3900
+Connection ~ 9100 3325
+Wire Wire Line
+	9100 3325 9100 3900
+Connection ~ 9000 3325
+Wire Wire Line
+	9000 3325 9000 3900
+Connection ~ 8900 3325
+Wire Wire Line
+	8900 3325 8900 3900
+Connection ~ 9400 3325
+Wire Wire Line
+	9400 3325 9400 3900
+Connection ~ 9300 2750
+Wire Wire Line
+	9300 2750 9300 3325
+Connection ~ 9500 2750
+Wire Wire Line
+	9500 2750 9500 3325
+Connection ~ 9200 2750
+Wire Wire Line
+	9200 2750 9200 3325
+Connection ~ 9100 2750
+Wire Wire Line
+	9100 2750 9100 3325
+Connection ~ 9000 2750
+Wire Wire Line
+	9000 2750 9000 3325
+Connection ~ 8900 2750
+Wire Wire Line
+	8900 2750 8900 3325
+Connection ~ 9400 2750
+Wire Wire Line
+	9400 2750 9400 3325
+Connection ~ 9300 2175
+Wire Wire Line
+	9300 2175 9300 2750
+Connection ~ 9500 2175
+Wire Wire Line
+	9500 2175 9500 2750
+Connection ~ 9200 2175
+Wire Wire Line
+	9200 2175 9200 2750
+Connection ~ 9100 2175
+Wire Wire Line
+	9100 2175 9100 2750
+Connection ~ 9000 2175
+Wire Wire Line
+	9000 2175 9000 2750
+Connection ~ 8900 2175
+Wire Wire Line
+	8900 2175 8900 2750
+Connection ~ 9400 2175
+Wire Wire Line
+	9400 2175 9400 2750
+Connection ~ 10500 3900
+Connection ~ 10700 3900
+Connection ~ 10400 3900
+Connection ~ 11050 3450
+Connection ~ 10300 3900
+Connection ~ 10200 3900
+Connection ~ 10100 3900
+Connection ~ 10600 3900
+Connection ~ 10500 3325
+Wire Wire Line
+	10500 3325 10500 3900
+Connection ~ 10700 3325
+Wire Wire Line
+	10700 3325 10700 3900
+Connection ~ 10400 3325
+Wire Wire Line
+	10400 3325 10400 3900
+Connection ~ 11050 2875
+Connection ~ 10300 3325
+Wire Wire Line
+	10300 3325 10300 3900
+Connection ~ 10200 3325
+Wire Wire Line
+	10200 3325 10200 3900
+Connection ~ 10100 3325
+Wire Wire Line
+	10100 3325 10100 3900
+Connection ~ 10600 3325
+Wire Wire Line
+	10600 3325 10600 3900
+Connection ~ 10500 2750
+Wire Wire Line
+	10500 2750 10500 3325
+Connection ~ 10700 2750
+Wire Wire Line
+	10700 2750 10700 3325
+Connection ~ 10400 2750
+Wire Wire Line
+	10400 2750 10400 3325
+Connection ~ 11050 2300
+Connection ~ 10300 2750
+Wire Wire Line
+	10300 2750 10300 3325
+Connection ~ 10200 2750
+Wire Wire Line
+	10200 2750 10200 3325
+Connection ~ 10100 2750
+Wire Wire Line
+	10100 2750 10100 3325
+Connection ~ 10600 2750
+Wire Wire Line
+	10600 2750 10600 3325
+Connection ~ 10500 2175
+Wire Wire Line
+	10500 2175 10500 2750
+Connection ~ 10700 2175
+Wire Wire Line
+	10700 2175 10700 2750
+Connection ~ 10400 2175
+Wire Wire Line
+	10400 2175 10400 2750
+Connection ~ 11050 1725
+Connection ~ 10300 2175
+Wire Wire Line
+	10300 2175 10300 2750
+Connection ~ 10200 2175
+Wire Wire Line
+	10200 2175 10200 2750
+Connection ~ 10100 2175
+Wire Wire Line
+	10100 2175 10100 2750
+Connection ~ 10600 2175
+Wire Wire Line
+	10600 2175 10600 2750
+Connection ~ 11050 1150
+Connection ~ 10300 1600
+Wire Wire Line
+	10300 1600 10300 2175
+Connection ~ 10200 1600
+Wire Wire Line
+	10200 1600 10200 2175
+Connection ~ 10100 1600
+Wire Wire Line
+	10100 1600 10100 2175
+Wire Wire Line
+	3650 1700 3650 2175
 $EndSCHEMATC

@@ -103,17 +103,6 @@ Connection ~ 8675 1150
 Connection ~ 7475 1150
 Wire Wire Line
 	7475 1150 8675 1150
-Connection ~ 10800 1600
-Connection ~ 10800 2175
-Connection ~ 10800 2750
-Wire Wire Line
-	10800 1475 10800 1600
-Wire Wire Line
-	10800 2750 10800 3325
-Wire Wire Line
-	10800 1600 10800 2175
-Wire Wire Line
-	10800 2175 10800 2750
 Wire Wire Line
 	11050 1150 9850 1150
 Connection ~ 9850 1150
@@ -400,11 +389,6 @@ Wire Wire Line
 	10400 5350 10400 5100
 Connection ~ 9200 5350
 Wire Wire Line
-	10800 3900 10800 3325
-Wire Wire Line
-	10800 2750 10825 2750
-Connection ~ 10800 3325
-Wire Wire Line
 	8675 1150 8675 1250
 Wire Wire Line
 	3900 3450 3900 3550
@@ -525,7 +509,6 @@ Wire Wire Line
 	8525 4300 8800 4300
 Connection ~ 8425 3900
 Connection ~ 9600 3900
-Connection ~ 10800 3900
 Connection ~ 3900 4650
 Wire Wire Line
 	3900 4650 5075 4650
@@ -547,17 +530,6 @@ Wire Wire Line
 Connection ~ 11050 4650
 Wire Wire Line
 	11050 4650 11150 4650
-$Comp
-L Device:R_Pack08 RN8
-U 1 1 5DBB0A08
-P 10500 4100
-F 0 "RN8" H 10888 4146 50  0000 L CNN
-F 1 "R_Pack08" H 10888 4055 50  0000 L CNN
-F 2 "EXB-2HV221JV:EXB-2HV221JV" V 10975 4100 50  0001 C CNN
-F 3 "~" H 10500 4100 50  0001 C CNN
-	1    10500 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Pack08 RN7
 U 1 1 5DB650E8
@@ -829,7 +801,7 @@ U 1 1 5DA62C7E
 P 875 4100
 F 0 "J1" V 1024 3973 50  0000 R CNN
 F 1 "B5B-XH-A_LF__SN_" V 1115 3973 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1075 4300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1075 4300 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4400 60  0001 L CNN
 F 4 "455-2270-ND" H 1075 4500 60  0001 L CNN "Digi-Key_PN"
 F 5 "B5B-XH-A(LF)(SN)" H 1075 4600 60  0001 L CNN "MPN"
@@ -893,7 +865,7 @@ U 1 1 5D53167A
 P 1600 5350
 F 0 "J2" V 1375 5406 50  0000 C CNN
 F 1 "B3B-PH-K-S_LF__SN_" V 1466 5406 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 1800 5550 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 1800 5550 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 5650 60  0001 L CNN
 F 4 "455-1705-ND" H 1800 5750 60  0001 L CNN "Digi-Key_PN"
 F 5 "B3B-PH-K-S(LF)(SN)" H 1800 5850 60  0001 L CNN "MPN"
@@ -1210,7 +1182,7 @@ U 1 1 5D517646
 P 2150 1300
 F 0 "DS1" H 2150 1300 50  0000 C CNN
 F 1 "5161AS" H 2150 1575 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 1640 50  0001 L CNN
 	1    2150 1300
 	1    0    0    -1  
@@ -1221,7 +1193,7 @@ U 1 1 5D5175FC
 P 2150 1875
 F 0 "DS9" H 2150 1900 50  0000 C CNN
 F 1 "5161AS" H 2157 2151 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 1650 1125 50  0001 L CNN
+F 2 "HariLib:5161AS" H 1650 1125 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 2160 2215 50  0001 L CNN
 	1    2150 1875
 	1    0    0    -1  
@@ -1265,7 +1237,7 @@ U 1 1 5D5175DA
 P 3350 1300
 F 0 "DS2" H 3350 1300 50  0000 C CNN
 F 1 "5161AS" H 3357 1576 39  0000 C CNN
-F 2 "Display_7Segment:5161AS" H 2850 550 50  0001 L CNN
+F 2 "HariLib:5161AS" H 2850 550 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 3360 1640 50  0001 L CNN
 	1    3350 1300
 	1    0    0    -1  
@@ -1666,8 +1638,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10500 4700 50  0001 C CNN
 	1    10500 4700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2450 1700 2450 2175
 Wire Wire Line
 	10500 1600 10500 2175
 Wire Wire Line
@@ -2267,14 +2237,7 @@ Wire Wire Line
 Connection ~ 9400 2175
 Wire Wire Line
 	9400 2175 9400 2750
-Connection ~ 10500 3900
-Connection ~ 10700 3900
-Connection ~ 10400 3900
 Connection ~ 11050 3450
-Connection ~ 10300 3900
-Connection ~ 10200 3900
-Connection ~ 10100 3900
-Connection ~ 10600 3900
 Connection ~ 10500 3325
 Wire Wire Line
 	10500 3325 10500 3900
@@ -2352,5 +2315,86 @@ Connection ~ 10100 1600
 Wire Wire Line
 	10100 1600 10100 2175
 Wire Wire Line
-	3650 1700 3650 2175
+	2450 1600 2450 2175
+Wire Wire Line
+	3650 1600 3650 2175
+Connection ~ 10100 3900
+Connection ~ 10200 3900
+Connection ~ 10300 3900
+Connection ~ 10400 3900
+Connection ~ 10500 3900
+Connection ~ 10600 3900
+Connection ~ 10700 3900
+$Comp
+L Device:R_Pack08 RN8
+U 1 1 5DBB0A08
+P 10500 4100
+F 0 "RN8" H 10888 4146 50  0000 L CNN
+F 1 "R_Pack08" H 10888 4055 50  0000 L CNN
+F 2 "EXB-2HV221JV:EXB-2HV221JV" V 10975 4100 50  0001 C CNN
+F 3 "~" H 10500 4100 50  0001 C CNN
+	1    10500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 3325 10800 3900
+Connection ~ 10800 3900
+Wire Wire Line
+	10800 2750 10800 3325
+Connection ~ 10800 3325
+Wire Wire Line
+	10800 2175 10800 2750
+Connection ~ 10800 2750
+Wire Wire Line
+	10800 1600 10800 2175
+Connection ~ 10800 2175
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J3
+U 1 1 5D71C844
+P 975 4950
+F 0 "J3" V 750 4958 50  0000 C CNN
+F 1 "22-23-2021" V 841 4958 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 1175 5150 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1175 5250 60  0001 L CNN
+F 4 "WM4200-ND" H 1175 5350 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 1175 5450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1175 5550 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1175 5650 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1175 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 1175 5850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 1175 5950 60  0001 L CNN "Description"
+F 11 "Molex" H 1175 6050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1175 6150 60  0001 L CNN "Status"
+	1    975  4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D71FAA9
+P 1075 5100
+F 0 "#PWR0101" H 1075 4850 50  0001 C CNN
+F 1 "GND" H 1080 4927 50  0000 C CNN
+F 2 "" H 1075 5100 50  0001 C CNN
+F 3 "" H 1075 5100 50  0001 C CNN
+	1    1075 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 5025 1075 5050
+Connection ~ 1075 5050
+Wire Wire Line
+	1075 5050 1075 5100
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D76278D
+P 1075 4800
+F 0 "#PWR0102" H 1075 4650 50  0001 C CNN
+F 1 "+5V" H 1090 4973 50  0000 C CNN
+F 2 "" H 1075 4800 50  0001 C CNN
+F 3 "" H 1075 4800 50  0001 C CNN
+	1    1075 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 4800 1075 4950
 $EndSCHEMATC

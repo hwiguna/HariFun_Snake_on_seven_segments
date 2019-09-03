@@ -801,7 +801,7 @@ U 1 1 5DA62C7E
 P 875 4100
 F 0 "J1" V 1024 3973 50  0000 R CNN
 F 1 "B5B-XH-A_LF__SN_" V 1115 3973 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1075 4300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1075 4300 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1075 4400 60  0001 L CNN
 F 4 "455-2270-ND" H 1075 4500 60  0001 L CNN "Digi-Key_PN"
 F 5 "B5B-XH-A(LF)(SN)" H 1075 4600 60  0001 L CNN "MPN"
@@ -865,7 +865,7 @@ U 1 1 5D53167A
 P 1600 5350
 F 0 "J2" V 1375 5406 50  0000 C CNN
 F 1 "B3B-PH-K-S_LF__SN_" V 1466 5406 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 1800 5550 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1800 5550 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1800 5650 60  0001 L CNN
 F 4 "455-1705-ND" H 1800 5750 60  0001 L CNN "Digi-Key_PN"
 F 5 "B3B-PH-K-S(LF)(SN)" H 1800 5850 60  0001 L CNN "MPN"
@@ -2348,4 +2348,53 @@ Connection ~ 10800 2750
 Wire Wire Line
 	10800 1600 10800 2175
 Connection ~ 10800 2175
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J3
+U 1 1 5D71C844
+P 975 4950
+F 0 "J3" V 750 4958 50  0000 C CNN
+F 1 "22-23-2021" V 841 4958 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1175 5150 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1175 5250 60  0001 L CNN
+F 4 "WM4200-ND" H 1175 5350 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 1175 5450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1175 5550 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1175 5650 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1175 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 1175 5850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 1175 5950 60  0001 L CNN "Description"
+F 11 "Molex" H 1175 6050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1175 6150 60  0001 L CNN "Status"
+	1    975  4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D71FAA9
+P 1075 5100
+F 0 "#PWR0101" H 1075 4850 50  0001 C CNN
+F 1 "GND" H 1080 4927 50  0000 C CNN
+F 2 "" H 1075 5100 50  0001 C CNN
+F 3 "" H 1075 5100 50  0001 C CNN
+	1    1075 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 5025 1075 5050
+Connection ~ 1075 5050
+Wire Wire Line
+	1075 5050 1075 5100
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D76278D
+P 1075 4800
+F 0 "#PWR0102" H 1075 4650 50  0001 C CNN
+F 1 "+5V" H 1090 4973 50  0000 C CNN
+F 2 "" H 1075 4800 50  0001 C CNN
+F 3 "" H 1075 4800 50  0001 C CNN
+	1    1075 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 4800 1075 4950
 $EndSCHEMATC
